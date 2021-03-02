@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Dubious History</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2021-03-02T22:39:09+01:00</updated>
- <id>http://localhost:4000</id>
+ <link href="https://dubioushistory.github.io/atom.xml" rel="self"/>
+ <link href="https://dubioushistory.github.io/"/>
+ <updated>2021-03-02T22:42:19+01:00</updated>
+ <id>https://dubioushistory.github.io</id>
  <author>
    <name></name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Piri Reis Map of 1513</title>
-   <link href="http://localhost:4000/piri-reis-map-of-1513"/>
+   <link href="https://dubioushistory.github.io/piri-reis-map-of-1513"/>
    <updated>2021-02-27T00:00:00+01:00</updated>
-   <id>http://localhost:4000/piri-reis-map-of-1513</id>
+   <id>https://dubioushistory.github.io/piri-reis-map-of-1513</id>
    <content type="html">&lt;p&gt;The map drawn by an admiral of Ottoman Empire Muhyi-iddin Pîrî &lt;em&gt;re‘is&lt;/em&gt; (a military rank) dated to 1513 CE is well known in the fringe literature, mainly for it’s alleged depiction of Antarctica coastline.  It was featured on the &lt;em&gt;Ancient Aliens&lt;/em&gt; and it’s often brought by Graham Hancock&lt;sup id=&quot;fnref:hancock&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:hancock&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, among others, as a proof of ancient civilization or technology we’re not yet aware of, as the first modern mapping of Antarctica wasn’t done until 19th century.  The argument is that Pîrî himself must have been drawn from older, more ancient maps, which ties it into the general notion of ancient civilization theory.&lt;/p&gt;
 
 &lt;p&gt;It is an undeniable fact, that the precision of this map is astounding for it’s time.  Made only 20 years after the Discovery, it is the most precise depiction of South American coastline from this period.  Try to compare them with other contemporary maps like &lt;a href=&quot;https://en.wikipedia.org/wiki/Waldseem%C3%BCller_map&quot;&gt;Waldseemüller map&lt;/a&gt; from 1507 or even three decades older &lt;a href=&quot;https://www.thedigitalgallery.org/images/255&quot;&gt;Sebastian Müster map&lt;/a&gt;.  However, there are numerous misconceptions about this map which I think should be addressed.&lt;/p&gt;
