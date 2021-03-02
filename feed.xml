@@ -1,23 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-
- <title>Dubious History</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2021-03-02T22:39:09+01:00</updated>
- <id>http://localhost:4000</id>
- <author>
-   <name></name>
-   <email></email>
- </author>
-
- 
- <entry>
-   <title>Piri Reis Map of 1513</title>
-   <link href="http://localhost:4000/piri-reis-map-of-1513"/>
-   <updated>2021-02-27T00:00:00+01:00</updated>
-   <id>http://localhost:4000/piri-reis-map-of-1513</id>
-   <content type="html">&lt;p&gt;The map drawn by an admiral of Ottoman Empire Muhyi-iddin Pîrî &lt;em&gt;re‘is&lt;/em&gt; (a military rank) dated to 1513 CE is well known in the fringe literature, mainly for it’s alleged depiction of Antarctica coastline.  It was featured on the &lt;em&gt;Ancient Aliens&lt;/em&gt; and it’s often brought by Graham Hancock&lt;sup id=&quot;fnref:hancock&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:hancock&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, among others, as a proof of ancient civilization or technology we’re not yet aware of, as the first modern mapping of Antarctica wasn’t done until 19th century.  The argument is that Pîrî himself must have been drawn from older, more ancient maps, which ties it into the general notion of ancient civilization theory.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-02T22:39:09+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dubious History</title><subtitle>Alternative History under scrutiny</subtitle><entry><title type="html">Piri Reis Map of 1513</title><link href="http://localhost:4000/piri-reis-map-of-1513" rel="alternate" type="text/html" title="Piri Reis Map of 1513" /><published>2021-02-27T00:00:00+01:00</published><updated>2021-02-27T00:00:00+01:00</updated><id>http://localhost:4000/piri-reis-map-of-1513</id><content type="html" xml:base="http://localhost:4000/piri-reis-map-of-1513">&lt;p&gt;The map drawn by an admiral of Ottoman Empire Muhyi-iddin Pîrî &lt;em&gt;re‘is&lt;/em&gt; (a military rank) dated to 1513 CE is well known in the fringe literature, mainly for it’s alleged depiction of Antarctica coastline.  It was featured on the &lt;em&gt;Ancient Aliens&lt;/em&gt; and it’s often brought by Graham Hancock&lt;sup id=&quot;fnref:hancock&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:hancock&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, among others, as a proof of ancient civilization or technology we’re not yet aware of, as the first modern mapping of Antarctica wasn’t done until 19th century.  The argument is that Pîrî himself must have been drawn from older, more ancient maps, which ties it into the general notion of ancient civilization theory.&lt;/p&gt;
 
 &lt;p&gt;It is an undeniable fact, that the precision of this map is astounding for it’s time.  Made only 20 years after the Discovery, it is the most precise depiction of South American coastline from this period.  Try to compare them with other contemporary maps like &lt;a href=&quot;https://en.wikipedia.org/wiki/Waldseem%C3%BCller_map&quot;&gt;Waldseemüller map&lt;/a&gt; from 1507 or even three decades older &lt;a href=&quot;https://www.thedigitalgallery.org/images/255&quot;&gt;Sebastian Müster map&lt;/a&gt;.  However, there are numerous misconceptions about this map which I think should be addressed.&lt;/p&gt;
 
@@ -124,9 +105,4 @@
       &lt;p&gt;&lt;a href=&quot;https://sciencepress.mnhn.fr/en/periodiques/anthropozoologica/51/1/les-representations-zoomorphiques-de-la-carte-de-piri-reis-1513&quot;&gt;&lt;em&gt;The zoomorphic representations of the Pîrî Reis map (1513)&lt;/em&gt;, Marco Masseti &amp;amp; Cecilia Veracini, 2016&lt;/a&gt; (mnhn.fr) &lt;a href=&quot;#fnref:masseti&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;
-</content>
- </entry>
- 
-
-</feed>
+&lt;/div&gt;</content><author><name></name></author><category term="maps" /><category term="cryptids" /><category term="lost-technology" /><category term="lost-civilization" /><summary type="html">The map drawn by an admiral of Ottoman Empire Muhyi-iddin Pîrî re‘is (a military rank) dated to 1513 CE is well known in the fringe literature, mainly for it’s alleged depiction of Antarctica coastline. It was featured on the Ancient Aliens and it’s often brought by Graham Hancock1, among others, as a proof of ancient civilization or technology we’re not yet aware of, as the first modern mapping of Antarctica wasn’t done until 19th century. The argument is that Pîrî himself must have been drawn from older, more ancient maps, which ties it into the general notion of ancient civilization theory. Graham Hancock’s summary of the argument on The Mysterious Origins of Man TV program. (youtube.com) &amp;#8617;</summary></entry></feed>
