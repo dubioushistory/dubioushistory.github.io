@@ -1,28 +1,838 @@
----
-layout: null
----
-
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
+ <title>Dubious History</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2021-03-02T22:10:40+01:00</updated>
+ <id>http://localhost:4000</id>
  <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
+   <name></name>
+   <email></email>
  </author>
 
- {% for post in site.posts %}
+ 
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>Piri Reis Map of 1513</title>
+   <link href="http://localhost:4000/piri-reis-map-of-1513"/>
+   <updated>2021-02-27T00:00:00+01:00</updated>
+   <id>http://localhost:4000/piri-reis-map-of-1513</id>
+   <content type="html">&lt;p&gt;The map drawn by an admiral of Ottoman Empire Muhyi-iddin Pîrî &lt;em&gt;re‘is&lt;/em&gt; (a military rank) dated to 1513 CE is well known in the fringe literature, mainly for it’s alleged depiction of Antarctica coastline.  It was featured on the &lt;em&gt;Ancient Aliens&lt;/em&gt; and it’s often brought by Graham Hancock&lt;sup id=&quot;fnref:hancock&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:hancock&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, among others, as a proof of ancient civilization or technology we’re not yet aware of, as the first modern mapping of Antarctica wasn’t done until 19th century.  The argument is that Pîrî himself must have been drawn from older, more ancient maps, which ties it into the general notion of ancient civilization theory.&lt;/p&gt;
+
+&lt;p&gt;It is an undeniable fact, that the precision of this map is astounding for it’s time.  Made only 20 years after the Discovery, it is the most precise depiction of South American coastline from this period.  Try to compare them with other contemporary maps like &lt;a href=&quot;https://en.wikipedia.org/wiki/Waldseem%C3%BCller_map&quot;&gt;Waldseemüller map&lt;/a&gt; from 1507 or even three decades older &lt;a href=&quot;https://www.thedigitalgallery.org/images/255&quot;&gt;Sebastian Müster map&lt;/a&gt;.  However, there are numerous misconceptions about this map which I think should be addressed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/i/PiriReis/overlay.jpg&quot; alt=&quot;&quot; /&gt; &lt;em&gt;Overlay on a modern map&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;Despite Pîrî being a well-known and studied figure in Turkish history, the discovery of the map came surprisingly late.  It was discovered by the Director of National Museums, Halil Etem Edhem only in 1929, when the Topkapı Palace in Istanbul was repurposed into a museum.  It seems to be just a fraction of a bigger map.  Apart from numerous illustrations of ships, animals and even mythical creatures, and more than a hundred of place-names (mostly corresponding with other contemporary portolan maps), it also features many inscriptions written mainly in Turkish.  There are about thirty of them and English translations are available online.&lt;sup id=&quot;fnref:translation&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:translation&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;By far the largest inscription, placed over the South America inland, says following:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;These coasts are named the shores of Antilia. They were discovered in the year 896 of the Arab calendar [1491 CE]. But it is reported thus, that a Genoese infidel, his name was Colombo, who discovered these places. For instance, a book fell into the hands of the said Colombo, and he found it said in this book that at the end of the Western Sea [Atlantic] that is, on its western side, there were coasts and islands and all kinds of metals and also precious stones. Colombo, having studied this book thoroughly, explained these matters one by one to the greats of Genoa [Italy] and said: “Come, give me two ships, let me go and find these places.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The above-mentioned Colombo saw that no help was forthcoming from the Genoese, he sped forth, went to the Bey of Spain [king], and told his tale in detail. They too answered like the Genoese. In brief Colombo petitioned these people for a long time, finally the Bey of Spain gave him two ships[…]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This passage is very interesting in context of our generally accepted notion that Colombo was simply trying to find an alternative route to Asia.  According to Pîrî, there was a book which taught Colombo about the undiscovered shores.  However, Colombo might still &lt;em&gt;interpret&lt;/em&gt; that as the east coast of Asia.  This could also refer to Pierre d’Ailly’s &lt;em&gt;Imago Mundi&lt;/em&gt;, which was in Colombo’s possession.&lt;/p&gt;
+
+&lt;p&gt;Lower part of the same text elaborates more on the source material:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;No one now living has seen a map like this. I have composed and constructed it using about twenty maps and mappaemundi; these are the maps which were composed in the time of Alexander of the Two Horns, and which show the inhabited portion of the earth. The Arabs call these maps ja’fariya.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I have used eight ja’fariya maps, an Arab map of India and four recent Portuguese maps - these maps show the sea of Sind, India and China according to mathematical principles - and also a map of the western regions drawn by Colombo. The final farm was arrived at by reducing all these maps to the same scale. Therefore the present map is as accurate for the Seven Seas as the maps of our own countries used by sailors.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Paul Kahle, the first scholar to write about the map, suggested that the Caribbean portion of it was based on a map drawn by Columbus himself, just as Pîrî Reis states. If so, this Turkish map is the only evidence we possess for how Columbus visualized his discoveries.&lt;/p&gt;
+
+&lt;h2 id=&quot;antarctica&quot;&gt;Antarctica&lt;/h2&gt;
+
+&lt;p&gt;In regards to the lowest part of the map, often doubtlessly identified with Antarctica coastline, there are two inscriptions which say:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;And in this country it seems that there are white-haired monsters in this shape, and also six-horned oxen. The Portuguese infidels have written it in their maps.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;and&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This country is a waste. Everything is in ruin and it is said that large snakes are found here. For this reason the Portuguese infidels did not land on these shores and these are also said to be very hot.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’ll leave that to reader to decide how likely it is that these lands refer to Antarctica. In any case, it’s clear that Pîrî was relying on Portuguese precedents for this part of the map, not from some lost ancient maps as it’s often claimed.&lt;/p&gt;
+
+&lt;p&gt;The idea that map actually depicts Antarctica coastline seems to originate with captain Arlington Humphrey Mallery in c. 1956.  In addition to being a captain, he was an amateur archaeologist who believed that North America had been extensively colonised by Celts, Vikings and other Old World peoples, who possessed accurate maps lost to later ages.&lt;/p&gt;
+
+&lt;p&gt;Mallery’s accounts apparently inspired Charles Hapgood, famous mainly for his now discredited Polar shift theory, who argued that Pîrî’s map and others are a proof of a lost ancient civilization Hapgood’s book show his correspondence with USAF Lt. Colonel Harold Z. Ohlmeyer, who agreed with Hapgood that &lt;em&gt;“this is the most logical and in all probability the correct interpretation of the map”&lt;/em&gt; and &lt;em&gt;“lower part of the map agrees very remarkably with the results of the seismic profile made across the top of the ice-cap by the Swedish-British Antarctic Expedition of 1949”&lt;/em&gt; and &lt;em&gt;“we have no idea how the data on this map can be reconciled with the supposed state of geographical knowledge in 1513.”&lt;/em&gt;&lt;sup id=&quot;fnref:hapgood&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:hapgood&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/i/PiriReis/hapgood.jpg&quot; alt=&quot;&quot; width=&quot;50%&quot; /&gt; &lt;em&gt;Hapgood’s interpretation&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;However, there are several problems with Hapgood’s hypotheses.  The map does not show Drake’s Passage or the Pacific Ocean. Also, what Hapgood identifies as the Andes mountains are not located along a coast line.&lt;/p&gt;
+
+&lt;p&gt;This theory was later revived by Erich von Däniken in his &lt;em&gt;Chariots of the Gods?&lt;/em&gt;, where he basically just reiterated Hapgood’s claims within his own context of Ancient Aliens hypothesis.  He says that “the only explanation is that it must have been made by extraterrestrials, either at an early date when Antarctica was indeed free from ice or because their technology revealed the underlying surface.”&lt;sup id=&quot;fnref:daniken&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:daniken&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Another proponent of this view is above mentioned Graham Hancock, who also adds that one the islands depicts the “Bimini Road”, which Hapgood identified as Cuba.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/i/PiriReis/bimini_road.jpg&quot; alt=&quot;&quot; /&gt; &lt;em&gt;An island which according to Hancock depicts Bimini Road&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, serious scholarship holds that there is no reason to believe that the map is the product of genuine knowledge of the Antarctic coast.  General belief is that it actually depicts the South American coastline, just heavily distorted.  This distortion could be caused by an error, motivated by the weird shape of the parchment, or even for political reasons.  Very well constructed argument is proposed by Diego Cuoghi on his website, where he doesn’t rely only on correlation of geography, but also on historical arguments and comparison with other historical maps.&lt;sup id=&quot;fnref:cuoghi&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:cuoghi&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/i/PiriReis/piri_brazil.gif&quot; alt=&quot;&quot; /&gt; &lt;em&gt;Correlation with SA coastline according to Diego Cuoghi&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Speculation alert:&lt;/strong&gt; Could this identification with Tierra del Fuego explain the “shores that are said to be very hot”?  Yes, Magellan officially coined the name in 1525, but maybe some relation with fire was already present before?  He apparently knew about the strait before he set out, as “he saw it, in the Treasury of the King of Portugal, on a map drawn by Martin de Bohemia” (Pigafetta).&lt;/p&gt;
+
+&lt;p&gt;Also, let’s not toss out the possibility that although the map does state the year of it’s creation, it some portions could be drawn later.  As Cuoghi states, we know that the chart of Pedro Reinel, kept in the same Library of Topkapı, was probably retouched after the discovery of the Strait of Magellan, so it wouldn’t be unprecedented.&lt;sup id=&quot;fnref:cuoghi:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:cuoghi&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;cryptozoology&quot;&gt;Cryptozoology&lt;/h2&gt;
+
+&lt;p&gt;Another interesting thing that is often overlooked are the illustrations of animals and fantastical creatures.  Apart from above-mentioned large snakes, white-haired monsters mentioned in the inscriptions, the map also features an unicorn, monkey dancing with what looks to be a dog-headed man, and a head-less creature reminiscent of &lt;em&gt;blemmyes&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/i/PiriReis/dancing_beasts.jpg&quot; alt=&quot;&quot; width=&quot;30%&quot; /&gt; &lt;em&gt;“In the mountains of this territory were creatures like this and human beings came out on the seacoast. The gold mines are endless.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/i/PiriReis/blemmye.jpg&quot; alt=&quot;&quot; width=&quot;30%&quot; /&gt; &lt;em&gt;“These monsters are seven spans long. The space between their eyes is one span, but they are harmless souls.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;These fantastic creatures had already occasionally been depicted in medieval &lt;em&gt;mappae mundi&lt;/em&gt; and many of them were associated with either Africa or Asia.  De La Cosa’s map (1500) also shows &lt;em&gt;blemmye&lt;/em&gt; and a dog-headed man in the Far East, in the approximate location of China.&lt;/p&gt;
+
+&lt;p&gt;After Pîrî Reis they are also found on the chart of Guillaume Le Testu (1555) and associated with the New World on the map of Sebastian Cabot (1544) and that of Guiana by de Bry (1599).&lt;sup id=&quot;fnref:masseti&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:masseti&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;sources&quot;&gt;Sources&lt;/h2&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:hancock&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qt2GYyGTXTs&quot;&gt;Graham Hancock’s summary of the argument on &lt;em&gt;The Mysterious Origins of Man&lt;/em&gt; TV program.&lt;/a&gt; (youtube.com) &lt;a href=&quot;#fnref:hancock&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:translation&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://turkeyinmaps.com/piri.html&quot;&gt;&lt;em&gt;Piri Reis Map of 1513 (translations)&lt;/em&gt;&lt;/a&gt; (turkeyinmaps.com) &lt;a href=&quot;#fnref:translation&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:hapgood&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;em&gt;Maps of the Ancient Sea Kings&lt;/em&gt;, Charles H. Hapgood, 1966. &lt;a href=&quot;#fnref:hapgood&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:daniken&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;em&gt;Chariots of the Gods?&lt;/em&gt;, Erich von Däniken, 1968. &lt;a href=&quot;#fnref:daniken&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:cuoghi&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.diegocuoghi.com/Piri_Reis/PiriReis_eng.htm&quot;&gt;&lt;em&gt;The Mysteries of the Piri Reis Map&lt;/em&gt;, Diego Cuoghi&lt;/a&gt; (diegocuoghi.com) &lt;a href=&quot;#fnref:cuoghi&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:cuoghi:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:masseti&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://sciencepress.mnhn.fr/en/periodiques/anthropozoologica/51/1/les-representations-zoomorphiques-de-la-carte-de-piri-reis-1513&quot;&gt;&lt;em&gt;The zoomorphic representations of the Pîrî Reis map (1513)&lt;/em&gt;, Marco Masseti &amp;amp; Cecilia Veracini, 2016&lt;/a&gt; (mnhn.fr) &lt;a href=&quot;#fnref:masseti&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
  </entry>
- {% endfor %}
+ 
+ <entry>
+   <title>Phoenicians in America</title>
+   <link href="http://localhost:4000/2021/02/27/phoenicians-in-america/"/>
+   <updated>2021-02-27T00:00:00+01:00</updated>
+   <id>http://localhost:4000/2021/02/27/phoenicians-in-america</id>
+   <content type="html">&lt;p&gt;The theory of Phoenician discovery of the Americas suggests that the earliest Old World contact with the Americas was not with Columbus or even Norse settlers, but with the Phoenicians (or, alternatively, other Semitic peoples).&lt;/p&gt;
+
+&lt;p&gt;Sadly, this theory fell quickly into the fringe territory because quite a few of artifacts speaking in it’s favor are considered to be hoaxes.&lt;/p&gt;
+
+&lt;h2 id=&quot;archeological-evidence&quot;&gt;Archeological evidence&lt;/h2&gt;
+
+&lt;h3 id=&quot;dighton-rock&quot;&gt;Dighton Rock&lt;/h3&gt;
+
+&lt;p&gt;The first reference to the carvings on the Dighton Rock dates back to 1680, when recent Harvard graduate John Danforth spotted the rock in what was then the town of Dighton and made a drawing of its carvings.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-paraíba-stone&quot;&gt;The Paraíba Stone&lt;/h3&gt;
+
+&lt;p&gt;So, we have a letter with a transcription of inscriptions found on a stone, that was never actually seen by scientists, it was posted from an unknown place on an ambiguous river by a person who could not be found later. It’s text was, according to some scholars badly written and therefore a hoax, but, according to others, genuine.&lt;/p&gt;
+
+&lt;h3 id=&quot;bat-creek-inscription&quot;&gt;Bat Creek inscription&lt;/h3&gt;
+
+&lt;h3 id=&quot;los-lunas-decalogue-stone&quot;&gt;Los Lunas Decalogue Stone&lt;/h3&gt;
+
+&lt;h3 id=&quot;sherbrooke-stones&quot;&gt;Sherbrooke stones&lt;/h3&gt;
+
+&lt;h2 id=&quot;historical-evidence&quot;&gt;Historical evidence&lt;/h2&gt;
+
+&lt;h3 id=&quot;diodoros-of-sicily&quot;&gt;Diodoros of Sicily&lt;/h3&gt;
+
+&lt;p&gt;Diodoros’ &lt;em&gt;Library of History&lt;/em&gt; is remarkable for many reasons. This 40-volume book (of which only 15 books surive intact) is considered one of the earliest attempts at &lt;a href=&quot;https://en.wikipedia.org/wiki/Universal_history&quot;&gt;Universal history&lt;/a&gt; and also it is notably more detached from ‘Hellenocentric’ world-view&lt;sup id=&quot;fnref:usher&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:usher&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.  It’s also a major source of our knowledge about Alexander the Great!&lt;/p&gt;
+
+&lt;p&gt;That being said, some passages are a bit controversial.  For fans of Alternative History, he’s mainly notable for his mentions of Atlantis, but it also contains this peculiar passage story about Phoenicians:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;But now that we have discussed what relates to the islands which lie within the Pillars of Hercules, we shall give an account of those which are in the ocean. For there lies out in the deep off Libya an island of considerable size, and situated as it is in the ocean it is distant from Libya a voyage of a number of days to the west.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Its land is fruitful, much of it being mountainous and not a little being a level plain of surpassing beauty. Through it flow navigable rivers which are used for irrigation, and the island contains many parks planted with trees of every variety and gardens in great multitudes which are traversed by streams of sweet water;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;on it also are private villas of costly construction, and throughout the gardens banqueting houses have been constructed in a setting of flowers, and in them the inhabitants pass their time during the summer season, since the land supplies in abundance everything which contributes to enjoyment and luxury.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[…] the climate of this island is so altogether mild that it produces in abundance the fruits of the trees and the other seasonal fruits for the larger part of the year, so that it would appear that the island, because of its exceptional felicity, were a dwelling-place of a race of gods and not of men.(V-19)&lt;sup id=&quot;fnref:diodoros&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:diodoros&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In ancient times this island remained undiscovered because of its distance from the entire inhabited world j but it was discover ed at a later period for the following reason.  The Phoenicians, who from ancient times on made voyages continually for purposes of trade, planted many colonies throughout Libya and not a few as well in the western parts of Europe.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;And since their ventures turned out according to their expectations, they amassed great wealth and essayed to voyage beyond the Pillars of Heracles into the sea which men call the ocean.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[…] The Phoenicians, then, while exploring the coast outside the Pillars for the reasons we have stated and while sailing along the shore of Libya, were driven by strong winds a great distance out into the ocean. And after being storm-tossed for many days they were carried ashore on the island we mentioned above, and when they had observed its felicity and nature they caused it to be known to all men.(V-20)&lt;sup id=&quot;fnref:diodoros:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:diodoros&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Then we are said that Tyrrhenians wanted to make a colony there, but Carthaginians prevented it:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[…] partly out of concern lest many inhabitants of Carthage should remove there because of the excellence of the island, and partly in order to have ready in it a place in which to seek refuge against an incalculable turn of fortune, in case some total disaster should overtake Carthage.  For it was their thought that, since they were masters of the sea, they would thus be able to move, households and all, to an island which was unknown to their conquerors.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;sources&quot;&gt;Sources&lt;/h2&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:usher&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://archive.org/details/historiansofgree00ushe/page/234/mode/2up&quot;&gt;&lt;em&gt;The Historians of Greece and Rome&lt;/em&gt;, Stephen Usher (1970)&lt;/a&gt; (archive.org) &lt;a href=&quot;#fnref:usher&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:diodoros&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://archive.org/details/DiodorosOfSicily034.598/Diodoros%20of%20Sicily%2003%20%284.59-8%29/page/n147/mode/2up&quot;&gt;&lt;em&gt;Library of History&lt;/em&gt;, Diodoros of Sicily, English translation (1933)&lt;/a&gt; (archive.org) &lt;a href=&quot;#fnref:diodoros&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:diodoros:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Great Tartaria</title>
+   <link href="http://localhost:4000/great-tartaria"/>
+   <updated>2021-02-27T00:00:00+01:00</updated>
+   <id>http://localhost:4000/great-tartaria</id>
+   <content type="html">&lt;p&gt;Pax Mongolia = Pax Tatarica&lt;br /&gt;
+panni tartarici (Tatar cloth)&lt;br /&gt;
+https://www.jstor.org/stable/596494?seq=1&lt;br /&gt;
+https://en.topwar.ru/164707-mongoly-na-rusi-pervyj-udar.html&lt;br /&gt;
+http://www.gutenberg.org/files/24777/24777-h/24777-h.htm#p1c3&lt;br /&gt;
+https://lossi36.com/2020/08/26/tartaria-an-empire-hidden-by-history-or-revealed-by-ignorance/&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Tartaria theory is a blanket-term which amalgamates various theories, like Mud-flood theory, Civilisation reset, Ancient global spanning civilizations, but also Giants theory and Free Energy theory into one vague idea.  Not all proponents of existence of unified Tartary empire also subscribe to all mentioned theories, which creates interesting dissonance in the group.  It seems that the only claim which a majority of proponents agree on is that history is a lie and TODO:&lt;/p&gt;
+
+&lt;p&gt;Similarly to e.g. Flat-earth theory however, it mostly depends on major global cover-up which goes on for centuries.&lt;/p&gt;
+
+&lt;p&gt;The core notion is that the region known as ‘Tartaria’ or ‘Grand Tartary’ in Early Modern European maps was not simply a vague geographical label, but in fact a vast, a centralised empire. The existence of this empire has been covered up to suit some narrative or another.&lt;/p&gt;
+
+&lt;h2 id=&quot;spread&quot;&gt;Spread&lt;/h2&gt;
+
+&lt;p&gt;The Tartaria theory has a small but active following on redditsubreddits such as r/Tartaria, r/tartarianarchitecture, and r/CulturalLayer, which as of writing have around 5,300, 2,400 and 23,000 subscribers, respectively, but it’s clear from the &lt;a href=&quot;https://www.reddit.com/r/AskHistorians/search?q=tartaria+OR+tartary&amp;amp;restrict_sr=on&amp;amp;include_over_18=on&amp;amp;sort=new&amp;amp;t=all&quot;&gt;8 questions on the topic asked at AskHistorians since January 2019&lt;/a&gt; and &lt;a href=&quot;https://np.reddit.com/r/badhistory/comments/hliqzg/debunk_request_tartary_and_how_to_rebuke_secret/&quot;&gt;this debunk request from June&lt;/a&gt; that it’s a theory that has somewhat broad appeal and can reach beyond its core niche. This is unsurprising given how little education most people in the West receive about basically anything east of Greece: simply put, the reality of Eurasian history is just not something most of us are taught. And if we don’t know the reality of Eurasian history to begin with, or if we do then it’s all in bits and pieces where we might not even know a basic set of dates and names, then what seems to be a pretty developed narrative about a lost empire actually turns out rather plausible.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, many debunks of the Tartaria narrative come from people pushing competing conspiracy theories, like this guy claiming that there’s a &lt;a href=&quot;http://mileswmathis.com/tartar.pdf&quot;&gt;global &lt;del&gt;Jewish&lt;/del&gt; Phoenecian conspiracy&lt;/a&gt; and that Tartaria is simply rehashing the notion that Khazars were Jews in order to distract from the real Phoenecian threat at the heart of global society or some nonsense like that. (I don’t really care, I died of laughter after page 3.) Now, there are those coming from serious perspectives, but they focus largely on the problems with Tartaria as a concept rather than addressing the more specific claims being made. This is of course valuable in its own right (shoutout to /u/Kochevnik81 for their responses to the AskHistorians threads), but we can go deeper by really striking at the roots of this ‘theory’ – what is the ‘evidence’ they’re presenting? But to do that, we need to find out what the origins of the ‘theory’ are, and thus what its linchpins are. Incidentally, it is because of some recent events regarding those origins that I’ve been finally prompted to write this post.&lt;/p&gt;
+
+&lt;h2 id=&quot;origins&quot;&gt;Origins&lt;/h2&gt;
+
+&lt;p&gt;The roots of this belief seem to trace to Anatoly Fomenko’s &lt;em&gt;New Chronology&lt;/em&gt;.  Later, it was propagated by Nicolai Levashov in his book &lt;em&gt;Russian History Viewed through Distorted Mirrors&lt;/em&gt; (banned in Russia for antisemitism), which likely introduced this theory to broader audience (more on this later).&lt;/p&gt;
+
+&lt;p&gt;My attempts to find the exact origins of the Tartaria conspiracy have been not entirely fruitful, as the connections I’ve found have been relatively circumstantial at best.  But as far as I can tell, it at least partially originates with that Russian pseudo-historian [Ed.: and great artist!] we all know and love, Anatoly Fomenko.  Fomenko is perhaps best known in the English-speaking world for his 7-volume ‘epic’ from 2002, &lt;em&gt;History: Fiction or Science?&lt;/em&gt;, but in fact he’s been pushing his idea of ‘New Chronology’ since its publication in Russian in 1995.  While the New Chronology is best known for its attempt to explain away most of the Middle Ages as a hoax created by the Papacy on the basis of bad astronomy, it also asserts a number of things about Russian history from the Kievan Rus’ to the Romanovs.  Key to the Tartaria theory is its claim that there was a vast Slavo-Turkic ‘Russian Horde’ based out of ‘Tartaria’ which dominated Eurasia until the last ‘Horde’ ruler, Boris Godunov, was overthrown by the European Mikhail Romanov.  This, of course, is a clear attempt at countering the notion of a ‘Tatar Yoke’ over Russia, as you can’t have a ‘Tatar Yoke’ if the Tatars were Russians all along. Much as I’d like to explain that in more detail here, I don’t have to: in 2004, Konstantin Sheiko at the University of Wollongong wrote an entire PhD thesis looking at the claims of Fomenko’s New Chronology and contextualising them within currents of Russian nationalism, &lt;a href=&quot;https://ro.uow.edu.au/cgi/viewcontent.cgi?referer=&amp;amp;httpsredir=1&amp;amp;article=1222&amp;amp;context=theses&quot;&gt;which can be accessed online&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But I personally suspect that if there are Fomenko connections as far as Tartaria specifically is concerned, they are limited. For one, at one stage users on the Tartaria subreddit &lt;a href=&quot;https://np.reddit.com/r/Tartaria/comments/akaaqr/f_o_m_e_n_k_o/&quot;&gt;seemed unfamiliar with Fomenko&lt;/a&gt;, and there are those arguing that &lt;a href=&quot;https://np.reddit.com/r/Tartaria/comments/dysohj/tartaria_disclosure/&quot;&gt;Fomenko had ‘rewritten’ Tartarian history to be pro-Russian&lt;/a&gt;. This is why I said that the evidence was circumstantial. The only other link to Fomenko is indirect: the r/CulturalLayer sidebar lists the ‘New Chronology Resource Collection’ and the audiobook of &lt;em&gt;History: Fiction or Science?&lt;/em&gt; under ‘Essential Resources’, and r/Tartaria in its ‘Related Subs’.&lt;/p&gt;
+
+&lt;p&gt;As far as I can tell, the ultimate origin of its developed form on the Anglophone web traces back to &lt;a href=&quot;https://web.archive.org/web/20200701065421/https://www.stolenhistory.org/threads/tartary-an-empire-hidden-in-history-it-was-bigger-than-russia-once.40/&quot;&gt;this post&lt;/a&gt; on the StolenHistory forums, posted on 17 April 2018. This makes some chronological sense: only one top-level post on r/CulturalLayer that mentions Tartaria predates this. Moreover, KorbenDallas, the OP of the thread, was also the forum’s chief admin, and given that StolenHistory is still (as of writing) the top resource on CulturalLayer’s sidebar, that suggests significant influence. However, using the search function on camas.github.io, it was mentioned in comments at least 9 times before then, with the first mention, on 10 January 2018, mentioning that the ‘theory’ had been doing the rounds on the Russian web for at least 5 years. Nevertheless, as the detail in these early comments is sparse and generally refers only to speculation about maps, it is probably fair to say that the first in-depth English-language formulation of the Tartaria ‘theory’ was thus the April 2018 forum post. Funnily enough, it is not cited often on r/Tartaria, but that subreddit was created on 27 December, long after discussion had been taking place on places like r/CulturalLayer, and combined with the ‘mudflood’ ‘theory’ and the notion of giant humans, which are not significant features of the StolenHistory thread. This more convoluted and multifaceted version of the Tartaria theory doesn’t really have a single-document articulation, hence me not covering it here.&lt;/p&gt;
+
+&lt;p&gt;Other earlier internet sources seem to lead into Russia, but also &lt;a href=&quot;http://bnw-nwo.wz.cz/history/zamlcena-historie-ruska.pdf&quot;&gt;Czechia&lt;/a&gt; and &lt;a href=&quot;https://www.tartaria.sk/ponimanie/udalosti/56-veka-tartaria&quot;&gt;Slovakia&lt;/a&gt;, where it seems to be brought through esoteric teachings of Levashov and focuses mainly on redefining Tatars as Russian and Slavic.&lt;/p&gt;
+
+&lt;p&gt;TODO: Connections could be drawn to &lt;a href=&quot;https://en.wikipedia.org/wiki/T%C4%83rt%C4%83ria_tablets&quot;&gt;Tărtăria tablets&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is this StolenHistory thread which we will be discussing here.  Not just because it seems to be at the heart of it all, but also because it got shut down around 36 hours ago as of writing this post, based on the timestamps of panicked ‘what happened to StolenHistory’ posts on r/CulturalLayer and r/Tartaria.  So what better occasion to go back to the Wayback Machine’s version, seeing as it’s now quite literally impossible to brigade the source?  Now as I’ve said, this is not the most bat-shit insane it gets for the Tartaria crowd, in fact it’s incredibly tame.  But by the end of it, I bet you’ll be thinking ‘if this is mild, how much more worse is the modern stuff!?’  And the best part is, I can debunk most of it without recourse to any other sources at all, because so much of it involves them posting sources out of context or expecting them to be read tendentiously.&lt;/p&gt;
+
+&lt;p&gt;But that’s enough background. Let us begin.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-1-the-evidence-of-existence-chronologically-sorted&quot;&gt;Part 1: The Evidence of Existence (chronologically sorted)&lt;/h2&gt;
+
+&lt;h3 id=&quot;exhibit-1-the-encylcopædia-britannica-and-other-textual-sources&quot;&gt;Exhibit 1: The Encylcopædia Britannica and other textual sources&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;”Tartary, a vast country in the northern parts of Asia, bounded by Siberia on the north and west: this is called Great Tartary. The Tartars who lie south of Muscovy and Siberia, are those of Astracan, Circassia, and Dagistan, situated north-west of the Caspian-sea; the Calmuc Tartars, who lie between Siberia and the Caspian-sea; the Usbec Tartars and Moguls, who lie north of Persia and India; and lastly, those of Tibet, who lie north-west of China.”&lt;/em&gt; - Encyclopædia Britannica, Vol. III, Edinburgh, 1771, p. 887. [Editor: See [[The Encylcopædia Britannica, Vol. 3, p. 887]]]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That’s right, one of the core evidence of the ‘hidden’ history of Central Asia comes from an entry in on the most famous encyclopedias out there…&lt;/p&gt;
+
+&lt;p&gt;Anyway, just a minor nit-pick: anyone with a sense of basic geography can tell you that Tibet lies due west of China, not northwest.  But more importantly, ‘Country’ need not actually refer to a state entity, it can just be a geographical space, especially in more archaic contexts such as this TODO: prove it.&lt;/p&gt;
+
+&lt;p&gt;Moreover, the ethnographic division of the ‘Tartars’ into Astrakhanis, Circassians, Dagestanis, Kalmuks, Uzbeks, and, for whatever reason, Tibetans, pretty clearly goes against the notion of a unified Tartary proposed in the first place.&lt;/p&gt;
+
+&lt;h3 id=&quot;exhibit-2-hermann-molls-a-system-of-geography-1701&quot;&gt;Exhibit 2: Hermann Moll’s &lt;em&gt;A System of Geography&lt;/em&gt;, 1701&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;THE Country of &lt;em&gt;Tartary&lt;/em&gt;, call’d Great &lt;em&gt;Tartary&lt;/em&gt;, to distinguish it from the Lesser, in &lt;em&gt;Europe&lt;/em&gt;, has for its Boundaries, on the West, the &lt;em&gt;Caspian&lt;/em&gt; Sea, and Moscovitick &lt;em&gt;Tartary&lt;/em&gt;; on the North, the Scythian, or Tartarian Sea; on the East, the Sea of the &lt;em&gt;Kalmachites&lt;/em&gt;, and the Straight of &lt;em&gt;Jesso&lt;/em&gt;; and on the South, China, India, or the Dominions of the great &lt;em&gt;Mogul&lt;/em&gt; and &lt;em&gt;Persia&lt;/em&gt; : So that it is apparently the largest Region of the whole Continent of &lt;em&gt;Asia&lt;/em&gt;, extending it self [sic] farthest, both towards the North and East: In the modern Maps, it is plac’d within the 70th and 170th Degree of Longitude, excluding Muscovitick &lt;em&gt;Tartary&lt;/em&gt;; as also between the 40 and 72 Degree of Northern Latitude &lt;br /&gt;
+[Editor: See [[A System of Geography by Herman Moll, p. 40]]]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Again, ‘Country’ need not mean ‘state’. Moreover, in the very same paragraph, Moll (or rather his translator) refers to Tartary as a ‘Region’, which very much disambiguates the idea. Aside from that, it is telling that Moll refers to three distinct ‘Tartaries’: ’Great Tartary’ in Asia, ‘Lesser Tartary’ in Europe, and ‘Muscovite Tartary’ – that is, the eastern territories of the Russian Tsardom.  If, as they are saying, ‘Great Tartary’ was a coherent entity, whatever happened to ‘Lesser Tartary’?&lt;/p&gt;
+
+&lt;p&gt;Moreover, the very next page in the Moll’s book describes Tartars as follows (emphasis added):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The &lt;em&gt;Tartars&lt;/em&gt; are said to be of short Stature; in their Temper cruel, treacherous, covetous, filthy and lustful, beyond all the bounds of Right and Modesty; but they are reputed excellent Horse-men, most expert Archers; able to bear all manner of Penury, Fatigues and Inconveniences, and altogether ignorant of the more refined Delights of Humane Life: &lt;strong&gt;They have no mind to shut up in Houses, but live under Tents in the open Air&lt;/strong&gt;, eating Milk, especially that of Mares, and Rice.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Also:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This vast Empire is govern’d by several Kings or Princes that do Homage, or pay Tribute to the Great &lt;em&gt;Cham&lt;/em&gt;, who exercises an absolute authority over all his Subjects: When a new Empreror takes possession of the Throne he often changes the former Names of the Country and Towns, which is no final impediment to the study of Geography.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;See [[A System of Geography by Herman Moll, p. 41]]&lt;/p&gt;
+
+&lt;p&gt;Of course, we now today that there once existed multiple large empires of Turkic peoples we collectively call Tatars.  Notable Göktürk Khaganate in 6th century that rose after rebelling aginst Proto-Mongolic Rouran Khaganate, or Tatar confederation which spanned from 8th century until Genghis Khan subjugated them into a single Empire (that doesn’t mean annihilate, mind you).  However, after the fall of Golden Horde&lt;/p&gt;
+
+&lt;h3 id=&quot;exhibit-3-an-1855-source&quot;&gt;Exhibit 3: ‘An 1855 Source’&lt;/h3&gt;
+
+&lt;p&gt;This is from a footnote in Sir George Cornwalle Lewis’ &lt;em&gt;An Inquiry into the Credibility of the Early Roman History&lt;/em&gt;, citing a travelogue by Evariste Huc that had been published in French in 1850 and was soon translated into English. From the digitised version of of Huc’s book on Project Gutenberg (emphasis copied over from the thread):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Such remains of ancient cities are of no unfrequent occurrence in the deserts of Mongolia; but everything connected with their origin and history is buried in darkness.  Oh, with what sadness does such a spectacle fill the soul!  The ruins of Greece, the superb remains of Egypt,—all these, it is true, tell of death; all belong to the past; yet when you gaze upon them, you know what they are; you can retrace, in memory, the revolutions which have occasioned the ruins and the decay of the country around them.  Descend into the tomb, wherein was buried alive the city of Herculaneum,—you find there, it is true, a gigantic skeleton, but you have within you historical associations wherewith to galvanize it. &lt;strong&gt;But of these old abandoned cities of Tartary, not a tradition remains; they are tombs without an epitaph,&lt;/strong&gt; amid solitude and silence, uninterrupted except when the wandering Tartars halt, for a while, within the ruined enclosures, because there the pastures are richer and more abundant.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There’s a paraphrase from Lewis as well, but you can just read it on the thread. The key thing here is that yes, there were abandoned settlements in the steppe. Why must this be indicative of a lost sedentary civilisation, and not instead the remnants of political capitals of steppe federations which were abandoned following those federations’ collapse? Places like Karakorum, Kubak Zar, Almaliq and Sarai were principally built around political functions, being centres for concentration of religious and ritual authority (especially monasteries) and stores of non-movable (or difficult to move) wealth. But individual examples of abandoned settlements are not evidence of broad patterns of settlement that came to be abandoned en masse. Indeed, the very fact that the cited shepherd calls the abandoned location ‘The Old Town’ in the singular implies just how uncommon such sites were – for any given region, there might really only be one of note.&lt;/p&gt;
+
+&lt;h3 id=&quot;exhibit-4-la-géographie-universelle-1676&quot;&gt;Exhibit 4: La géographie universelle (1676)&lt;/h3&gt;
+
+&lt;h3 id=&quot;exhibit-2-maps-many-many-maps&quot;&gt;Exhibit 2: Maps. Many, many maps.&lt;/h3&gt;
+
+&lt;p&gt;In my opinion, big part of appeal comes from the maps.  Many&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The other reason why I think Tartary had to be multi-religious, and multi-cultural is its vastness during various moments in time. For example in 1652 Tartary appears to have control over the North America.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/1652-nova-totius-terrarum-orbis-geographica-ac-hydrographica-tabula_1-1-jpg.37277/&lt;/p&gt;
+
+&lt;p&gt;This speaks for itself.&lt;/p&gt;
+
+&lt;p&gt;The thread was later edited to include a link to a post on ‘Tartarians’ in North America made on 7 August 2018, but that’s beside the point here, read at your own leisure (if you can call it ‘leisure’). Except for the part where at one point he admits he can’t read Latin, and so his entire theory in that post is based on the appearance of the word ‘Tartarorum’ in an unspecified context on a map of North America.&lt;/p&gt;
+
+&lt;h3 id=&quot;exhibit-4-a-1957-report-by-the-cia-on-national-cultural-development-under-communism&quot;&gt;Exhibit 4: A 1957 report by the CIA on ‘National Cultural Development Under Communism’&lt;/h3&gt;
+
+&lt;p&gt;Is a conspiracy theorist… actually believing a CIA document? Yep. I’ll add some context later that further complicates the issue.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Or let us take the matter of history, which, along with religion, language and literature, constitute the core of a people’s cultural heritage. Here again the Communists have interfered in a shameless manner. For example, on 9 August 1944, the Central Committee of the Communist Party, sitting in Moscow, issued a directive ordering the party’s Tartar Provincial Committee “to proceed to a scientific revolution of the history of Tartaria, to liquidate serious shortcomings and mistakes of a nationalistic character committed by individual writers and historians in dealing with Tartar history.” In other words, Tartar history was to be rewritten—let its be frank, was to be falsified—in order to eliminate references to Great Russian aggressions and to hide the facts of the real course of Tartar-Russian relations.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[similar judgement on Soviet rewriting of histories of Muslim areas to suit a pro-Russian agenda]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What’s fascinating about the inclusion of this document is that it is apparently often invoked as a piece of &lt;em&gt;anti-Fomenko&lt;/em&gt; evidence, by tying New Chronology in with older Russian-nationalist Soviet revisionism. So not only is it ironic that they’re citing a CIA document, of all things, but a CIA document often used to undermine the spiritual founder of the whole Tartaria ‘theory’ in the first place! But to return to the point, the fundamental issue is that it’s tendentious. This document from 1957 obviously is not going to be that informed on the dynamics of Central Asian ethnicity and history in the way that a modern scholar would be.&lt;/p&gt;
+
+&lt;p&gt;In a broader sense, what this document is supposed to prove is that Soviet coverups are why we don’t know about Tartaria. But if most of the evidence came from Western Europe to begin with, why would a Soviet coverup matter? Why wasn’t Tartarian history deployed as a counter-narrative during the Cold War?&lt;/p&gt;
+
+&lt;h3 id=&quot;exhibit-5-ethnic-characteristics-in-artistic-depictions-of-chinggis-and-timur&quot;&gt;Exhibit 5: Ethnic characteristics in artistic depictions of Chinggis and Timur&lt;/h3&gt;
+
+&lt;p&gt;I… don’t quite know what to make of these.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Today, we have certain appearance related stereotypes. I think we are very much off there. It looks like Tartary was multi-religious, and multi-cultural. One of the reasons I think so is the tremendous disparity between what leaders like Genghis Khan, Batu Khan, Timur aka Tamerlane looked like to the contemporary artists vs. the appearance attributed to them today.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ummm, what?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/genghis-batu-timur-jpg.37275/&quot;&gt;These&lt;/a&gt; are apparently what they look like today. These are ‘contemporary’ depictions of Chinggis:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/ching_khun-and-wife-jpg.37270/&lt;/li&gt;
+  &lt;li&gt;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/ching_khun_3-1-jpg.37271/&lt;/li&gt;
+  &lt;li&gt;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/genghis-kahn4-1-jpg.37279/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Except, as the guy posting the thread says, these are 15th-18th century depictions… so NOT CONTEMPORARY.&lt;/p&gt;
+
+&lt;p&gt;As for Timur, we have:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/tamerlane-11-jpg.41960/&lt;/li&gt;
+  &lt;li&gt;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/timur_tartary_1-2-jpg.37272/&lt;/li&gt;
+  &lt;li&gt;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/timur_tartary_1-3-jpg.37273/&lt;/li&gt;
+  &lt;li&gt;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/timur_tartary_8-jpg.41961/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In what bizzaro world are these contemporary?&lt;/p&gt;
+
+&lt;p&gt;We’ll get to Batur Khan in a moment because that’s its own kettle of worms. But can this user not recognise that artists tend to depict things in ways that are familiar? Of course white European depictions of Chinggis and Timur will tend to make them look like white Europeans, while East Asian depictions of Chinggis will tend to make him look Asian, and Middle Eastern depictions of Chinggis and Timur will make them look Middle Eastern. This doesn’t prove that ‘Tartaria’ was multicultural, in fact it you’d have an easier time using this ‘evidence’ to argue that Chinggis and Timur were shapeshifters who could change ethnicities at will!&lt;/p&gt;
+
+&lt;h3 id=&quot;exhibit-6-turkish-sculptures&quot;&gt;Exhibit 6: Turkish sculptures&lt;/h3&gt;
+
+&lt;p&gt;Why this person thinks modern Turkish sculptures are of any use to anyone baffles me. The seven sculptures shown are of Batu Khan (founder of the ‘Golden Horde’/Jochid khanates), Timur, Bumin (founder of the First Turkic Khaganate), Ertugrul (father of Osman, the founder of the Ottoman empire), Babur (founder of the Mughal Empire), Attila the Hun, and Kutlug Bilge Khagan (founder of the Uyghur Khaganate). They are accompanied (except in the case of Ertugrul) by the dates of the empires/confederations that they founded – hence, for instance, Babur’s dates being 1526 to 1858, the lifespan of the Mughal Empire, or Timur’s being 1368 (which seems arbitrary) to 1507 (the fall of Herat to the Shaybanids). To quote the thread:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A few of them I do not know, but the ones I do look nothing like what I was taught at school. Also dates are super bizarre on those plaques.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Again, Turkish sculptors make Turkic people look like Turks. Big surprise. And the dates are comprehensible if you just take a moment to think.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Do Turks know something we don’t?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Turkish, evidently.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-2-the-coverup&quot;&gt;Part 2: The Coverup&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The official history is hiding a major world power which existed as late as the 19th century. Tartary was a country with its own flag, its own government and its own place on the map. Its territory was huge, but somehow quietly incorporated into Russia, and some other countries. This country you can find on the maps predating the second half of the 19th century.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;…Okay then.&lt;/p&gt;
+
+&lt;h3 id=&quot;exhibit-8-google-ngrams&quot;&gt;Exhibit 8: Google Ngrams&lt;/h3&gt;
+
+&lt;p&gt;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/tartary_ngram-jpg.37276/&lt;/p&gt;
+
+&lt;p&gt;This screenshot shows that the use of ‘Tartary’ and ‘Tartaria’ declined significantly over time. This is apparently supposed to surprise us. Or maybe it shows that we actually understand the region better…&lt;/p&gt;
+
+&lt;h2 id=&quot;part-1a-back-to-the-existence&quot;&gt;Part 1a: Back to the existence&lt;/h2&gt;
+
+&lt;p&gt;You know, a common theme with historical conspiracy theories is how badly they’re laid out, in the literal sense of the layout of their documents and video content. Don’t make a header called ‘The Coverup’ and then only have one thing before jumping back to the evidence for the existence again.&lt;/p&gt;
+
+&lt;h3 id=&quot;exhibit-9-a-table&quot;&gt;Exhibit 9: A Table&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Yet, some time in the 18th century Tartary Muskovite was the biggest country in the world: 3,050,000 square miles.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/tartary_huge-13-jpg.37329/&lt;/p&gt;
+
+&lt;p&gt;I do not have enough palms to slap into my face. Do they not understand that this is saying how much of Tartary was owned… by &lt;em&gt;foreign powers&lt;/em&gt;?&lt;/p&gt;
+
+&lt;h3 id=&quot;exhibit-10-book-covers&quot;&gt;Exhibit 10: Book covers&lt;/h3&gt;
+
+&lt;p&gt;You can look at the images on the thread itself but here’s a few highlights:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1654: &lt;em&gt;Bellum Tartaricum, or the Conquest of China By the Invasion of the Tartars, who in the last seven years, have wholly subdued that empire&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;1670: &lt;em&gt;Historia de la Conquista de la China por el Tartaro&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Histories of the Qing conquest of China, because as far as Europeans were concerned the Manchus were Tartars. Proof of Tartaria because…?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1662: &lt;em&gt;The Voyages and Travels of the Ambassadors of the Duke of Holstein, to the Great Duke of Muscovy, and the King of Persia… Containing a compleat History of Muscovy, Tartary, Persia, and Other Adjacent Countries…&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;An ambassador who never set foot in ‘Tartary’ itself, cool cool, very good evidence there.&lt;/p&gt;
+
+&lt;p&gt;There’s also three screenshots from books that aren’t even specifically named, so impossible to follow up. Clearly this is all we need.&lt;/p&gt;
+
+&lt;h3 id=&quot;exhibit-11-maps&quot;&gt;Exhibit 11: Maps&lt;/h3&gt;
+
+&lt;p&gt;The maps are the key think the Tartaria pushers use. All these maps showing ‘Grand Tartary’ or ‘Tartaria’ or what have you. There’s 20 of these here and you can look for yourselves, but the key thing is: why do these people assume that this referred to a single state entity? Because any of these maps that include the world more generally will also present large parts of Africa in generic terms, irrespective of actual political organisation in these regions. And many of the later maps clearly show the tripartite division of the region into ‘Chinese Tartary’, ‘Russian Tartary’, and ‘Independent Tartary’, which you think would be clear evidence that most of this region was controlled by, well, the Chinese (really, the Manchus) and the Russians. And many of these maps aren’t even maps of political organisation, but geographical space. See how many lump all of mainland Southeast Asia into ‘India’. Moreover, the poor quality of the mapping should give things away. &lt;a href=&quot;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/great_tartarie_4-jpg.1437/&quot;&gt;This one&lt;/a&gt; for instance is very clear on the Black Sea coast, but the Caspian is a blob, and moreover, a blob that’s elongated along the wrong axis! They’re using Western European maps as an indicator of Central Asian realities in the most inept way possible, and it would be sad if it weren’t so hilarious. The fact that the depictions of the size of Tartaria are incredibly inconsistent also seems not to matter.&lt;/p&gt;
+
+&lt;h3 id=&quot;exhibit-12-the-tartarian-language&quot;&gt;Exhibit 12: The Tartarian Language&lt;/h3&gt;
+
+&lt;p&gt;There’s an 1849 American newspaper article referring to the ‘Tartarian’ language, which is very useful thank you, and definitely not more reflective of American ignorance than actual linguistic reality.&lt;/p&gt;
+
+&lt;p&gt;The next one is more interesting, because it’s from a translation of some writing by a French Jesuit, referring to the writing of Manchu, and who asserted (with very little clear evidence) that it could be read in any direction. In April last year, r/Tartaria users &lt;a href=&quot;np.reddit.com/r/Tartaria/comments/bi3aph/tartarian_language_dictionary/&quot;&gt;claimed to have stumbled on a dictionary of Tartarian and French&lt;/a&gt; called the &lt;em&gt;Dictionnaire Tartare-Mantchou-François&lt;/em&gt;. What they failed to realise is that the French generally called the Manchus ‘Tartare-Mantchou’, and this was in fact a &lt;em&gt;Manchu&lt;/em&gt;-French dictionary. In other words, a [Tartare-Mantchou]-[François] dictionary, not a [Tartare]-[Mantchou]-[François] dictionary. It is quite plausible, in fact probable, that the ‘Tartarian’ referred to in the newspaper article was Manchu.&lt;/p&gt;
+
+&lt;h3 id=&quot;exhibit-13-genealogies-of-tartarian-kings&quot;&gt;Exhibit 13: Genealogies of Tartarian Kings&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Descended From Genghiscan&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Reads the comment above &lt;a href=&quot;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/genealogie-des-anciens-empereurs-tartares-descendus-de-genghiscan-1-jpg.37410/&quot;&gt;this French chart&lt;/a&gt;. How the actual hell did OP not recognise that ‘Genghiscan’ is, erm, Genghis Khan? Is it that hard to understand that maybe, just maybe, ‘Tartars’ was what they called Mongols back in the day, and ‘Tartaria’ the Mongol empire and its remnants?&lt;/p&gt;
+
+&lt;h3 id=&quot;exhibit-14-ethnographic-drawings&quot;&gt;Exhibit 14: Ethnographic drawings&lt;/h3&gt;
+
+&lt;p&gt;These prove that there were people called Tartars, not that there was a state of Tartaria. NEXT&lt;/p&gt;
+
+&lt;h3 id=&quot;exhibit-15-tartarias-alleged-flag&quot;&gt;Exhibit 15: Tartaria’s alleged flag&lt;/h3&gt;
+
+&lt;p&gt;Images they provide include&lt;/p&gt;
+
+&lt;p&gt;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/tartary_flags-11-jpg.37367/&lt;/p&gt;
+
+&lt;p&gt;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/tartary_flag_6-jpg.37307/&lt;/p&gt;
+
+&lt;p&gt;Except there’s one problem. As any EU4 player will tell you, that’s the flag of the Khanate of Kazan. And while they can trot out a few 18th and 19th century charts showing the apparent existence of a Tartarian naval flag, the inconvenient fact that Tartaria would have been landlocked seems not to get in the way. To be sure, their consistent inclusion is odd, given the non-existence of Tartary as a country, and moreover its landlocked status. It seems plausible that the consistent similarity of the designs is just a result of constant copying and poor checking, but on its own it means relatively little.&lt;/p&gt;
+
+&lt;h3 id=&quot;exhibit-16-19th-century-racism&quot;&gt;Exhibit 16: 19th-century racism&lt;/h3&gt;
+
+&lt;p&gt;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/flags_of_all_nations_1865-mongolian-1-jpg.37369/&lt;/p&gt;
+
+&lt;p&gt;That I think speaks for itself.&lt;/p&gt;
+
+&lt;h3 id=&quot;exhibit-17-flags-of-moscow-on-one-particular-chart&quot;&gt;Exhibit 17: Flags of Moscow on one particular chart&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It is also worth mentioning that in the British Flag Table of 1783, there are three different flags listed as a flag of the Tsar of Moscow. There is also an Imperial Flag of Russia as well as multiple naval flags. And all of them are proceeded by a flag of the Viceroy of Russia.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;By that logic, the Royal Navy ran Britain because the Royal Navy ensigns precede the Union Jack. It’s simply a conscious decision to show the flags of individuals before the flags of states. The ‘Viceroy’ (unsure what the original Russian title would be) and ‘Czar’ of Muscovy would presumably be, well, the Emperor of Russia anyway, so as with the British section where the Royal Standard and the flags of naval officers came first, the same seems true of Russia. Also, as a side note, the placement of the USA at the end, after the Persians, the Mughals and ‘Tartarians’, is a fun touch.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Significance of the Viceroy is in the definition of the term. A viceroy is a regal official who runs a country, colony, city, province, or sub-national state, in the name of and as the representative of the monarch of the territory. Our official history will probably say that it was the Tsar of Russia who would appoint a viceroy of Moscow. I have reasons to doubt that.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Why is the flag of the Viceroy of Moscow positioned prior to any other Russian flag? Could it be that the Viceroy of Moscow was superior to its Czar, and was “supervising” how this Tartarian possession was being run?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;No.&lt;/p&gt;
+
+&lt;h3 id=&quot;part-3-1812&quot;&gt;Part 3: 1812&lt;/h3&gt;
+
+&lt;p&gt;This, this is where it gets &lt;em&gt;really&lt;/em&gt; bonkers. A key part of this post is arguing that Napoleon’s invasion of Russia was a cover story for a joint invasion against Tartaria gone horrendously wrong. All the stops are being pulled out here.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There is a growing opinion in Russia that French invasion of Russia played out according to a different scenario. The one where Tsar Alexander I, and Napoleon were on the same side. Together they fought against Tartary. Essentially France and Saint Petersburg against Moscow (Tartary). And there is a strong circumstantial evidence to support such a theory.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Oh yes, we’re going there.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Questions to Answer:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;1. Saint Petersburg was the capitol of Russia. Yet Napoleon chose to attack Moscow. Why?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;He didn’t, &lt;a href=&quot;https://np.reddit.com/r/AskHistorians/comments/9e35se/was_napoleon_strategically_lured_into_russia_by/e5n8m8u/&quot;&gt;he was trying to attack the Russian army&lt;/a&gt;. (credit to /u/dandan_noodles).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2. It appears that in 1912 there was a totally different recollection of the events of 1812. How else could you explain commemorative 1912 medals honoring Napoleon?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Because it’s a bit of an in-your-face to Napoleon for losing so badly?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;And specifically the one with Alexander I, and Napoleon on the same medal. The below medal says something similar to, “Strength is in the unity: will of God, firmness of royalty, love for homeland and people”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Yeah, it’s showing Alexander I beating Napoleon, and a triumphant double-headed Russian eagle above captured French standards. Also, notice how Alexander is in full regalia, while Napoleon’s is covered up by his greatcoat?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;3. Similarity between Russian and French uniforms. There are more different uniforms involved, but the idea remains, they were ridiculously similar.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ah yes, because fashions in different countries always develop separately, and never get influenced by each other.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;How did they fight each other in the dark?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;With difficulty, presumably.&lt;/p&gt;
+
+&lt;p&gt;Basically, he’s saying that this: &lt;br /&gt;
+https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/1_rus-jpg.37322/&lt;/p&gt;
+
+&lt;p&gt;Is too similar to this: &lt;br /&gt;
+https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/1_rus-jpg.37322/&lt;/p&gt;
+
+&lt;p&gt;To be coincidental.&lt;/p&gt;
+
+&lt;p&gt;OK, whatever. Here’s where it gets interesting:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;There was one additional combat asset officially available to Russians in the war of 1812. And that was the Militia. It does appear that this so-called Militia, was in reality the army of Tartary fighting against Napoleon and Alexander I.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/1_rus_tart-jpg.37308/&quot;&gt;Russian Volunteer/Militia Units… Tartarians?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Clearly this man has never encountered the concept of a cossack, an &lt;em&gt;opelchenie&lt;/em&gt;, or, erm, a GREATCOAT.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;4. Russian nobility in Saint Petersburg spoke French well into the second half of the 19th century. The general explanation was, that it was the trend of time and fashion. Google contains multiple opinions on the matter.&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Following the same logic, USA, Britain and Russia should’ve picked up German after the victory in WW2.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Clearly never heard of the term &lt;em&gt;lingua franca&lt;/em&gt; then.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;5. This one I just ran into: 19th-century fans were totally into a Napoleon/Alexander romance&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/treaties_of_tilsit_miniature_-france-_1810s-_side_a-jpg.37314/&lt;/p&gt;
+
+&lt;p&gt;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/napoleonxalexander2-jpg.37310/&lt;/p&gt;
+
+&lt;p&gt;https://web.archive.org/web/20200701065421im_/https://www.stolenhistory.org/attachments/napoleon-alexander-jpg.37312/&lt;/p&gt;
+
+&lt;p&gt;It is true that after the Treaty of Tilsit, Napoleon wrote to his wife, Josephine, that&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I am pleased with [Emperor] Alexander; he ought to be with me. If he were a woman, I think I should make him my mistress.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But Napoleon’s ‘honeymoon period’ with Russia following the Treaty of Tilsit should not be seen as indicative of a permanent Napoleonic affection for Russia. Notably, Napoleon’s war with Russia didn’t just end in 1812. How are the Tartaria conspiracists going to explain the War of the Sixth Coalition, when Russian, Prussian and Austrian troops drove the French out of Germany? Did the bromance suddenly stop because of 1812? Or, is it more reasonable to see 1812 as the end result of the bromance falling apart?&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;So there you have it, Tartaria in all its glorious nonsensicalness. Words cannot capture how massively bonkers this entire thing is. And best of all, I hardly needed my own sources because so much of it is just a demonstration of terrible reading comprehension. Still, if you want to &lt;em&gt;actually&lt;/em&gt; learn about some of the history of Inner Eurasia, see below:&lt;/p&gt;
+
+&lt;h4 id=&quot;bibliography&quot;&gt;Bibliography&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;The Cambridge History of Inner Asia&lt;/em&gt; – 2 volumes so far, covering up to 1886. Not really a single contiguous narrative, as each chapter has its own individual author, but a good general coverage.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Scott C. Levi, &lt;em&gt;The Bukharan Crisis: A Connected History of 18th Century Central Asia&lt;/em&gt; (2020) – A book about &lt;em&gt;actual&lt;/em&gt; Central Asian history, focussing on the global and local factors that led to the weakening and collapse of the Chinggisid state in Bukhara and the rise of the Uzbek-led Emirate. Also a very good historiographical examination of lay understandings of the period.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mark C. Elliott, ‘The Limits of Tartary: Manchuria in Imperial and National Geographies’, &lt;em&gt;The Journal of Asian Studies&lt;/em&gt;, Vol. 59, No. 3 (2000) – A discussion of conceptions of Manchuria by Manchu, Chinese, Japanese and European cartographers and geographers, with the section on European geographers being important for getting at the ‘Tartary’ aspect.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;David Christian, ‘Inner Eurasia as a Unit of World History’, &lt;em&gt;Journal of World History&lt;/em&gt;, Vol. 5, No. 2 (1994) – A somewhat older view, presenting Inner Eurasia as a distinct unit in world history, but largely in terms of effects on the rest of Eurasia.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Nicola di Cosmo, ‘State Formation and Periodization in Inner Asian History’, &lt;em&gt;Journal of World History&lt;/em&gt;, Vol.10, No.1 (1999) – A partial response to Christian, offering an alternate periodisation based more on the internal dynamics of nomadic state formations and stressing viewing Inner Asian history in terms of those internal dynamics, rather than relegating it to a subordinate place in the histories of ‘Outer Eurasian’, sedentary states.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Konstantin Sheiko, ‘Lomonosov’s Bastards: Anatolii Fomenko, Pseudo-History and Russia’s Search for a Post-Communist Identity’ [PhD Thesis] (2004) – Specifically deconstructs Fomenko’s version of Tartaria.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Atlantis - myths about the myth</title>
+   <link href="http://localhost:4000/atlantis"/>
+   <updated>2021-02-27T00:00:00+01:00</updated>
+   <id>http://localhost:4000/atlantis</id>
+   <content type="html">&lt;p&gt;The myth of Atlantis probably doesn’t require much introduction.  The mythical lost civilization and its island has generated speculations in countless books since Plato first mentioned it in 5th century BC, even capturing attention of famous thinkers like Isaac Newton or Francis Bacon.  It branched into many different beliefs about its true location, linking Atlantis with Crete, Sardinia, America, Antarctica, Iberian Peninsula, Mauritania and many, many other places.&lt;/p&gt;
+
+&lt;p&gt;After several years’ dormancy in imagination of the broader public, it has begun to make something of a comeback in recent years, partly driven by recent discoveries about Younger Dryas period and ancient settlements like Göbekli Tepe.&lt;/p&gt;
+
+&lt;h3 id=&quot;motivation&quot;&gt;Motivation&lt;/h3&gt;
+
+&lt;p&gt;While most skeptical-minded articles focus on debunking of the idea itself or some specific claims, I am trying to trace the most repeated claims to their original source and show how the perception of the myth evolved through time.&lt;/p&gt;
+
+&lt;p&gt;Instead of building an argument, my goal is to gather &lt;em&gt;actual&lt;/em&gt; sources, make as little active claims as possible, and let the reader form his own opinion.&lt;/p&gt;
+
+&lt;h2 id=&quot;origin---platos-timaeus-and-critias&quot;&gt;Origin - Plato’s &lt;em&gt;Timaeus&lt;/em&gt; and &lt;em&gt;Critias&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;As a speaker in Plato’s &lt;em&gt;Timaeus&lt;/em&gt;, a character called Critias states that he heard the Atlantis tale from his grandfather Critias the elder, who heard it from Solon.  Solon, famous Greek statesman who lived two centuries before, allegedly acquired the story in Egypt and “brought it back with him” to Athens, with intentions to adapt it into an epic poem later, which he left unfinished. (&lt;em&gt;Timaeus&lt;/em&gt;, p. 17)&lt;sup id=&quot;fnref:timaeus&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:timaeus&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;CRITIAS: [It’s a story that] Solon, the wisest of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Seven_Sages_of_Greece&quot;&gt;wise seven&lt;/a&gt;, once declared. Solon, who, you must know, was, as he says in several places in his poems, a kinsman and a close friend of my great-grandfather Dropides, told my grandfather Critias (so the Critias in his turn, used to repeat the story to me in his old age), that there are great and splendid ancient exploits of our city which have been forgotten from lapse of time and decay of population, and, in particular, one, the greatest of all.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Right away, there’s a problem.  There are several contradicting versions of the genealogy described by Plato.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/i/Atlantis/story_pedigree.jpg&quot; alt=&quot;&quot; /&gt; &lt;em&gt;Genealogy of Plato and Critias. Red line shows description of story’s origin. From &lt;sup id=&quot;fnref:oliver&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:oliver&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In regard to Atlantis, here are some main takeaways from &lt;em&gt;Timaeus&lt;/em&gt; (p. 17 - 23):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Athens was inhabited 9,000 ago by Athenians, it was country “foremost both in war and all besides” before it’s destruction.&lt;/li&gt;
+  &lt;li&gt;Atlantis was an island with its own kings ruling over many other islands as well as mainland colonies.&lt;/li&gt;
+  &lt;li&gt;Located “before Pillars of Heracles” in Atlantic ocean, “larger than Libya and Asia together”&lt;/li&gt;
+  &lt;li&gt;Atlanteans were wealthy and powerful, and set to subjugate all other nations. Athenians revolted and “vanquished the invaders”, even freeing some of their colonies.&lt;/li&gt;
+  &lt;li&gt;But layer, great earth-quakes and floods sunk the Atlantis (and drown all Athenian warriors as well).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In Plato’s later work, &lt;em&gt;Critias&lt;/em&gt;, things get a bit more interesting (pages 116 - end):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Island of Atlantis was Poseidon’s “lot”.&lt;/li&gt;
+  &lt;li&gt;He carved the mountain into a palace and enclosed it with three circular moats.&lt;/li&gt;
+  &lt;li&gt;Poseidon’s temple was in the inner ring and “forbidden to enter”.&lt;/li&gt;
+  &lt;li&gt;Poseidon took liking in an orphaned girl.  She gave him ten sons, who later ruled 10 parts of Atlantis.&lt;/li&gt;
+  &lt;li&gt;Rich fauna and flora, including plentiful of elephants and many fruits and flowers (including ones exuding “gums”), which Atlanteans utilized for their sustenance.&lt;/li&gt;
+  &lt;li&gt;Gold-red metal called Orichalcum was mined in many parts of Atlantis.&lt;/li&gt;
+  &lt;li&gt;Apart from the capital city, “mountains contained numerous villages with a wealthy population”.&lt;/li&gt;
+  &lt;li&gt;First king of Altantis, Atlas, had a twin brother who ruled region now known as Gadeira (Cádiz). (Note: Later, Strabo and Diodoros attribute foundation of this city to Phoenicians, which even archaeology nowadays seem to confirm)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Considering that Plato invented Atlantis for the sake of a political allegory, it can seem quite intriguing that so much detail is provided regarding things like geography, natural resources, agricultural practices, etc. before turning focus to society itself.  Then again, we can’t simply ignore that the same amount of detail is provided also for Athens in the same period, which the archeology evidence doesn’t support.&lt;/p&gt;
+
+&lt;p&gt;However, that’s pretty much it.  As you can see, there are absolutely no implications of advanced technology or superior esoteric knowledge.  From all descriptions (apart from the dating and mythology, of course), they seem like pretty believable, though remarkably wealthy and powerful, Bronze Age civilization.  They armed themselves with spears and shields, they conquered barbaric lands and they waged war against Athenians, which they lost.&lt;/p&gt;
+
+&lt;p&gt;Anyway, I highly recommend reading the whole book, though.  It’s is not that long and it really makes you realize, that the whole Atlantis story is only a small part of Plato’s great legacy.&lt;/p&gt;
+
+&lt;h3 id=&quot;bonus-solon-in-egypt&quot;&gt;BONUS: Solon in Egypt?&lt;/h3&gt;
+
+&lt;p&gt;Putting all claims about Atlantis aside, even the claim that Solon actually travelled to Egypt in the first place is contested.  The first mention of this, apart from Plato’s story of course, comes from Herodotus’ &lt;em&gt;The Histories&lt;/em&gt; (c. 440 BC), some 200 years after Solon’s passing and &lt;em&gt;after&lt;/em&gt; Platon’s &lt;em&gt;Timeas&lt;/em&gt; and &lt;em&gt;Critias&lt;/em&gt; was already well known.&lt;/p&gt;
+
+&lt;p&gt;Also, there are many inconsistencies in Herodotus’ accounts on Solon’s travel and another story about his travel to Lydia is widely believed to be unhistorical.  However, the idea that Solon could visit Egypt roughly in the specified time is not really preposterous.&lt;/p&gt;
+
+&lt;h2 id=&quot;interpretations-throughout-the-history&quot;&gt;Interpretations throughout the history&lt;/h2&gt;
+
+&lt;p&gt;Wait. So, shouldn’t the story end here?  For many it does.  However, the debate about Atlantis is almost as old as the myth itself.  So how was the story perceived in the ancient times?&lt;/p&gt;
+
+&lt;h3 id=&quot;strabo-and-aristotle&quot;&gt;Strabo (and Aristotle?)&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/Atlantis&quot;&gt;wikipedia page on Atlantis&lt;/a&gt; claims, that Aristotle believed that Plato, his teacher, had invented the island to teach philosophy.  As a source, a 1967 article from &lt;em&gt;Galaxy Science Fiction&lt;/em&gt; magazine, is provided. Itself completely unsourced. (Note: Without taking any sides, it’s always important to be &lt;em&gt;very&lt;/em&gt; careful with accepting claims you read on Wikipedia and where they come from)&lt;/p&gt;
+
+&lt;p&gt;So, what’s the real story?  As always, it’s complicated.&lt;/p&gt;
+
+&lt;p&gt;The argument comes from Strabo’s &lt;em&gt;Geography&lt;/em&gt;.  Strabo (c.60 BC- C.20 BC) endorses Poseidonius’ (c. 135 BC-c.50 BC) view that Atlantis might be more than mere fiction and dismisses argument that “Its inventor caused it to disappear, just as did the Poet the wall of the Acheans.” (Implying &lt;strong&gt;Solon&lt;/strong&gt; avoided the historical consequences of his fiction by sinking Atlantis, just as Homer did by making Poseidon and Apollo sweep away with a flood the wall built by the Achaeans. (Strabo 2.3.6&lt;sup id=&quot;fnref:strabo&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:strabo&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;)&lt;/p&gt;
+
+&lt;p&gt;So where does Aristotle come in?  Well, in chapter 13.1.36 in a passage completely unrelated to Atlantis, this quote is referenced again, this time attributed to Aristotle.  This lead some to conclude that first appearance of quote does indeed reflect Aristotle’s opinion on Atlantis.  This is disputed in generally well received book &lt;em&gt;Aristotle and Atlantis&lt;/em&gt; by T. C. Franke&lt;sup id=&quot;fnref:franke&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:franke&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;commentary-on-platos-timaeus-by-proclus&quot;&gt;&lt;em&gt;Commentary on Plato’s Timaeus&lt;/em&gt; by Proclus&lt;/h3&gt;
+
+&lt;p&gt;The philosopher Crantor (c. 3rd century BC), a student of Plato’s student Xenocrates, is often cited as an example of a writer who thought the story to be historical fact.  His work, a commentary on &lt;em&gt;Timaeus&lt;/em&gt;, is however lost and all our information come from commentary on his work from 5th century by Neoplatonist Proclus (more than 600 years after life of Crantor) In regard to Atlantis story, he reports&lt;sup id=&quot;fnref:proclus&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:proclus&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;With respect for the whole of this narration about the Atlantics, some say, that it is a mere history, which was the opinion of Crantor, the first interpreter of Plato, who says, that Plato was derided by those of his time, as not being the inventor of the Republic, but transcribing what the Egyptians had written on this subject; and that he so far regards what is said by these deriders as to refer to the Egyptians this history about the Athenians and Atlantics, and to believe that the Athenians once lived conformably to this polity.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[He] adds, that this is testified by the prophets of the Egyptians, who assert that these particulars [which are narrated by Plato] are written on pillars which are still preserved.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’ve put ‘He’ in brackets, because some translations say it was Crantor, who confirms the story (see 1820 English translation in Sources) but Greek original uses ambiguous ‘He’, which leaves room for speculations that it was Plato himself who verified the story with Egyptians.&lt;/p&gt;
+
+&lt;p&gt;Whatever you lean towards, all we can safely state is that according to 5th CE century Greek Neoplatonist philosopher, Plato, facing ridicule, made attempts to verify the story with Egyptians and either Plato or Crantor confirmed its veracity.&lt;/p&gt;
+
+&lt;p&gt;In any case, I hope it’s evident that based on this text is absolutely no justification for conclusions such as Otto Muck’s “Crantor came to Sais and saw there in the temple of Neith the column, completely covered with hieroglyphs, on which the history of Atlantis was recorded. Scholars translated it for him, and he testified that their account fully agreed with Plato’s account of Atlantis”&lt;sup id=&quot;fnref:muck&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:muck&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;library-of-history-by-diodoros-of-sicily&quot;&gt;&lt;em&gt;Library of History&lt;/em&gt; by Diodoros of Sicily&lt;/h3&gt;
+
+&lt;p&gt;Diodoros’ &lt;em&gt;Library of History&lt;/em&gt; is remarkable for many reasons. This 40-volume book (of which only 15 books surive intact) is considered one of the earliest attempts at &lt;a href=&quot;https://en.wikipedia.org/wiki/Universal_history&quot;&gt;Universal history&lt;/a&gt; and also it is notably more detached from ‘Hellenocentric’ world-view&lt;sup id=&quot;fnref:usher&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:usher&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;.  It’s also a major source of our knowledge about Alexander the Great!&lt;/p&gt;
+
+&lt;p&gt;However, we need to remember that Diodoros still relied on Greek tradition and historians and he was almost certainly familiar with Plato’s work.  What’s interesting though is that he doesn’t seem to even acknowledge Plato’s story and even disagrees on many details (notably mythical genealogy of Atlas).&lt;/p&gt;
+
+&lt;p&gt;First mention is in volume in (III. 53)&lt;sup id=&quot;fnref:diodoros&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:diodoros&quot; class=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;According to Diodoros, many generations before the Trojan War, the Atlanteans, the most civilized people of their time, became subjected to the Libyan Amazons (author emphasises that this a different tribe, not the more famous one, living along river Thermodon).  He places these Amazons’ land to an island in Lake Tritonis.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This island mentioned was of great size and full of fruit-bearing trees of every kind, from which the natives secured their food.  It also contained multitude of flocks, goats, sheeps, […]. But grain the nation used not at all because the use of this fruit of the earth had not yet been discovered among them.  The Amazons, then, the account continues, being a race superior in valour and eager for war, first of all subdued all the cities on the island except one called Menê, which was considered to be sacred[…] (III. 53. 3-6)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Their city was called Cherronesus [Penninsula] after it’s shape.  Now, enter Atlantians:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[…]the most civilized men among the inhabitants of those regions, who dwelt in a prosperous country and possessed great cities; it was among them, we are told, that mythology places the birth of the gods. (III. 54)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Their first king had been Uranus, a god who had elevated them from the bestial state and had taught them agriculture (Book III, 56, 3).&lt;/p&gt;
+
+&lt;p&gt;Later, Amazons attacked and conquered major Atlantian city called Cernê and Atlantians became subjected and that’s the last time their history was mentioned.  This is what Diodoros said of Atlantians.  Not a word about its conquest neighboring nations or about the time and circumstances of the cataclysm that should have destroyed it.&lt;/p&gt;
+
+&lt;p&gt;So, where does &lt;em&gt;this&lt;/em&gt; version of the story come from?  Diodoros is very clear about that.  Before beginning the story of Amazons and Atlantians, he credits “Dionysius, who composed a narrative about Argonauts and Dionysus, and also about many other things which took place in the most ancient times.” (III. 52) (Note: Dionysus’ version of Argonauts is also quite different from the ‘classic’ version you probably know)  This Dionysius Scytobrachion, often identified with Dionysus of Miletus, is believed to live in 2nd century BC in Alexandria, Egypt.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;See also:&lt;/strong&gt; &lt;a href=&quot;/2021/02/27/phoenicians-in-america/&quot;&gt;Phoenicians in America&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;new-world&quot;&gt;New World&lt;/h3&gt;
+
+&lt;p&gt;Some later christian scholars who seem to interpret Atlantis as real were Eusebius, Philo or Kosmas Indikopleustés (who by the way scorned the view of spherical Earth calling it “pagan lies”).&lt;/p&gt;
+
+&lt;p&gt;A big resurrection of the idea came with Age of Discovery.  The Spanish historian Fracisco López de Gómara (c. 1511-c. 1566) seems to be the first to believe that Plato’s Atlantis was referring to America.&lt;sup id=&quot;fnref:gomara&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:gomara&quot; class=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;The exception to this sentiment provides Jesuit Father Athanasius Kircher (1601-1680), who pictures Atlantis as a separate landmass between Europe and America in an illustration to his book &lt;em&gt;Mundus Subterraneus&lt;/em&gt;&lt;sup id=&quot;fnref:kircher&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:kircher&quot; class=&quot;footnote&quot;&gt;10&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/i/Atlantis/Kircher.jpg&quot; alt=&quot;&quot; /&gt; &lt;em&gt;Mundus Subterraneus&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Sir Francis Bacon (1561-1626)  his unfinished utopian novel &lt;em&gt;The New Atlantis&lt;/em&gt;&lt;sup id=&quot;fnref:bacon&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:bacon&quot; class=&quot;footnote&quot;&gt;11&lt;/a&gt;&lt;/sup&gt;.  He talks about an island called Bensalem, whose people, ancestors to bigger sialdn New Atlantis located even further west, were of a high moral character, modesty, christian faith and scientific inquiry.  Some then-futuristic technologies like flying machines, submarines, weather control, etc. are described.  However, this book is clearly a Christian utopian novel and nothing suggests it was ever intended to be taken literally - and I’m not aware of anyone who actually does, however it might play some role in cementing the idea of Atlantis as an utopian, advanced society.&lt;/p&gt;
+
+&lt;p&gt;Later theory was Mayanism, which connected Atlantis with Mayan and other indigenous American cultures.  Early proponents of this belief were Charles Étienne Brasseur de Bourbourg (1814-1874) and Augustus Le Plongeon (1825-1908) who seems to be the first to theorize that Atlantis was ancestral to ancient Egypt.&lt;/p&gt;
+
+&lt;h3 id=&quot;new-age&quot;&gt;New Age&lt;/h3&gt;
+
+&lt;p&gt;During 19th century, the theory shifted into more fringe territory and it was molded to fit various Christian, New Age and even Nazi beliefs.  Also, only now does most of the supernatural claims start to appear.  Major figures were Ignatius L. Donnelly, Helena Blavatsky and Edgar Cayce.&lt;/p&gt;
+
+&lt;p&gt;Ignatius L. Donnelly (1831-1901) is probably the reason why this myth became so widely known.  He was probably inspired by Mayanism, but he saw Atlantis as an actual lost continent in the Atlantic sea, which disappeared in a flood.  He also originated quite a few original claims, which are still perpetuated until today.  To name a few, Atlantis was the region where man first rose from barbarians [sic] to civilization.  From there the civilization was distributed to all ancient civilizations around the world.  Gods of Greeks, Phoenicians, Hindus, etc. were simply kings, queens and heroes of Atlantis.  From all colonies, religions of Egypt and Peru were the closest representations of the original religion of Atlanteans.&lt;sup id=&quot;fnref:donnelly&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:donnelly&quot; class=&quot;footnote&quot;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Helena Blavatsky (1831-1891), a Russian mystic and founder of the Theosophical Society.  Despite claiming that she was given access to “secret wisdom” in Tibet, she repeated many claims of Donelly, mainly concerning and further elaborating on the idea of “progenitor race” (first very briefly proposed in &lt;em&gt;Isis Unveiled&lt;/em&gt;).  In her next book, &lt;em&gt;The Secret Doctrine&lt;/em&gt;, she tells much more about Atlantis.  Tibetan masters revelaled to her that Atlantians were only the fourth of seven “root races”, following i.a. Hyperboreans and Lemurians.  Fifth “root race” is the “Aryan race” and sixth and seventh have yet to be.&lt;sup id=&quot;fnref:blavatsky&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:blavatsky&quot; class=&quot;footnote&quot;&gt;13&lt;/a&gt;&lt;/sup&gt;  By the way, this unscientific race theory could be one of the contributing factors to forming of Nazi ideology.&lt;sup id=&quot;fnref:nazis&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:nazis&quot; class=&quot;footnote&quot;&gt;14&lt;/a&gt;&lt;/sup&gt;  But, of course, I’m not implying that Blavatsky was in any way responsible for that.&lt;/p&gt;
+
+&lt;p&gt;While Blavatsky attributed her knowledge to “sacred wisdom” bestowed upon her by Ascended Masters, Edgar Cayce (1877-1945) wasn’t even trying to hide the fact that the knowledge of Atlantis came to him through his psychic abilities.  But it can be demonstrated that he must have been familiar with works of Donnelly, Blavatsky and probably other theosophists.&lt;sup id=&quot;fnref:cayce&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:cayce&quot; class=&quot;footnote&quot;&gt;15&lt;/a&gt;&lt;/sup&gt;  In regard to Atlantis, he originates plethora of claims. Atlanteans migrated to Egypt after the disaster and that their &lt;em&gt;History of Records&lt;/em&gt; is still hidden under the Sphinx (likely inspired by Paul Chrisitan’s &lt;em&gt;Histoire De La Magie&lt;/em&gt;) and also “in another [place] in the Aryan or Yucatan land”.  He also made many claims concerning crystal technology, capability of flying and moving through water, telepathy, etc.&lt;sup id=&quot;fnref:cayce2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:cayce2&quot; class=&quot;footnote&quot;&gt;16&lt;/a&gt;&lt;/sup&gt; (probably inspired by Bacon)&lt;/p&gt;
+
+&lt;h2 id=&quot;modern-times&quot;&gt;Modern times&lt;/h2&gt;
+
+&lt;p&gt;In the 20th century, the Continental drift hypothesis started to gain acceptance, which offered new possible explanations for Atlantis believers.  More recently, the myth was one again revived by new discoveries about catastrophic events during Younger Dryas period.  This is still fresh stuff, so it naturally captures minds of ancient history enthusiasts who often see it as a solution to all the flood myths of ancient cultures.&lt;/p&gt;
+
+&lt;p&gt;While most of proponents of this “scientific stream” don’t seem to acknowledge the supposed esoteric and advanced technology proposed by New Age authors, some ideas persist.  Mainly connection to native Americans, Eyptians and other early civilizations - basically the idea of progenitor race, but stripped of all the Aryan connections.&lt;/p&gt;
+
+&lt;p&gt;Although there’s very little doubt, that catastrophic events like Mega floods and meteor strikes did happen in relatively short period and might greatly influence human population of that time, that itself doesn’t imply that some great civilization was destroyed by it.  Morever, archeological evidence of any bronze culture in neolothic is still lacking.&lt;/p&gt;
+
+&lt;p&gt;Most prominent scientific hypothesies, which don’t mention anything in regard to Atlantis but somehow tie into the “progenitor civilization” theory, are &lt;a href=&quot;https://en.wikipedia.org/wiki/Younger_Dryas_impact_hypothesis&quot;&gt;YD impact hypothesis&lt;/a&gt;  and &lt;a href=&quot;https://en.wikipedia.org/wiki/Sphinx_water_erosion_hypothesis&quot;&gt;Sphinx water erosion hypothesis&lt;/a&gt;.  Graham Hancock also mentioned &lt;a href=&quot;https://en.wikipedia.org/wiki/Orion_correlation_theory&quot;&gt;Orion correlation theory&lt;/a&gt; in BBC documentary &lt;em&gt;Atlantis Reborn Again&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Latest “canditate”, propagated mainly by youtube channel Bright Insight, is the Richat Structure in Mauretania.  Claims of this video are thoroughly analyzed by an actual historian in two videos from another youtube channel, World of Antiquity.&lt;sup id=&quot;fnref:woa1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:woa1&quot; class=&quot;footnote&quot;&gt;17&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&quot;fnref:woa2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:woa2&quot; class=&quot;footnote&quot;&gt;18&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;It should be also noted, that some academics propose that the destruction of Atlantis was inspired by explosion of volcano on Santorini (c. 1600 BC).  Louis Guillaume Figuier (1819-1984) was the first to suggest a link between the Theran explosion and Plato’s Atlantis.&lt;sup id=&quot;fnref:figuier&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:figuier&quot; class=&quot;footnote&quot;&gt;19&lt;/a&gt;&lt;/sup&gt;  Supporters of this theory note that Minoans were a significant naval power and they could be seen as ancestors of Greeks by Egyptians.&lt;/p&gt;
+
+&lt;p&gt;Many other locations were proposed: Bermuda Triangle (Charles Berlitz), Doñana National Park (Bruce Blackburn), Great Meteor Seamount, Azores, Black Sea, etc.&lt;/p&gt;
+
+&lt;p&gt;In reagard to these efforts, writer L. Sprague de Camp fittingly noted in his book “Lost Continents,” “You cannot change all the details of Plato’s story and still claim to have Plato’s story. That is like saying the legendary King Arthur is ‘really’ Cleopatra; all you have to do is to change Cleopatra’s sex, nationality, time period, temperament, moral character, and other details, and the resemblance becomes obvious.”&lt;/p&gt;
+
+&lt;h2 id=&quot;sources&quot;&gt;Sources&lt;/h2&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:timaeus&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://archive.org/details/in.ernet.dli.2015.499834/page/n31/mode/2up&quot;&gt;&lt;em&gt;Timaeus And Critias&lt;/em&gt;, Plato, English translation (1929)&lt;/a&gt; (archive.org) &lt;a href=&quot;#fnref:timaeus&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:oliver&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.shimajournal.org/issues/v10n2/d.-Smith-Shima-v10n2.pdf&quot;&gt;&lt;em&gt;The Atlantis Story: An authentic oral tradition?&lt;/em&gt;, Oliver D. Smith (2016)&lt;/a&gt; (pdf) &lt;a href=&quot;#fnref:oliver&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:strabo&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://archive.org/details/Strabo08Geography17AndIndex/Strabo%2001%20Geography%201-2/page/n425/mode/2up&quot;&gt;&lt;em&gt;Geography&lt;/em&gt;, Strabo, English translation (1917)&lt;/a&gt; (archive.org) &lt;a href=&quot;#fnref:strabo&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:franke&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;em&gt;Aristotle and Atlantis&lt;/em&gt;, Thorwald C. Franke, English translation (2012) &lt;a href=&quot;#fnref:franke&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:proclus&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://archive.org/details/proclusontimaeus01procuoft/page/64&quot;&gt;&lt;em&gt;Commentary on Plato’s Timaeus&lt;/em&gt;, Proclus, english translation (1820)&lt;/a&gt; (archive.org) &lt;a href=&quot;#fnref:proclus&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:muck&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;em&gt;The Secret of Atlantis&lt;/em&gt;, Otto Muck, English translation (1981) &lt;a href=&quot;#fnref:muck&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:usher&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://archive.org/details/historiansofgree00ushe/page/234/mode/2up&quot;&gt;&lt;em&gt;The Historians of Greece and Rome&lt;/em&gt;, Stephen Usher, p. 235 (1970)&lt;/a&gt; (archive.org) &lt;a href=&quot;#fnref:usher&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:diodoros&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://archive.org/details/DiodorosOfSicily034.598/Diodoros%20of%20Sicily%2002%20%282.35-4.58%29/page/n253/mode/1up&quot;&gt;&lt;em&gt;Library of History&lt;/em&gt;, Diodoros of Sicily, English translation (1933)&lt;/a&gt; (archive.org) &lt;a href=&quot;#fnref:diodoros&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:gomara&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://books.google.cz/books?pg=PA337&amp;amp;ei=J5C_T4nHF6SN6QGGn_nOCg&amp;amp;id=VHoKAQAAIAAJ&quot;&gt;&lt;em&gt;Historia general de las Indias&lt;/em&gt;, Francisco López de Gómara (1552)&lt;/a&gt; (Google Books) &lt;a href=&quot;#fnref:gomara&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:kircher&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://archive.org/details/mundussubterrane02kirc/page/n123/mode/2up&quot;&gt;&lt;em&gt;Mundus Subterraneus&lt;/em&gt;, Athanasius Kircher (1678)&lt;/a&gt; (archive.org) &lt;a href=&quot;#fnref:kircher&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:bacon&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;em&gt;The New Atlantis&lt;/em&gt;, Francis Bacon (1627). &lt;a href=&quot;#fnref:bacon&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:donnelly&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://archive.org/details/atlantisantedilu00donnuoft/page/x/mode/2up&quot;&gt;&lt;em&gt;Atlantis: the antediluvian world&lt;/em&gt;, Ignatius L. Donnelly (1882)&lt;/a&gt; (archive.org) &lt;a href=&quot;#fnref:donnelly&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:blavatsky&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://archive.org/details/secretdoctrine01unkngoog/page/n10/mode/2up&quot;&gt;&lt;em&gt;The Secret Doctrine&lt;/em&gt;, Helena Blavatsky (1917)&lt;/a&gt; &lt;a href=&quot;#fnref:blavatsky&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:nazis&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.haaretz.com/jewish/holocaust-remembrance-day/.premium-the-dark-link-between-nazis-and-atlantis-1.6870036&quot;&gt;&lt;em&gt;The Dark Link Between the Nazis and the Legend of Atlantis&lt;/em&gt;&lt;/a&gt; (haaretz.com) &lt;a href=&quot;#fnref:nazis&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:cayce&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;em&gt;Edgar Cayce in Context: The Readings, Truth and Fiction&lt;/em&gt;, Paul K. Johnson (1998) &lt;a href=&quot;#fnref:cayce&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:cayce2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.bibliotecapleyades.net/esp_cayce_3.htm&quot;&gt;&lt;em&gt;Edgar Cayce’s Atlantis Readings&lt;/em&gt;&lt;/a&gt; (online) &lt;a href=&quot;#fnref:cayce2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:woa1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=BqhMGVLUSB0&quot;&gt;&lt;em&gt;THE LOST CITY OF ATLANTIS: What researchers get WRONG about Plato’s famous legend&lt;/em&gt;, World of Antiquity (2019)&lt;/a&gt; (youtube.com) &lt;a href=&quot;#fnref:woa1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:woa2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;ATLANTIS: The TRUTH about the Richat Hypothesis&quot;&gt;&lt;em&gt;ATLANTIS: The TRUTH about the Richat Hypothesis&lt;/em&gt;, World of Antiquity (2019)&lt;/a&gt; (youtube.com) &lt;a href=&quot;#fnref:woa2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:figuier&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://gallica.bnf.fr/ark:/12148/bpt6k22526x&quot;&gt;&lt;em&gt;La Terre et les Mers&lt;/em&gt;, Louis Figuier (1872)&lt;/a&gt; (bnf.fr) &lt;a href=&quot;#fnref:figuier&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
 
 </feed>
