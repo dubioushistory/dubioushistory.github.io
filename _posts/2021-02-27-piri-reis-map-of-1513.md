@@ -1,13 +1,15 @@
 ---
 layout: post
-title: Piri Reis Map of 1513
+title: Pîrî Reis Map of 1513
 permalink: piri-reis-map-of-1513
 tags: maps cryptids lost-technology lost-civilization
 ---
 
-  The map drawn by an admiral of Ottoman Empire Muhyi-iddin Pîrî *re‘is* (a military rank) dated to 1513 CE is well known in the fringe literature, mainly for it's alleged depiction of Antarctica coastline.  It was featured on the *Ancient Aliens* and it's often brought by Graham Hancock[^hancock], among others, as a proof of ancient civilization or technology we're not yet aware of, as the first modern mapping of Antarctica wasn't done until 19th century.  The argument is that Pîrî himself must have been drawn from older, more ancient maps, which ties it into the general notion of ancient civilization theory.
+  The map drawn by an admiral of Ottoman Empire Muhyi-iddin Pîrî *re‘is* (a military rank) dated to 1513 CE is well known in the fringe literature, mainly for it's alleged depiction of Antarctica coastline.
 
-  It is an undeniable fact, that the precision of this map is astounding for it's time.  Made only 20 years after the Discovery, it is the most precise depiction of South American coastline from this period.  Try to compare them with other contemporary maps like [Waldseemüller map](https://en.wikipedia.org/wiki/Waldseem%C3%BCller_map) from 1507 or even three decades older [Sebastian Müster map](https://www.thedigitalgallery.org/images/255).  However, there are numerous misconceptions about this map which I think should be addressed.
+  It was featured on the *Ancient Aliens* and it's often brought by Graham Hancock[^hancock], among others, as a proof of ancient civilization or technology we're not yet aware of, as the first modern mapping of Antarctica wasn't done until 19th century.  The argument is that Pîrî himself must have drawn from older, more ancient maps, which ties it into the general notion of ancient civilization theories.
+
+  It is an undeniable fact, that the precision of this map is astounding for it's time.  Made only 20 years after the Discovery, it is the most precise depiction of Brazilian coastline from this period.  Try to compare with other contemporary maps like [Waldseemüller map](https://en.wikipedia.org/wiki/Waldseem%C3%BCller_map) from 1507 or even three decades older [Sebastian Müster map](https://www.thedigitalgallery.org/images/255).  However, there are numerous misconceptions about this map which I think need be addressed.
 
 ![](/i/PiriReis/overlay.jpg) *Overlay on a modern map*
 
@@ -28,8 +30,6 @@ tags: maps cryptids lost-technology lost-civilization
 > No one now living has seen a map like this. I have composed and constructed it using about twenty maps and mappaemundi; these are the maps which were composed in the time of Alexander of the Two Horns, and which show the inhabited portion of the earth. The Arabs call these maps ja'fariya.
 
 >  I have used eight ja'fariya maps, an Arab map of India and four recent Portuguese maps - these maps show the sea of Sind, India and China according to mathematical principles - and also a map of the western regions drawn by Colombo. The final farm was arrived at by reducing all these maps to the same scale. Therefore the present map is as accurate for the Seven Seas as the maps of our own countries used by sailors.
-
-  Paul Kahle, the first scholar to write about the map, suggested that the Caribbean portion of it was based on a map drawn by Columbus himself, just as Pîrî Reis states. If so, this Turkish map is the only evidence we possess for how Columbus visualized his discoveries.
 
 
 ## Antarctica
