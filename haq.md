@@ -15,7 +15,7 @@ title: H.A.Q.
 
 ## Q: "If you don't believe in it, why even bother?"
 
-  *We Want To Believe™*.  That's why we dedicate out time to research.  Also, we feel that some of the theories are so interesting that the way they're presented in the fringe circles is actually doing the argument a disservice.
+  *We Want To Believe™*.  That's why we dedicate out time to research.  Also, we feel that some of the theories are so interesting that the way they're presented in the fringe circles is actually doing them a disservice.
 
 ## Q: "What makes you an expert?"
 
@@ -23,6 +23,6 @@ title: H.A.Q.
 
 ## Q: "Isn't all this stuff on Wikipedia already?"
 
-  Surprisingly, no.  Despite the popular belief that "anybody can edit Wikipedia", most of the *ad-hoc* changes are later reverted, and the preferred way of contribution by raising the discussion on Talk pages can sometime take months to progress.
+  Despite the popular belief that "anybody can edit Wikipedia", most of the *ad-hoc* changes are later reverted, and the preferred way of contribution by raising the discussion on Talk pages can sometime take months to progress.
 
   Moreover, the prospect of altering the most controversial entries, which are the main focus of this website, is even slimmer.

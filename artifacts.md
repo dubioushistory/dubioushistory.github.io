@@ -1,13 +1,13 @@
 ---
-layout: default
-title: Home
+layout: page
+title: Artifacts
 ---
 
-<h2>Latest articles</h2>
+<h2>Unexplained artifacts and famous forgeries</h2>
 
 <div class="posts">
   {% for post in site.posts %}
-    {% if post.layout == 'post' %}
+    {% if post.layout == 'artifact' %}
     <div class="post">
       <h3 class="post-title">
         <a href="{{ post.url }}">
