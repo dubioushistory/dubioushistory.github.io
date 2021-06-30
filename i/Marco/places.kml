@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="places" id="places">
+	<SimpleField name="Descriptio" type="string"></SimpleField>
+	<SimpleField name="Timestamp" type="string"></SimpleField>
+	<SimpleField name="Type" type="string"></SimpleField>
+	<SimpleField name="Modern" type="string"></SimpleField>
+	<SimpleField name="Yule" type="string"></SimpleField>
+</Schema>
+<Folder><name>places</name>
+  <Placemark>
+	<name>Venice</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Preface/Chapter_10</SimpleData>
+		<SimpleData name="Type">major</SimpleData>
+		<SimpleData name="Modern">Venice</SimpleData>
+		<SimpleData name="Yule">Venice</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>12.3385047912598,45.4341173285559</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Venice</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Preface/Chapter_10</SimpleData>
+		<SimpleData name="Type">major</SimpleData>
+		<SimpleData name="Modern">Venice</SimpleData>
+		<SimpleData name="Yule">Venice</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>12.3385047912598,45.4341173285559</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Acre</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Preface/Chapter_9</SimpleData>
+		<SimpleData name="Type">major</SimpleData>
+		<SimpleData name="Modern">Acre</SimpleData>
+		<SimpleData name="Yule">Acre</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>35.082950592041,32.9337760741083</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Acre</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Preface/Chapter_9</SimpleData>
+		<SimpleData name="Type">major</SimpleData>
+		<SimpleData name="Modern">Acre</SimpleData>
+		<SimpleData name="Yule">Acre</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>35.082950592041,32.9337760741083</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Layas</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_1</SimpleData>
+		<SimpleData name="Modern">Yumurtalık</SimpleData>
+		<SimpleData name="Yule">Ayas</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>35.7917036702696,36.76812266574</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Casaria</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_2</SimpleData>
+		<SimpleData name="Modern">Kayseri</SimpleData>
+		<SimpleData name="Yule">Kaisariya</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>35.7275390625,38.6511983322995</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Conia</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_2</SimpleData>
+		<SimpleData name="Modern">Konya</SimpleData>
+		<SimpleData name="Yule">Kuniyah</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>32.486572265625,37.8748533935293</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Savast</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_2</SimpleData>
+		<SimpleData name="Modern">Sivas</SimpleData>
+		<SimpleData name="Yule">Sivas</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.02392578125,39.7747694852955</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Arzinga</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_3</SimpleData>
+		<SimpleData name="Modern">Erzincan</SimpleData>
+		<SimpleData name="Yule">Erzinjan</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>39.48486328125,39.7916548352534</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Paipurth</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_3</SimpleData>
+		<SimpleData name="Modern">Bayburt</SimpleData>
+		<SimpleData name="Yule">Baiburt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>40.2271343927609,40.2528498239452</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Arziron</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_3</SimpleData>
+		<SimpleData name="Modern">Erzurum</SimpleData>
+		<SimpleData name="Yule">Erzrum</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>41.2455622309256,39.9084950086917</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Merdin</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_5</SimpleData>
+		<SimpleData name="Modern">Mardin</SimpleData>
+		<SimpleData name="Yule">Mardin</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>40.726318359375,37.3177518516369</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mausul</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_5</SimpleData>
+		<SimpleData name="Modern">Mosul</SimpleData>
+		<SimpleData name="Yule">Mosul</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>43.13232421875,36.3328280873792</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Baudas</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_6</SimpleData>
+		<SimpleData name="Modern">Baghdad</SimpleData>
+		<SimpleData name="Yule">Baghdad</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>44.439697265625,33.3213485266988</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bastra</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_6</SimpleData>
+		<SimpleData name="Modern">Basra</SimpleData>
+		<SimpleData name="Yule">Basra</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>47.8179931640625,30.5025258517703</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tauris</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_11</SimpleData>
+		<SimpleData name="Modern">Tabriz</SimpleData>
+		<SimpleData name="Yule">Tabriz</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>46.2998199462891,38.07187927827</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Casvin</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_15</SimpleData>
+		<SimpleData name="Modern">Qazvin</SimpleData>
+		<SimpleData name="Yule">Kazvin</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>49.998779296875,36.2619922044566</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cala Ataperistan</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_14</SimpleData>
+		<SimpleData name="Type">unsure</SimpleData>
+		<SimpleData name="Modern">Ghez-Ghale</SimpleData>
+		<SimpleData name="Yule">Kila'-i-Gabr</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>50.11962890625,35.1917669659474</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cala Ataperistan</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_14</SimpleData>
+		<SimpleData name="Type">unsure</SimpleData>
+		<SimpleData name="Modern">Ghez-Ghale</SimpleData>
+		<SimpleData name="Yule">Kila'-i-Gabr</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>50.11962890625,35.1917669659474</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Saba</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_13</SimpleData>
+		<SimpleData name="Modern">Saveh</SimpleData>
+		<SimpleData name="Yule">Savah</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>50.361328125,35.1019340572461</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Lor</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_15</SimpleData>
+		<SimpleData name="Modern">Lorestan</SimpleData>
+		<SimpleData name="Yule">Luristan</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>48.33984375,33.5047590692261</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Curdistan</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_15</SimpleData>
+		<SimpleData name="Modern">Khuzestan</SimpleData>
+		<SimpleData name="Yule">Khuzistan</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>48.6474609375,31.4661537150243</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Istanit</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_15</SimpleData>
+		<SimpleData name="Modern">Isfahan</SimpleData>
+		<SimpleData name="Yule">Ispahan</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>51.6659545898438,32.6613442226795</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Soncara</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_15</SimpleData>
+		<SimpleData name="Modern">Shabankareh</SimpleData>
+		<SimpleData name="Yule">Shabankara</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>50.9930419921875,29.4706878648326</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Serazy</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_15</SimpleData>
+		<SimpleData name="Modern">Shiraz</SimpleData>
+		<SimpleData name="Yule">Shiraz</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>52.58056640625,29.5734570730176</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Yasdi</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_16</SimpleData>
+		<SimpleData name="Modern">Yazd</SimpleData>
+		<SimpleData name="Yule">Yezd</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>54.3569183349609,31.9032097963672</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kerman</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_17</SimpleData>
+		<SimpleData name="Modern">Kerman</SimpleData>
+		<SimpleData name="Yule">Kerman</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>57.0671081542969,30.2875315892987</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Conosalmi</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_18</SimpleData>
+		<SimpleData name="Type">unknown</SimpleData>
+		<SimpleData name="Modern">(Conosalmi)</SimpleData>
+		<SimpleData name="Yule">(Conosalmi)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>57.1892833211075,28.9837629947724</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Conosalmi</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_18</SimpleData>
+		<SimpleData name="Type">unknown</SimpleData>
+		<SimpleData name="Modern">(Conosalmi)</SimpleData>
+		<SimpleData name="Yule">(Conosalmi)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>57.1892833211075,28.9837629947724</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hormos</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_19</SimpleData>
+		<SimpleData name="Type">major</SimpleData>
+		<SimpleData name="Modern">Hormuz</SimpleData>
+		<SimpleData name="Yule">Hormuz</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>56.4523887634277,27.0945862251416</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hormos</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_19</SimpleData>
+		<SimpleData name="Type">major</SimpleData>
+		<SimpleData name="Modern">Hormuz</SimpleData>
+		<SimpleData name="Yule">Hormuz</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>56.4523887634277,27.0945862251416</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kisi</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_6</SimpleData>
+		<SimpleData name="Modern">Kish</SimpleData>
+		<SimpleData name="Yule">Kish</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>54.0190887451172,26.5599712602323</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cobinan</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_21</SimpleData>
+		<SimpleData name="Modern">Kuhbanan</SimpleData>
+		<SimpleData name="Yule">Kuh-banan</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>56.282958984375,31.4661537150243</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sapurgan</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_26</SimpleData>
+		<SimpleData name="Modern">Sheberghān</SimpleData>
+		<SimpleData name="Yule">Shibrgan</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>63.292236328125,36.6860412765818</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Balc</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_27</SimpleData>
+		<SimpleData name="Modern">Balkh</SimpleData>
+		<SimpleData name="Yule">Balkh</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>66.9122314453125,36.7432860543794</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Taican</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_28</SimpleData>
+		<SimpleData name="Modern">Taleqan</SimpleData>
+		<SimpleData name="Yule">Talikan</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>69.5396590648525,36.7346607440642</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Casem</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_28</SimpleData>
+		<SimpleData name="Modern">Keshem</SimpleData>
+		<SimpleData name="Yule">Keshm</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>70.1051330566406,36.8048865602372</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Vokhan</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_32</SimpleData>
+		<SimpleData name="Modern">Wakhan corridor</SimpleData>
+		<SimpleData name="Yule">Wakhan corridor</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.8006424379651,37.0250187878786</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cascar</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_33</SimpleData>
+		<SimpleData name="Type">major</SimpleData>
+		<SimpleData name="Modern">Kashgar</SimpleData>
+		<SimpleData name="Yule">Kashgar</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.025390625,39.5040407055842</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cascar</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_33</SimpleData>
+		<SimpleData name="Type">major</SimpleData>
+		<SimpleData name="Modern">Kashgar</SimpleData>
+		<SimpleData name="Yule">Kashgar</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.025390625,39.5040407055842</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Samarcan</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_34</SimpleData>
+		<SimpleData name="Modern">Samarkand</SimpleData>
+		<SimpleData name="Yule">Samarkand</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>67.060546875,39.5379397451763</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Yarcan</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_35</SimpleData>
+		<SimpleData name="Modern">Yarkant</SimpleData>
+		<SimpleData name="Yule">Yarkand</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.2503662109375,38.4277735113291</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cotan</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_36</SimpleData>
+		<SimpleData name="Modern">Hotan</SimpleData>
+		<SimpleData name="Yule">Khotan</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.892578125,37.3876174997839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pein</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_37</SimpleData>
+		<SimpleData name="Modern">Keriya</SimpleData>
+		<SimpleData name="Yule">Keria</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>81.6998291015625,36.9147642889559</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Charchan</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_38</SimpleData>
+		<SimpleData name="Modern">Qiemo/Qarqan</SimpleData>
+		<SimpleData name="Yule">Charchan</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.517578125,38.2554363763795</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Lop</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_39</SimpleData>
+		<SimpleData name="Modern">Charklik (Ruoqiang)</SimpleData>
+		<SimpleData name="Yule">Charkalyk</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.9999967448407,39.0336112638224</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sachiu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_40</SimpleData>
+		<SimpleData name="Modern">Shazhouzhen</SimpleData>
+		<SimpleData name="Yule">Shachau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>94.6647258434937,40.1379385208747</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Camul</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_41</SimpleData>
+		<SimpleData name="Modern">Hami</SimpleData>
+		<SimpleData name="Yule">Hami</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>93.515625,42.8276386362423</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sukchu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_43</SimpleData>
+		<SimpleData name="Modern">Jiuquan/Suzhou</SimpleData>
+		<SimpleData name="Yule">Suhchau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>98.514404296875,39.7325379843817</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Campichu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_44</SimpleData>
+		<SimpleData name="Modern">Zhangye/Ganzhou</SimpleData>
+		<SimpleData name="Yule">Kanchau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.318906956069,38.9869177869072</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Etzina</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_45</SimpleData>
+		<SimpleData name="Type">unsure</SimpleData>
+		<SimpleData name="Modern">Ejin</SimpleData>
+		<SimpleData name="Yule">Hoa-tsiang</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.982895,41.640078</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Etzina</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_45</SimpleData>
+		<SimpleData name="Type">unsure</SimpleData>
+		<SimpleData name="Modern">Ejin</SimpleData>
+		<SimpleData name="Yule">Hoa-tsiang</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.982895,41.640078</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Caracoron</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_46</SimpleData>
+		<SimpleData name="Modern">Karakorum</SimpleData>
+		<SimpleData name="Yule">Karakorum</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>102.843103342697,47.2016793504822</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Erguiul</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_57</SimpleData>
+		<SimpleData name="Type">unsure</SimpleData>
+		<SimpleData name="Modern">Wuwei/Liangzhou</SimpleData>
+		<SimpleData name="Yule">Liangchau-fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>102.63427734375,37.9398654089798</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Erguiul</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_57</SimpleData>
+		<SimpleData name="Type">unsure</SimpleData>
+		<SimpleData name="Modern">Wuwei/Liangzhou</SimpleData>
+		<SimpleData name="Yule">Liangchau-fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>102.63427734375,37.9398654089798</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sinju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_57</SimpleData>
+		<SimpleData name="Modern">Xining</SimpleData>
+		<SimpleData name="Yule">Sining-fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>101.770305633545,36.5984403971961</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Calachan</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_58</SimpleData>
+		<SimpleData name="Type">unsure</SimpleData>
+		<SimpleData name="Modern">Alxa</SimpleData>
+		<SimpleData name="Yule">Alashan</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.818547668957,38.7533482732484</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Calachan</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_58</SimpleData>
+		<SimpleData name="Type">unsure</SimpleData>
+		<SimpleData name="Modern">Alxa</SimpleData>
+		<SimpleData name="Yule">Alashan</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.818547668957,38.7533482732484</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sindachu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_59</SimpleData>
+		<SimpleData name="Modern">Xuanhua</SimpleData>
+		<SimpleData name="Yule">Siuen-hwa fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.048828125,40.6473035625225</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Chandu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_61</SimpleData>
+		<SimpleData name="Type">major</SimpleData>
+		<SimpleData name="Modern">Shangdu</SimpleData>
+		<SimpleData name="Yule">Shandu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.179165,42.359722</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Chandu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_61</SimpleData>
+		<SimpleData name="Type">major</SimpleData>
+		<SimpleData name="Modern">Shangdu</SimpleData>
+		<SimpleData name="Yule">Shandu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.179165,42.359722</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Arzizi</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_3</SimpleData>
+		<SimpleData name="Modern">Erciş</SimpleData>
+		<SimpleData name="Yule">Arjish</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>43.3590539979325,39.0293520469844</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Camadi</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_18</SimpleData>
+		<SimpleData name="Type">unknown</SimpleData>
+		<SimpleData name="Modern">(Camadi)</SimpleData>
+		<SimpleData name="Yule">(Camadi)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>57.7417987138335,28.6774446466916</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Camadi</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_18</SimpleData>
+		<SimpleData name="Type">unknown</SimpleData>
+		<SimpleData name="Modern">(Camadi)</SimpleData>
+		<SimpleData name="Yule">(Camadi)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>57.7417987138335,28.6774446466916</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tun</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_22</SimpleData>
+		<SimpleData name="Modern">Ferdows</SimpleData>
+		<SimpleData name="Yule">Tun</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>58.1733016353267,34.0188935149148</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kain</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_22</SimpleData>
+		<SimpleData name="Modern">Qaen</SimpleData>
+		<SimpleData name="Yule">Kain</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>59.189678591474,33.734518887211</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tenduc</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_59</SimpleData>
+		<SimpleData name="Type">unsure</SimpleData>
+		<SimpleData name="Modern">Hohhot</SimpleData>
+		<SimpleData name="Yule">Kuku-Khotan</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>111.749122353177,40.8419637598766</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tenduc</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_59</SimpleData>
+		<SimpleData name="Type">unsure</SimpleData>
+		<SimpleData name="Modern">Hohhot</SimpleData>
+		<SimpleData name="Yule">Kuku-Khotan</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>111.749122353177,40.8419637598766</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Chagannor</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_60</SimpleData>
+		<SimpleData name="Modern">Chagannur</SimpleData>
+		<SimpleData name="Yule">Chagannor</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.749452573986,41.7405314239708</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cambaluc</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_11</SimpleData>
+		<SimpleData name="Modern">Beijing/Khanbaliq</SimpleData>
+		<SimpleData name="Yule">Peking/Khanbaligh</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.395045618069,39.9623600638576</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Juju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_36</SimpleData>
+		<SimpleData name="Modern">Zhuozhou</SimpleData>
+		<SimpleData name="Yule">Cho-chau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.981006810644,39.4817981023352</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Taianfu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_37</SimpleData>
+		<SimpleData name="Modern">Taiyuan</SimpleData>
+		<SimpleData name="Yule">T'ai-yuan fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.5497,37.870151332158</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pianfu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_37</SimpleData>
+		<SimpleData name="Modern">Linfen</SimpleData>
+		<SimpleData name="Yule">P'ing-yang fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>111.519092463255,36.0879237193585</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Acbaluc</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_37</SimpleData>
+		<SimpleData name="Modern">Zhengding</SimpleData>
+		<SimpleData name="Yule">Cheng-ting fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.559443200816,38.1397209094142</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kenjanfu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_41</SimpleData>
+		<SimpleData name="Modern">Xi'an</SimpleData>
+		<SimpleData name="Yule">Si-ngang fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>108.954003833035,34.2649962159336</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kinsay</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_76</SimpleData>
+		<SimpleData name="Modern">Hangzhou</SimpleData>
+		<SimpleData name="Yule">Hang-chau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.153006256251,30.2669949843493</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sindafu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_44</SimpleData>
+		<SimpleData name="Modern">Chengdu</SimpleData>
+		<SimpleData name="Yule">Ch'eng-tu fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.063333017439,30.6599999781101</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cuncun</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_42</SimpleData>
+		<SimpleData name="Modern">Hanzhong</SimpleData>
+		<SimpleData name="Yule">Han-chung</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>107.023225980258,33.0664033583842</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Fuju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_80</SimpleData>
+		<SimpleData name="Type">major</SimpleData>
+		<SimpleData name="Modern">Fuzhou</SimpleData>
+		<SimpleData name="Yule">Fu-chau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.296298038963,26.0744266790546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Fuju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_80</SimpleData>
+		<SimpleData name="Type">major</SimpleData>
+		<SimpleData name="Modern">Fuzhou</SimpleData>
+		<SimpleData name="Yule">Fu-chau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.296298038963,26.0744266790546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Suju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_75</SimpleData>
+		<SimpleData name="Modern">Suzhou</SimpleData>
+		<SimpleData name="Yule">Su-chau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.585300009467,31.2997999261342</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Chinangli</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_61</SimpleData>
+		<SimpleData name="Modern">Jinan</SimpleData>
+		<SimpleData name="Yule">T'si-nan fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>117.142698125985,36.6521965048191</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Yachi</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_48</SimpleData>
+		<SimpleData name="Modern">Yuxi</SimpleData>
+		<SimpleData name="Yule">Yun-nan fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>102.526929575938,24.3470206209646</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Carajan</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_49</SimpleData>
+		<SimpleData name="Modern">Dali</SimpleData>
+		<SimpleData name="Yule">Ta-li fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.183305583792,25.69998908255</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Vochan</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_50</SimpleData>
+		<SimpleData name="Modern">Baoshan/Yongchang</SimpleData>
+		<SimpleData name="Yule">Yung-ch'ang fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>99.161014241089,25.1119967990558</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Siju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_64</SimpleData>
+		<SimpleData name="Modern">Suqian</SimpleData>
+		<SimpleData name="Yule">Su-t'sien</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>118.274829695882,33.9630743689</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Coiganju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_66</SimpleData>
+		<SimpleData name="Modern">Huainan</SimpleData>
+		<SimpleData name="Yule">Hwai-ngan-fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.357009413568,33.7375211967642</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nanghin</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_69</SimpleData>
+		<SimpleData name="Modern">Anhui</SimpleData>
+		<SimpleData name="Yule">Ngan-king</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>117.232461375364,31.8207960613422</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cuju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_79</SimpleData>
+		<SimpleData name="Modern">Lishui</SimpleData>
+		<SimpleData name="Yule">Ch'u-chau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.922942644335,28.4687467496785</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kelinfu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_80</SimpleData>
+		<SimpleData name="Modern">Jian'ou</SimpleData>
+		<SimpleData name="Yule">Kien-ning fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>118.316904914101,27.0330973525456</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Zayton</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_82</SimpleData>
+		<SimpleData name="Modern">Quanzhou</SimpleData>
+		<SimpleData name="Yule">Ts'iuen-chau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>118.675663407007,24.8745151354935</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tyunju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_82</SimpleData>
+		<SimpleData name="Modern">Tong'an</SimpleData>
+		<SimpleData name="Yule">Tek-hwa</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>118.161917617442,24.6706725824509</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Chipangu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_2</SimpleData>
+		<SimpleData name="Type">region</SimpleData>
+		<SimpleData name="Modern">Japan</SimpleData>
+		<SimpleData name="Yule">Japan</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>137.052227482327,35.9827027268622</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Necuveran</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_12</SimpleData>
+		<SimpleData name="Type">region</SimpleData>
+		<SimpleData name="Modern">Nicobar</SimpleData>
+		<SimpleData name="Yule">Nicobar</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>93.778772848853,7.07989637767269</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Angamanain</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_13</SimpleData>
+		<SimpleData name="Type">region</SimpleData>
+		<SimpleData name="Modern">Andaman</SimpleData>
+		<SimpleData name="Yule">Andaman</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>92.7925877671601,12.4343298866572</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bettelar</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_16</SimpleData>
+		<SimpleData name="Type">major</SimpleData>
+		<SimpleData name="Modern">Puttalam</SimpleData>
+		<SimpleData name="Yule">Patlam</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.8168008451745,8.06897744700168</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bettelar</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_16</SimpleData>
+		<SimpleData name="Type">major</SimpleData>
+		<SimpleData name="Modern">Puttalam</SimpleData>
+		<SimpleData name="Yule">Patlam</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.8168008451745,8.06897744700168</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tana</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_27</SimpleData>
+		<SimpleData name="Modern">Thane</SimpleData>
+		<SimpleData name="Yule">Thana</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>72.9568598115724,19.1716194694635</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cambaet</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_28</SimpleData>
+		<SimpleData name="Type">major</SimpleData>
+		<SimpleData name="Modern">Khambhat</SimpleData>
+		<SimpleData name="Yule">Cambay</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>72.6216766278055,22.2996121913768</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cambaet</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_28</SimpleData>
+		<SimpleData name="Type">major</SimpleData>
+		<SimpleData name="Modern">Khambhat</SimpleData>
+		<SimpleData name="Yule">Cambay</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>72.6216766278055,22.2996121913768</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Semenat</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_29</SimpleData>
+		<SimpleData name="Modern">Somnath</SimpleData>
+		<SimpleData name="Yule">Somnath</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>70.4013908262162,20.8880303655788</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Esher</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_37</SimpleData>
+		<SimpleData name="Modern">Shihr</SimpleData>
+		<SimpleData name="Yule">Shihr</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>49.6069455510674,14.7608298878178</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Dufar</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_38</SimpleData>
+		<SimpleData name="Modern">Dhufar</SimpleData>
+		<SimpleData name="Yule">Dufar</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>54.0770807424493,17.0191936629682</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Calatu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_39</SimpleData>
+		<SimpleData name="Modern">Kalhat</SimpleData>
+		<SimpleData name="Yule">Kahlat</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>59.369927784468,22.7000001450502</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Aden</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_36</SimpleData>
+		<SimpleData name="Modern">Aden</SimpleData>
+		<SimpleData name="Yule">Aden</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>45.0334448174983,12.7999549997269</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Jerusalem</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Preface/Chapter_10</SimpleData>
+		<SimpleData name="Modern">Jerusalem</SimpleData>
+		<SimpleData name="Yule">Jerusalem</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>35.2166630691908,31.7833267487579</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cuiju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_59</SimpleData>
+		<SimpleData name="Modern">Guiyang/Guizhou</SimpleData>
+		<SimpleData name="Yule">Kwei-chau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>106.629736539366,26.6473097621361</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cachanfu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_41</SimpleData>
+		<SimpleData name="Modern">Puban</SimpleData>
+		<SimpleData name="Yule">P'u-chau fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>110.444491140146,34.8749653461729</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Acbalec Manzi</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_43</SimpleData>
+		<SimpleData name="Type">unknown</SimpleData>
+		<SimpleData name="Modern">(Acbalec Manzi)</SimpleData>
+		<SimpleData name="Yule">(Acbalec Manzi)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.165337662457,31.9927526271242</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Acbalec Manzi</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_43</SimpleData>
+		<SimpleData name="Type">unknown</SimpleData>
+		<SimpleData name="Modern">(Acbalec Manzi)</SimpleData>
+		<SimpleData name="Yule">(Acbalec Manzi)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.165337662457,31.9927526271242</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Caindu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_47</SimpleData>
+		<SimpleData name="Modern">Xichang</SimpleData>
+		<SimpleData name="Yule">Ning-yuan fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>102.264721870614,27.8936259595629</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Amien</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_53</SimpleData>
+		<SimpleData name="Type">unsure</SimpleData>
+		<SimpleData name="Modern">Takaung</SimpleData>
+		<SimpleData name="Yule">Tagaung</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.0136844987965,23.4964930979962</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Amien</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_53</SimpleData>
+		<SimpleData name="Type">unsure</SimpleData>
+		<SimpleData name="Modern">Takaung</SimpleData>
+		<SimpleData name="Yule">Tagaung</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.0136844987965,23.4964930979962</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Caugigu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_56</SimpleData>
+		<SimpleData name="Type">unknown</SimpleData>
+		<SimpleData name="Modern">(Caugigu)</SimpleData>
+		<SimpleData name="Yule">(Caugigu)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>92.8844634204128,24.2845899978775</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Caugigu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_56</SimpleData>
+		<SimpleData name="Type">unknown</SimpleData>
+		<SimpleData name="Modern">(Caugigu)</SimpleData>
+		<SimpleData name="Yule">(Caugigu)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>92.8844634204128,24.2845899978775</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Anin</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_57</SimpleData>
+		<SimpleData name="Type">region</SimpleData>
+		<SimpleData name="Modern">Tonkin</SimpleData>
+		<SimpleData name="Yule">Tungking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.786302545833,21.057416074043</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cacanfu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_60</SimpleData>
+		<SimpleData name="Modern">Heijan</SimpleData>
+		<SimpleData name="Yule">Ho-kien fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.089611811542,38.4400083030675</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tadinfu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_61</SimpleData>
+		<SimpleData name="Modern">Tai'an</SimpleData>
+		<SimpleData name="Yule">Tai-ting fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>117.112077882543,36.1894903594033</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sinjumatu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_62</SimpleData>
+		<SimpleData name="Modern">Qingzhou</SimpleData>
+		<SimpleData name="Yule">T'si-ning chau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>118.479671322549,36.6852778333933</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Linju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_63</SimpleData>
+		<SimpleData name="Modern">Linyi</SimpleData>
+		<SimpleData name="Yule">Lin-ch'ing</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>118.341497308438,35.0723048989434</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pinju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_63</SimpleData>
+		<SimpleData name="Modern">Pizhou</SimpleData>
+		<SimpleData name="Yule">Pei-chau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>117.88810931036,34.3952698315166</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Paukin</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_67</SimpleData>
+		<SimpleData name="Modern">Baoying</SimpleData>
+		<SimpleData name="Yule">Pao-Ying-Hien</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.307267074281,33.2353697385201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cayu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_67</SimpleData>
+		<SimpleData name="Modern">Gaoyou</SimpleData>
+		<SimpleData name="Yule">Kao-yu-chan</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.432978841018,32.7847083387736</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tiju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_68</SimpleData>
+		<SimpleData name="Modern">Taizhou</SimpleData>
+		<SimpleData name="Yule">Tai-chau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.91962993573,32.447470309441</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tinju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_68</SimpleData>
+		<SimpleData name="Modern">Tongzhou</SimpleData>
+		<SimpleData name="Yule">Tung-chau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.05665344646,32.0734576833981</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Yanju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_68</SimpleData>
+		<SimpleData name="Modern">Yangzhou</SimpleData>
+		<SimpleData name="Yule">Yang-chau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.433304743579,32.3912161423496</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Saianfu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_70</SimpleData>
+		<SimpleData name="Modern">Xiangyang</SimpleData>
+		<SimpleData name="Yule">Siang-yang fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.121091722505,32.0124253914344</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sinju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_71</SimpleData>
+		<SimpleData name="Modern">Zhenzhou (Yizheng)</SimpleData>
+		<SimpleData name="Yule">Y-ching-hien</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.177655144744,32.2575640753617</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Caiju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_72</SimpleData>
+		<SimpleData name="Modern">Guazhou</SimpleData>
+		<SimpleData name="Yule">Kwa-chow</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.387319443863,32.2494787670021</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Chinghianfu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_73</SimpleData>
+		<SimpleData name="Modern">Zhenjiang</SimpleData>
+		<SimpleData name="Yule">Chin-kiang Fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.440532245973,32.2097469869803</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Chinginju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_74</SimpleData>
+		<SimpleData name="Modern">Changzhou</SimpleData>
+		<SimpleData name="Yule">Chang-chau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.967698676778,31.8201515652101</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ganfu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_76</SimpleData>
+		<SimpleData name="Modern">Ganpu</SimpleData>
+		<SimpleData name="Yule">Kan-fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.849439801394,30.3792643245193</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tanpiju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_79</SimpleData>
+		<SimpleData name="Modern">Shaoxing</SimpleData>
+		<SimpleData name="Yule">Shao-hing fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.580758849753,29.9978123856529</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Vughin</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_75</SimpleData>
+		<SimpleData name="Modern">Wujiang</SimpleData>
+		<SimpleData name="Yule">Wukiang-hien</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.64519222058,31.1386947061545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ghiuju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_79</SimpleData>
+		<SimpleData name="Modern">Quzhou</SimpleData>
+		<SimpleData name="Yule">K'iu-chau fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>118.859321699934,28.9705598603512</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Changshan</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_79</SimpleData>
+		<SimpleData name="Modern">Suichang</SimpleData>
+		<SimpleData name="Yule">Sui-chang hien</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.275949631555,28.5919702368282</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Unken</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_80</SimpleData>
+		<SimpleData name="Type">unsure</SimpleData>
+		<SimpleData name="Modern">Minqing</SimpleData>
+		<SimpleData name="Yule">Min-ts'ing hien</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>118.869511530216,26.2128390673735</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Unken</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_80</SimpleData>
+		<SimpleData name="Type">unsure</SimpleData>
+		<SimpleData name="Modern">Minqing</SimpleData>
+		<SimpleData name="Yule">Min-ts'ing hien</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>118.869511530216,26.2128390673735</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Vuju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_75</SimpleData>
+		<SimpleData name="Modern">Huzhou</SimpleData>
+		<SimpleData name="Yule">Hu-chau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.183093592773,30.8599172305228</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Changan</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_75</SimpleData>
+		<SimpleData name="Modern">Jiaxing</SimpleData>
+		<SimpleData name="Yule">Kiahing</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.754404379295,30.7535182520182</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Vuju</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_79</SimpleData>
+		<SimpleData name="Modern">Jinhua</SimpleData>
+		<SimpleData name="Yule">Kin-hwa fu</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.647,29.0796558741376</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Coloman</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_58</SimpleData>
+		<SimpleData name="Type">region</SimpleData>
+		<SimpleData name="Modern">Kula people</SimpleData>
+		<SimpleData name="Yule">Kolo people</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.999261286626,23.8745297057039</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bangala</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_55</SimpleData>
+		<SimpleData name="Type">region</SimpleData>
+		<SimpleData name="Modern">Bengal</SimpleData>
+		<SimpleData name="Yule">Bengal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.8206493863808,24.4699843969688</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Changlu</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_2/Chapter_60</SimpleData>
+		<SimpleData name="Modern">Cangzhou</SimpleData>
+		<SimpleData name="Yule">T'sang-chau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.838149853872,38.3048378222153</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Chamba</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_5</SimpleData>
+		<SimpleData name="Type">region</SimpleData>
+		<SimpleData name="Modern">Vietnam</SimpleData>
+		<SimpleData name="Yule">Champa</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>107.372119779376,14.0230849279552</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pentam</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_8</SimpleData>
+		<SimpleData name="Modern">Bintan</SimpleData>
+		<SimpleData name="Yule">Bentan</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.506474023521,1.07435598120289</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Malaiur</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_8</SimpleData>
+		<SimpleData name="Type">unsure</SimpleData>
+		<SimpleData name="Modern">Palembang</SimpleData>
+		<SimpleData name="Yule">Palembang</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.755556,-2.95534849252629</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Malaiur</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_8</SimpleData>
+		<SimpleData name="Type">unsure</SimpleData>
+		<SimpleData name="Modern">Palembang</SimpleData>
+		<SimpleData name="Yule">Palembang</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.755556,-2.95534849252629</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Java the Less</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_9</SimpleData>
+		<SimpleData name="Type">region</SimpleData>
+		<SimpleData name="Modern">Sumatra</SimpleData>
+		<SimpleData name="Yule">Sumatra</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>98.2323262396147,3.13357010003132</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ferlec</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_9</SimpleData>
+		<SimpleData name="Type">unsure</SimpleData>
+		<SimpleData name="Modern">Pulau Parlak</SimpleData>
+		<SimpleData name="Yule">Parlak</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>98.7430474291453,1.77277609811304</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ferlec</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_9</SimpleData>
+		<SimpleData name="Type">unsure</SimpleData>
+		<SimpleData name="Modern">Pulau Parlak</SimpleData>
+		<SimpleData name="Yule">Parlak</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>98.7430474291453,1.77277609811304</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Basma</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_9</SimpleData>
+		<SimpleData name="Modern">Pasai</SimpleData>
+		<SimpleData name="Yule">Pasei</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>97.1539352490545,5.15391287736362</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Scotra</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_32</SimpleData>
+		<SimpleData name="Type">region</SimpleData>
+		<SimpleData name="Modern">Socotra</SimpleData>
+		<SimpleData name="Yule">Socotra</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>53.849000071393,12.5398979438709</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Madeigascar</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_33</SimpleData>
+		<SimpleData name="Type">region</SimpleData>
+		<SimpleData name="Modern">Madagascar</SimpleData>
+		<SimpleData name="Yule">Madagascar</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>46.0154267825338,-19.4017660083063</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Zanghibar</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_34</SimpleData>
+		<SimpleData name="Type">region</SimpleData>
+		<SimpleData name="Modern">Zanzibar</SimpleData>
+		<SimpleData name="Yule">Zangibar</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>39.6791219642774,-5.64873516560364</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Abash</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_35</SimpleData>
+		<SimpleData name="Type">region</SimpleData>
+		<SimpleData name="Modern">Ethiopia</SimpleData>
+		<SimpleData name="Yule">Abyssinia</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>44.6181903354311,5.95157673243498</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Java the Great</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_6</SimpleData>
+		<SimpleData name="Type">region</SimpleData>
+		<SimpleData name="Modern">Indonesia</SimpleData>
+		<SimpleData name="Yule">Java</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.205523432782,0.721171021347317</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
