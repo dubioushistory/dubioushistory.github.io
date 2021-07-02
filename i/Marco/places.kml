@@ -1477,5 +1477,41 @@
 	</SchemaData></ExtendedData>
       <Point><coordinates>114.205523432782,0.721171021347317</coordinates></Point>
   </Placemark>
+  <Placemark>
+	<name>Cail</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_21</SimpleData>
+		<SimpleData name="Modern">Tinnevely District</SimpleData>
+		<SimpleData name="Yule">Kail</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>78.1412790950714,8.80900808357</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Comari</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_23</SimpleData>
+		<SimpleData name="Modern">Kanyakumari</SimpleData>
+		<SimpleData name="Yule">Cape Comorin</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.552702564819,8.08586678981699</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kesmacoran</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_30</SimpleData>
+		<SimpleData name="Modern">Makran</SimpleData>
+		<SimpleData name="Yule">Mekran</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>60.64108,25.3111228491528</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Eli</name>
+	<ExtendedData><SchemaData schemaUrl="#places">
+		<SimpleData name="Descriptio">https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_24</SimpleData>
+		<SimpleData name="Modern">Nileshwaram*</SimpleData>
+		<SimpleData name="Yule">Hili</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>75.1336246320049,12.2611286049843</coordinates></Point>
+  </Placemark>
 </Folder>
 </Document></kml>
