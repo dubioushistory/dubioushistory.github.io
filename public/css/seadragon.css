@@ -1,0 +1,41 @@
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 3em;
+  background-color: #222121;
+  text-align: left;
+  display: flex;
+  margin: auto;
+}
+
+.topbar a img {
+  max-height: 100%;
+}
+
+.topbar a {
+  color: #ffffff;
+  font-size: 2rem;
+}
+.topbar a:hover {
+  text-decoration: none;
+}
+
+#seadragon-viewer {
+  position: fixed;
+  top: 3em;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background: black;
+}
+.highlight {
+  background-color: white;
+  opacity: 0.4;
+  outline-color: #0A7EbE;
+  outline-style: auto;
+  outline-width: 12px;
+}
+
