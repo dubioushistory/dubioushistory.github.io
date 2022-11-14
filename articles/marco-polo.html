@@ -11,7 +11,7 @@
 
   <title>
     
-      Marco Polo's ever-controversial travels &middot; Dubious History
+      Marco Polo's Toponyms &middot; Dubious History
     
   </title>
 
@@ -100,227 +100,122 @@
 
     <div class="content container">
       <div class="post">
-  <h1 class="post-title">Marco Polo's ever-controversial travels</h1>
-  <span class="post-date">30 Jun 2021</span>
-  <ul class="section-nav">
-<li class="toc-entry toc-h2"><a href="#historical-record">Historical record</a></li>
-<li class="toc-entry toc-h2"><a href="#was-he-really-in-china">Was he really in China?</a></li>
-<li class="toc-entry toc-h2"><a href="#probably">…probably!</a></li>
-<li class="toc-entry toc-h2"><a href="#here-be-dragons">Here be dragons</a></li>
-<li class="toc-entry toc-h2"><a href="#alaskan-coastline">Alaskan coastline</a></li>
-<li class="toc-entry toc-h2"><a href="#reconstructing-the-route">Reconstructing the route</a></li>
-<li class="toc-entry toc-h2"><a href="#references">References</a></li>
-</ul><p>Marco Polo, the Venetian merchant who traveled across Asia at the end of the 13th century, is deeply ingrained in our history.  He became synonymous with traveling and adventure, countless brands and companies bear his name, and his story continues to inspire movies, books, and video games.</p>
+  <h1 class="post-title">Marco Polo's Toponyms</h1>
+  <span class="post-date">14 Nov 2021</span>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" />
 
-<p>He definitely wasn’t the first European who reached China, but his book surpassed all other records both in the scope and the popularity.  But right from the start, his book was met with large skepticism and it raised many controversies, some of which continue to this day.</p>
+<link rel="stylesheet" href="/public/marco/qgis2web.css" />
 
-<p>The book was actually written by a romance writer Rustichello da Pis as a collection of Polo’s memories, which he relayed to him while they were allegedly imprisoned together during the Venetian-Genoese wars.</p>
+<div id="marco-map">
+</div>
 
-<p>There is very little written about the life of Marco outside of travels.  All that we learn about his family are the names of his father Niccolò and uncle Maffeo, and that they sailed away before Marco’s birth and returned to Venice in 1269 when he was fifteen years old. [Preface, Chapter 9]<sup id="fnref:yule"><a href="#fn:yule" class="footnote">1</a></sup></p>
+<table id="marco-table">
+</table>
 
-<h2 id="historical-record">
-<a class="anchor" href="#historical-record" aria-hidden="true"><span class="octicon octicon-link"></span></a>Historical record</h2>
+<script src="/public/marco/ne_110m_land.js"></script>
 
-<p>Let’s start by stating the fact, that most scholars believe that Polo was a real person.  His name is mentioned in many contemporary Italian documents, genealogies, and even legal proceedings from which we can learn more about his family and life.  His last will was found, as well as wills of his two uncles, which provide some additional information too, most famously the notion of freeing a Tartar servant called Peter from his service. [Appendix 3]<sup id="fnref:yule:1"><a href="#fn:yule" class="footnote">1</a></sup></p>
+<script src="/public/marco/route.js"></script>
 
-<p>None of these documents, however, mention anything about his travels or China at all.</p>
+<script src="/public/marco/places.js"></script>
 
-<p>Marco Polo was likely born in Venice, although there is no proof of his place of birth, around 1254 CE.  The theory that he was born on the island of Korčula in today’s Croatia remains highly controversial, however, he is still connected to Korčula, as it is considered the place where he was taken a prisoner by Genoese.</p>
+<script src="/public/marco/bundle.js"></script>
 
-<p>The first author who attempted to piece together some facts about his life was Venetian geographer Giovanni Battista Ramusio in the 16th century.  Though he himself most likely traveled a little, his <em>Navigation and Travels</em> was an important resource documenting, discussing, and comparing journeys of famous explorers like Polo, Magellan, Niccolò de’ Conti, and others.</p>
+<p>The map is generated from <a href="https://docs.google.com/spreadsheets/d/1ZJ1bdRJD1GqimbH2l2iLzVX2ZS5y4kJz/edit?usp=sharing&amp;ouid=113343235338157288757&amp;rtpof=true&amp;sd=true">this Google Spreadsheet document.</a> If you have any suggestions, you can add comment to any cell.</p>
 
-<p>Ramusio’s book, based mostly on the Venetian oral tradition, is our sole source for the well-known story of Polo’s involvement in the Battle of Korčula which led to his imprisonment in Genoa where he met Rustichello.</p>
+<h2 id="major-versions-of-the-manuscripts">Major versions of the manuscripts</h2>
 
-<p>However, there is a mention of him in a chronicle written by another contemporary, Dominican friar Jacopo d’Acqui.  This chronicle, written during Polo’s life or very soon after, describes his involvement in the Battle of Layas (nowadays called Yumurtalık), which took place a few years earlier in 1294.  Henry Yule’s opinion on this is:</p>
+<p>Shortly after the book was written, it was translated into many European languages, some likely even in Marco Polo’s own lifetime, but the original manuscripts are now lost.  However, most of the manuscripts can be categorized into a few distinct groups.</p>
 
-<blockquote>
-  <p>This statement regarding the capture of Marco at the Battle of Ayas is one which cannot be true, for we know that he did not reach Venice till 1295. […] But though we cannot accept the statement that Polo was taken prisoner at Ayas, we may accept the passage as evidence from a contemporary source that he was <em>taken prisoner in some sea-fight with the Genoese</em>, and thus admit it in corroboration of the Ramusian Tradition of a sea-fight at Curzola in 1298, which is perfectly consistent with all other facts in our posession. [Introduction]<sup id="fnref:yule:2"><a href="#fn:yule" class="footnote">1</a></sup></p>
-</blockquote>
-
-<p>d’Aqui’s report is also the origin of Polo’s famous deathbed quote that “he had not told one-half of what he had really seen.”</p>
-
-<p>Another piece of evidence comes from Polo’s contemporary author, Padovan scholar Pietro d’Abano.  According to one of his books, he knew Polo personally and he talked to him about an astronomical observation (curiously, not included in Polo’s book), which wasn’t observed in Europe.</p>
-
-<figure>
-  <img src="/i/Marco/starsketch.jpg" alt="A sketch of an astronomical phenomenon seen by Polo in South China, from Yule vol. I¹">
-  <em>A sketch of an astronomical phenomenon seen by Polo in South China, from Yule vol. I¹ </em>
-</figure>
-
-<h2 id="was-he-really-in-china">
-<a class="anchor" href="#was-he-really-in-china" aria-hidden="true"><span class="octicon octicon-link"></span></a>Was he really in China?</h2>
-
-<p>When the various manuscripts started to be more thoroughly analyzed in the 19th century, the consensus was that Polo’s book, although highly exaggerated, was probably based on truth.  As the contact and the language exchange with China broadened, more and more places were identified with known cities and provinces, despite their names often changed beyond recognition.</p>
-
-<p>Some scholars argued long ago that Polo didn’t undergo the journey to the south-west of China (marked in dotted line on the map below), due to the lack of details compared to his other journey along the Grand Canal.  Historians such as K. D. Hullmann, Herbert Franke, Craig Clunas, and Frances Wood have all researched this question.</p>
-
-<p>However, the 1995 book by sinologist Dr. Frances Wood, <em>Did Marco Polo Go to China?</em>, caused quite a stir by claiming that Polo never went farther east than the merchant outposts in the Black Sea and went as far as to claim that the whole persona of Marco Polo might be a fabrication.<sup id="fnref:wood"><a href="#fn:wood" class="footnote">2</a></sup></p>
-
-<p>The main arguments of Wood’s book are that most of the information could be found in contemporary Persian sources, that Polo is not mentioned in any Chinese sources, numerous inaccuracies in descriptions, and the fact that Polo omits some practices and structures which one would expect in a description of China, like the Great Wall, tea-drinking, calligraphy, foot-binding, or the usage of chopsticks, for instance.</p>
-
-<p>One of the more glaring inconsistencies is the description of the Battle of Xiangyang, in which he mentions that he, along with his father and uncle, were present at the siege.  However, it is believed that the siege had already ended before Marco Polo’s arrival in China.  The book even claims that Polos overturn the battle by introducing Chinese to the concept of trebuchet, which is according to Chinese sources attributed to a family of Muslim engineers.<sup id="fnref:liang"><a href="#fn:liang" class="footnote">3</a></sup></p>
-
-<p>Even in Venice, Wood argues, the story of the Polo family lacks sufficient corroboration.  There were several Polo families and Marco was a popular name.  There’s a Polo will of the right date but it mentions nothing about China or any travels into the Orient, nor that he bequeaths anything unique to his daughters.  The depiction of Peter as a “Tartar” doesn’t necessarily imply that Marco Polo brought Peter from his travels in the Far East as Tatar servants were a commonplace at that time.</p>
-
-<p>“As we don’t have the ‘original’ manuscript, all speculation as to how the text was compiled is just speculation,” Wood says. “Rustichello could have compiled travelers’ tales and existing texts but his involvement may also be a fabrication – we are talking about a time when the idea of authorship and copyright simply didn’t exist.”</p>
-
-<p>Her strongest argument, however, is the total absence of his name in Chinese sources.</p>
-
-<p>The <em>History of Yuan</em> mentions a certain Boluo, an adversary of Khan, being arrested in 1274.  The accusation was that Boluo had walked on the same side of the road as a female courtesan, in contravention of the order for men and women to walk on opposite sides of the road inside the city.  This Boluo was said to be a governor and superintendent of salt production in Yangzhou, but it was found out that it refers to a Mongol named Poulad in Persian sources and Bolad Akha in Mongol, not Marco Polo.</p>
-
-<p>Francis Woodman Cleaves noted in 1970s that Polo’s account of the voyage of the princess Kököchin from China to Persia to marry the Īl-khān in 1293 has been confirmed by a passage in the 15th century Chinese work Yongle Encyclopedia, and by the Persian historian Rashid-al-Din Hamadani in his Jami’ al-tawarikh.</p>
-
-<p>However, neither of these accounts mentions Polo or indeed any European as part of the bridal party, although the Yongle Encyclopedia confirms the names of three convoys, Oulatai, Apusca, and Coja, mentioned by Polo.<sup id="fnref:cleaves"><a href="#fn:cleaves" class="footnote">4</a></sup></p>
-
-<h2 id="probably">
-<a class="anchor" href="#probably" aria-hidden="true"><span class="octicon octicon-link"></span></a>…probably!</h2>
-
-<p>Nonetheless, many historians specializing in East Asia history criticized Wood’s work quite harshly.  Several authors pointed out poor scholarship, blatant errors, and argued against most of the points that were brought up.  Igor de Rachewiltz, translator of <em>The Secret History of the Mongols</em>, and an authority on Mongol rule in China, answered Wood’s arguments several years ago.<sup id="fnref:rachewiltz"><a href="#fn:rachewiltz" class="footnote">5</a></sup> Morris Rossabi, biographer of Khubilai Khan, also supports Marco’s veracity.<sup id="fnref:rossabi"><a href="#fn:rossabi" class="footnote">6</a></sup></p>
-
-<p>For example, the Great Wall of China, while certainly already there, was far less impressive than the structure we know today, built several centuries after Polo’s visit.  Moreover, other European visitors to China during the Yuan dynasty, such as Giovanni de’ Marignolli, or Odoric of Pordenone, said nothing about the wall either.  Another 13th-century Muslim traveler Ibn Battuta, who asked about the wall when he visited China shortly after Marco, could find no one who had either seen it or knew of anyone who had seen it.<sup id="fnref:battuta"><a href="#fn:battuta" class="footnote">7</a></sup></p>
-
-<p>Foot-binding was mentioned by Odoric, but no other travelers.  Also, tea-drinking wasn’t actually mentioned in European literature until Ramusio’s aforementioned <em>Navigations and Travels</em> from 1550.  Also, while Polo mentions wine and other drinks, his omission of tea could be intentional, similarly to his description of Xichang in which he mentions a plethora of spices, but then adds that there are “other spices which never reach our countries, so we need say nothing about them”. [Book II, Chapter 47]<sup id="fnref:yule:3"><a href="#fn:yule" class="footnote">1</a></sup></p>
-
-<p>A much more compelling argument of Wood’s book is the number of errors and inaccuracies in Polo’s description of e.g. Marco Polo Bridge, the city wall of Khanbaliq, and descriptions of Chinese ships.  However, his accounts do describe some Chinese nautical inventions which until then weren’t mentioned in European sources such as the watertight compartments or bulkhead partitions.</p>
-
-<p>An important fact to consider is that Polos spent most of their time with the Mongols, and Chinese culture might not be that apparent under the yoke.  It is unlikely that he would learn the Chinese language, for example.</p>
-
-<p>In a 2012 study, German sinologist Hans Ulrich Vogel argues that the descriptions of currencies, salt production sites, and revenues were unprecedented in its time.  Not only does he detail the shape and size of the paper, but he also describes the use of seals and the various denominations of paper money.<sup id="fnref:vogel"><a href="#fn:vogel" class="footnote">8</a></sup></p>
-
-<p>Wood accused Polo of confusing cowry money with Chinese ceramic-porcelain, but Vogel argues that Polo’s description was unique because he was the only writer to mention the use of the cowry as a currency in Yunnan during the Yuan.  Not only was Polo the sole non-Chinese author to mention this, but he also accurately pointed out that the cowries were not local, but imported from India.<sup id="fnref:vogel2"><a href="#fn:vogel2" class="footnote">9</a></sup></p>
-
-<p>Most of the scholars, however, do agree that accounts of Polo’s travels and importance in China are full of inaccuracies, exaggerations, and, possibly, fabrications.  Nonetheless, some of Polo’s descriptions of the Chinese people and their country were remarkably accurate for its time.</p>
-
-<h2 id="here-be-dragons">
-<a class="anchor" href="#here-be-dragons" aria-hidden="true"><span class="octicon octicon-link"></span></a>Here be dragons</h2>
-
-<p>In comparison to other contemporary reports from the Far East, Polo’s accounts are relatively sober when it comes to fantastical elements.  It even dispels some of the earlier myths, like the old Persian belief that asbestos is made from the hide of an animal called <em>samandar</em> (which by extension led to the myth that salamanders can withstand fire).  Polo instead says that it is “a substance found in the earth”. [Book I, Chapter 42]<sup id="fnref:yule:4"><a href="#fn:yule" class="footnote">1</a></sup></p>
-
-<p>The description of the ‘unicorn’ can be safely identified with Sumatran rhinoceros. [Book III, Chapter 9]<sup id="fnref:yule:5"><a href="#fn:yule" class="footnote">1</a></sup></p>
-
-<p>However, some stories continue to raise questions, such as his description of a two-legged ‘dragon’ in Southeast China.</p>
-
-<blockquote>
-  <p>Here are found snakes and huge serpents, ten paces in length and ten spans in girth [15m, 240 cm]. At the fore part, near the head, they have two short legs, each with three claws, as well as eyes larger than a loaf and very glaring. The jaws are wide enough to swallow a man, the teeth are large and sharp, and their whole appearance is so formidable that neither man, nor any kind of animal can approach them without terror. Others are of smaller size, being eight, six, or five paces long. [Book II, Chapter 49]<sup id="fnref:yule:6"><a href="#fn:yule" class="footnote">1</a></sup></p>
-</blockquote>
-
-<figure>
-  <img src="/i/Marco/drago2.jpg" alt="From French manuscript Livre des merveilles, 1410-1412.">
-  <em>From French manuscript Livre des merveilles, 1410-1412. </em>
-</figure>
-
-<p>But we should note that dragons of various shapes and proportions were already featured in various legends and bestiaries of the time. <sup id="fnref:dragons"><a href="#fn:dragons" class="footnote">10</a></sup>  Just as the stories about the dog-headed people, which Polo connected with the Andaman Islands.  A very similar description of these dog-headed barbarians is featured in the legend of <a href="https://en.wikipedia.org/wiki/Gates_of_Alexander">Gates of Alexander</a>, which the book cites on several other occasions.</p>
-
-<blockquote>
-  <p>Angamanain is a very large Island. The people are without a king and are Idolaters, and no better than wild beasts. And I assure you all the men of this Island of Angamanain have heads like dogs, and teeth and eyes likewise; in fact, in the face they are all just like big mastiff dogs! They have a quantity of spices; but they are a most cruel generation, and eat everybody that they can catch, if not of their own race.  They live on flesh and rice and milk, and have fruits different from any of ours. [Book III, Chapter 13]<sup id="fnref:yule:7"><a href="#fn:yule" class="footnote">1</a></sup></p>
-</blockquote>
-
-<p>Interestingly, Ibn Battuta, reported the people “whose mouths are like those of dogs” in roughly the same area as Polo - on islands between India and Sumatra.  This led to speculations that these descriptions refer to indigenous tribes such as Mentawai people who practice <a href="https://en.wikipedia.org/wiki/Human_tooth_sharpening">teeth-sharpening</a> to this day.  Here’s Battuta’s report for a comparison:</p>
-
-<blockquote>
-  <p>Fifteen days after leaving Sunaridwan we reached the country of the Barahnakar, whose mouths are like those of dogs. This tribe is a rabble, professing neither the religion of the Hindus nor any other. […] Their men are shaped like ourselves, except that their mouths are shaped like those of dogs; this is not the case with their womenfolk, however, who are endowed with surpassing beauty.<sup id="fnref:battuta:1"><a href="#fn:battuta" class="footnote">7</a></sup></p>
-</blockquote>
-
-<figure>
-  <img src="/i/Marco/dogheads.jpg" alt="ditto">
-  <em>ditto </em>
-</figure>
-
-<p>Polo mentions yet another mythical creature in his description of Madagascar - an enormous bird from Persian legends called Rukh.  However, although this book is likely the first to mention this island in European or Asian literature, most of it is quite wrong, and the book makes it clear that the stories about it are based on secondhand accounts.</p>
-
-<blockquote>
-  <p>For persons who had been there and had seen it told Messer Marco Polo that it was for all the world like an eagle, but one indeed of enormous size; so big in fact that its wings covered an extent of 30 paces [23 m], and its quills were 12 paces long, and thick in proportion. And it is so strong that it will seize an elephant in its talons and carry him high into the air, and drop him so that he is smashed to pieces. [Book III, Chapter 33]<sup id="fnref:yule:8"><a href="#fn:yule" class="footnote">1</a></sup></p>
-</blockquote>
-
-<h2 id="alaskan-coastline">
-<a class="anchor" href="#alaskan-coastline" aria-hidden="true"><span class="octicon octicon-link"></span></a>Alaskan coastline</h2>
-
-<p>In 1887, a set of 14 parchments were brought to America by an Italian teenaged immigrant named Marcian Rossi, who claimed that Marco Polo entrusted them to one of his ancestors.  The parchments include stories written by one of Marco’s daughters, Bella and Fantina, and most importantly a crudely drawn map that seems to depict the Alaskan coastline.</p>
-
-<p>It also notes that they came across “people who speak the Tartar language, and […] go about dressed in sealskins, living on fish.”<sup id="fnref:alaska"><a href="#fn:alaska" class="footnote">11</a></sup></p>
-
-<p>Rossi donated this parchment, named <em>Map with Ship</em>, to the Library of Congress in the 1930s, which even caught the attention of FBI’s J. Edgar Hoover who prompted further investigation.</p>
-
-<p>A thorough study of all 14 documents was published in 2014 by a historian of cartography Benjamin B. Olshin.  Olshin has been researching these documents for 13 years and he was the first scholar to fully decode and translate the maps and to trace Rossi’s ancestry to Venice.<sup id="fnref:olshin"><a href="#fn:olshin" class="footnote">12</a></sup></p>
-
-<p>Olshin himself notes that there are many questions about the authenticity of these documents.  The inscriptions, written in Italian, Latin, Arabic, and even Chinese suggest that it must have been made by someone knowledgeable in languages and cartography.</p>
-
-<p>On the other hand recent radiocarbon dating of this parchment revealed that it dates to the 15th or 16th centuries, meaning that it is a later copy of the original or at worst a forgery.<sup id="fnref:hessler"><a href="#fn:hessler" class="footnote">13</a></sup>  The other parchments mention and depict the New World and travelers like Cortez and Columbus. <sup id="fnref:myoldmaps"><a href="#fn:myoldmaps" class="footnote">14</a></sup>  Those mentions are not out-of-place for the time they’re dated to, but the shape of the Alaskan coast, and the strait separating it from Asia wasn’t mapped until the 18th-century voyages of Vitus Bering.</p>
-
-<figure>
-  <img src="/i/Marco/map_with_ship.jpg" alt="A Map With Ship parchment, depicting the Bering Strait, stored in Library of Congress.">
-  <em>A Map With Ship parchment, depicting the Bering Strait, stored in Library of Congress. </em>
-</figure>
-
-<h2 id="reconstructing-the-route">
-<a class="anchor" href="#reconstructing-the-route" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reconstructing the route</h2>
-
-<p>Because the book is written more like an itinerary rather than a journal, it rarely explicitly states whether Polo actually visited the places it mentions.  Tracing the path between the cities in the order they’re mentioned quickly reveals that such a route would be highly impractical.  That suggests that a lot of stuff is compiled from previous sources, especially the description of Persian provinces, regions of today’s Mongolia, and inner China.</p>
-
-<p>As there are around 150 manuscripts in different languages and none of them can be considered the original, many Chinese and Mongol names were changed beyond recognition.  However, most of the place names correspond to their modern renditions remarkably well.  Like <em>Taianfu (=Taiyuan)</em>, <em>Chinginju (=Changzhou)</em>, <em>Yanju (=Yangzhou)</em>, <em>Saianfu (=Xiangyang)</em>, <em>Linju (=Linyi)</em>, <em>Yachi (=Yuxi)</em>, etc.</p>
-
-<p>Some scholars, most notably famous 19th-century orientalist and geographer Henry Yule and more recently Amelia Carolina Sparavigna of the Polytechnic University of Turin, attempted to identify all places and even reconstruct the most likely path which Polo took based on historical roads and other contemporary itineraries.  Today, the absolute majority of names have been identified, but some are still a subject of controversy.</p>
-
-<figure>
-  <img src="/i/Marco/map2.jpg" alt="Conjectural route based on the Yule-Cordier translation.">
-  <em>Conjectural route based on the Yule-Cordier translation. </em>
-</figure>
-
-<p>This data, based on the Yule-Cordier edition, can be downloaded in KML format here:</p>
+<p>For example, the first English translation, <a href="https://archive.org/details/mostnoblefamoust00polo"><em>“The most noble and famous travels of Marco Polo”</em></a>, first published in 1579 by <a href="https://en.wikipedia.org/wiki/John_Frampton">John Frampton</a>, is based on Castilian version <em>“Cosmographia breve introductoria en el libro de Marco Paulo”</em> by <a href="https://es.wikipedia.org/wiki/Rodrigo_Fern%C3%A1ndez_de_Santaella">Rodrigo de Santaella</a> from 1503, which in turn is a translation of the VA verion of the text.</p>
 
 <ul>
-  <li><a href="/i/Marco/places.kml">Towns &amp; cities</a></li>
-  <li><a href="/i/Marco/route.kml">Conjectural route</a></li>
+  <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/F_marcato.html">F text</a>
+    <ul>
+      <li>Early 14th century, Old French</li>
+      <li>Scanned manuscripts: <a href="https://gallica.bnf.fr/ark:/12148/btv1b9059312q/f1.planchecontact">Paris MS fr. 1116</a> (The Bibliothèque nationale de France), <a href="https://digital.bodleian.ox.ac.uk/objects/ae9f6cca-ae5c-4149-8fe4-95e6eca1f73c/">MS. Bodl. 264</a> (Bodleian Library), [or the most famous one <a href="https://gallica.bnf.fr/ark:/12148/btv1b52000858n/f1.planchecontact">BNF Fr2810</a> (The Bibliothèque nationale de France)</li>
+    </ul>
+  </li>
+  <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/VA_marcato.html">VA text</a>
+    <ul>
+      <li>Early 14th century, Venetian</li>
+      <li>E.g. Padova, Biblioteca civica, CM 211, f. 6r-72r</li>
+    </ul>
+  </li>
+  <li>T text
+    <ul>
+      <li>14th century, Tuscan</li>
+      <li><em>“l’Ottimo”</em> by Niccolo degli Ormanni (Biblioteca Nazionale di Firenze)</li>
+    </ul>
+  </li>
+  <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/L_marcato.html">L text</a>
+    <ul>
+      <li>Early 15th century, Latin</li>
+    </ul>
+  </li>
+  <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/L_marcato.html">P text</a>
+    <ul>
+      <li>15th century, Latin</li>
+      <li><em>“Iter Marci Pauli Veneti”</em>. Translation by the Dominican Friar <a href="https://it.wikipedia.org/wiki/Francesco_Pipino">Francesco Pipino</a> of Bologna, carried out on behalf of the Dominican Order.</li>
+      <li>It was so successful that it supplanted the original text for a few centuries; an annotated specimen was even in the possession of Christopher Columbus</li>
+    </ul>
+  </li>
+  <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/V_marcato.html">V text</a>
+    <ul>
+      <li>15th century, Venetian</li>
+      <li>Represented by Hamilton 424 (Staatsbibliothek zu Berlin), Ambros Y 162 p.s (Biblioteca Ambrosiana) and others.</li>
+    </ul>
+  </li>
+  <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/VB_marcato.html">VB text</a>
+    <ul>
+      <li>15th century, Venetian</li>
+      <li>E.g. Sloane 251 (British Library) or Donà dalle Rose 224 (The Museo Correr Library)</li>
+    </ul>
+  </li>
+  <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/Z_marcato.html">Z text</a>
+    <ul>
+      <li>15th century, Latin</li>
+      <li>Conserved only by one manuscript, called the Toledo manuscript.</li>
+    </ul>
+  </li>
+  <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/R_marcato.html">R text</a>
+    <ul>
+      <li>1559, Italian</li>
+      <li><em>“Delle navigationi et viaggi”</em>. Printed edition by <a href="https://en.wikipedia.org/wiki/Giovanni_Battista_Ramusio">Giovanni Battista Ramusio</a>.</li>
+      <li>Could be considered a first “critical edition” of the text.</li>
+    </ul>
+  </li>
 </ul>
 
-<h2 id="references">
-<a class="anchor" href="#references" aria-hidden="true"><span class="octicon octicon-link"></span></a>References</h2>
+<h2 id="critical-editions">Critical editions</h2>
 
-<div class="footnotes">
-  <ol>
-    <li id="fn:yule">
-      <p>Yule, H. &amp; Cordier, H. <em>The Travels of Marco Polo, the 3rd edition annotated by Henri Cordier</em>, 1920. <a href="https://archive.org/details/bookofsermarcopo01polo">Volume I</a>, <a href="https://archive.org/details/bookofsermarcopo01polo">Volume II</a>, <a href="https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo">incomplete HTML version</a>. <a href="#fnref:yule" class="reversefootnote">↩</a> <a href="#fnref:yule:1" class="reversefootnote">↩<sup>2</sup></a> <a href="#fnref:yule:2" class="reversefootnote">↩<sup>3</sup></a> <a href="#fnref:yule:3" class="reversefootnote">↩<sup>4</sup></a> <a href="#fnref:yule:4" class="reversefootnote">↩<sup>5</sup></a> <a href="#fnref:yule:5" class="reversefootnote">↩<sup>6</sup></a> <a href="#fnref:yule:6" class="reversefootnote">↩<sup>7</sup></a> <a href="#fnref:yule:7" class="reversefootnote">↩<sup>8</sup></a> <a href="#fnref:yule:8" class="reversefootnote">↩<sup>9</sup></a></p>
-    </li>
-    <li id="fn:wood">
-      <p>Wood, Frances. <em>Did Marco Polo Go to China?</em>, 1995. <a href="#fnref:wood" class="reversefootnote">↩</a></p>
-    </li>
-    <li id="fn:liang">
-      <p>Liang, Jieming. <em>Chinese Siege Warfare: Mechanical Artillery &amp; Siege Weapons of Antiquity</em>, 2006. <a href="#fnref:liang" class="reversefootnote">↩</a></p>
-    </li>
-    <li id="fn:cleaves">
-      <p><a href="https://www.jstor.org/stable/2718743">Cleaves, F. W. <em>A Chinese Source Bearing on Marco Polo’s Departure From China and a Persian Source on His Arrival in Persia</em>, 1976.</a> (jstor.org) <a href="#fnref:cleaves" class="reversefootnote">↩</a></p>
-    </li>
-    <li id="fn:rachewiltz">
-      <p><a href="https://openresearch-repository.anu.edu.au/bitstream/1885/41883/1/Marcopolo.html">Rachewiltz, I. <em>F. Wood’s Did Marco Polo Go To China? A Critical Appraisal</em>, 2016</a> (anu.edu.au) <a href="#fnref:rachewiltz" class="reversefootnote">↩</a></p>
-    </li>
-    <li id="fn:rossabi">
-      <p><a href="http://afe.easia.columbia.edu/mongols/pop/polo/mp_essay.htm">Rossabi, M. <em>Did Marco Polo Really Go To China?</em>, 2004</a> (columbia.edu) <a href="#fnref:rossabi" class="reversefootnote">↩</a></p>
-    </li>
-    <li id="fn:battuta">
-      <p><a href="https://archive.org/details/ibnbattutatravel00harg">Gibb, H.A.R. <em>Ibn Battuta Travels In Asia And Africa 1325 To 1354</em>, 1929.</a> <a href="#fnref:battuta" class="reversefootnote">↩</a> <a href="#fnref:battuta:1" class="reversefootnote">↩<sup>2</sup></a></p>
-    </li>
-    <li id="fn:vogel">
-      <p><a href="https://www.sciencedaily.com/releases/2012/04/120416100439.htm"><em>Marco Polo was not a swindler: He really did go to China</em>, 2012.</a> (sciencedaily.com) <a href="#fnref:vogel" class="reversefootnote">↩</a></p>
-    </li>
-    <li id="fn:vogel2">
-      <p><a href="https://reviews.history.ac.uk/review/1667"><em>Marco Polo Was in China: New Evidence from Currencies, Salts and Revenues</em>, 2012.</a> (reviews.history.ac.uk) <a href="#fnref:vogel2" class="reversefootnote">↩</a></p>
-    </li>
-    <li id="fn:dragons">
-      <p><a href="https://blogs.getty.edu/iris/separating-myth-from-legend-about-the-medieval-dragon/"><em>Separating Myth from Legend about the Medieval Dragon</em>, 2018.</a> (getty.edu) <a href="#fnref:dragons" class="reversefootnote">↩</a></p>
-    </li>
-    <li id="fn:alaska">
-      <p><a href="https://www.medievalists.net/2014/09/marco-polo-go-alaska/"><em>Did Marco Polo go to Alaska?</em>, 2014</a> (medievalist.net) <a href="#fnref:alaska" class="reversefootnote">↩</a></p>
-    </li>
-    <li id="fn:olshin">
-      <p>Olshin, Benjamin B. <em>The Mysteries of the Marco Polo Maps</em>, 2014. <a href="#fnref:olshin" class="reversefootnote">↩</a></p>
-    </li>
-    <li id="fn:hessler">
-      <p><a href="https://web.archive.org/web/20120203012855/http://warpinghistory.blogspot.com/2008/12/sketching-unknown-phenomenologicalandco.html"><em>Sketching the Unknown: A Phenomenological and Computational Study of the Rossi “Map With Ship”</em>, 2008</a> (archive.org) <a href="#fnref:hessler" class="reversefootnote">↩</a></p>
-    </li>
-    <li id="fn:myoldmaps">
-      <p><a href="https://www.myoldmaps.com/late-medieval-maps-1300/"><em>Marco Polo maps in the Rossi Collection, ca. 1350</em></a> (myoldmaps.com) <a href="#fnref:myoldmaps" class="reversefootnote">↩</a></p>
-    </li>
-  </ol>
-</div>
+<p>Beginning in the 19th century, historians, orientalists and sinologists started to study the text more thoroughly, comparing it to just recently accessible Chinese literature, and first attempts at identifying the toponyms and other names were made.</p>
+
+<ul>
+  <li><a href="https://play.google.com/books/reader?id=ojQ2Sdm-8dYC&amp;hl=en">Marsden, W. <em>“The Travels of Marco Polo, the Venetian”</em>, 1818</a></li>
+  <li><a href="https://archive.org/details/travelsofmarcopo00polo/page/n7/mode/2up?ref=ol&amp;view=theater">Murray, H. <em>“The Travels of Marco Polo”</em>, 1844</a></li>
+  <li><a href="https://archive.org/details/LeLivreDeMarcoPoloPauthierVol1/">Pauthier, G. <em>“Le livre de Marco Polo”</em>, 1865</a>, <a href="https://archive.org/details/LeLivreDeMarcoPoloPauthierVol2">Volume II</a> (French)</li>
+  <li><a href="https://archive.org/stream/bookofsermarcopo001polo#page/n7/mode/2up">Yule, H. <em>“The Book of Ser Marco Polo, the Venetian”</em>, 1871</a>, <a href="https://archive.org/stream/bookofsermarcopo002polo#page/n9/mode/2up">Volume II</a> (1903 3rd Edition by H. Cordier)</li>
+  <li><a href="http://dsr.nii.ac.jp/toyobunko/III-2-f-c-31/">Cordier, H. <em>“Ser Marco Polo: Notes and Addenda to Sir Henry Yule’s Edition”</em>, 1920</a></li>
+  <li>Benedetto, L. F. <em>“Marco Polo: Il Milione”</em>, 1928. <a href="https://archive.org/details/in.ernet.dli.2015.149614">English translation from 1931</a></li>
+  <li><a href="http://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/">Moule, A.C. &amp; Pelliot, P. <em>“Marco Polo: The Description of the World”</em>, 1938</a></li>
+  <li><a href="http://dsr.nii.ac.jp/toyobunko/III-2-F-c-104/">Pelliot, P. <em>“Notes on Marco Polo”</em>, 1959-1973</a></li>
+  <li>Cardona G. R. <em>“Milione. Versione toscana del Trecento</em>”, 1975 (Italian)</li>
+</ul>
+
+<h2 id="recent-studies">Recent studies</h2>
+
+<ul>
+  <li><a href="https://www.jstor.org/stable/2718743">Cleaves, F. W. <em>A Chinese Source Bearing on Marco Polo’s Departure From China and a Persian Source on His Arrival in Persia</em>, 1976</a> (jstor.org)</li>
+  <li>Wood, F. <em>“Did Marco Polo Go to China?”</em>, 1995</li>
+  <li><a href="https://archive.org/details/marcopoloinchina.avenetianintherealmofkhubilaikhanbystephenhaw/mode/2up">Haw, S. G. <em>“Marco Polo In China: A Venetian In The Realm Of Khubilai Khan”</em>, 2006</a></li>
+  <li>Vogel, H-U. <em>“Marco Polo Was in China: New Evidence from Currencies, Salts and Revenues”</em>, 2013</li>
+  <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/main/aboutproject.html">Burgio / Buzzoni / Ghersetti, <em>“Dei Viaggi di Messer Marco Polo, Edizione critica digitale</em>”, 2013</a> (Italian, Latin, French)</li>
+  <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3018110">Sparavigna, A. C. <em>“From Sheberghan to Kashgar in the Travels of Marco Polo”</em>, 2017</a></li>
+  <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3016508">Sparavigna, A. C. <em>“The Road to Xanadu in the Travels of Marco Polo”</em>, 2017</a></li>
+  <li><a href="https://zenodo.org/record/3759380">Sparavigna, A. C. <em>“From Kashgar to Xanadu in the Travels of Marco Polo”</em>, 2020</a></li>
+  <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3674354">Sparavigna, A. C. <em>“Marco Polo in Persia”</em>, 2020</a></li>
+  <li><a href="https://www.jstor.org/stable/10.13173/zeitdeutmorggese.171.2.0479">Haw, S. G. <em>“The Orthography of Marco Polo’s Toponyms”</em>, 2021</a></li>
+</ul>
 
 </div>
 
@@ -345,18 +240,18 @@
     
       <li>
         <h3>
-          <a href="/artifacts/dighton-rock">
-            Dighton Rock
-            <small>08 May 2021</small>
+          <a href="/artifacts/kap-dwa">
+            Kap-Dwa - a two-headed giant
+            <small>07 Apr 2021</small>
           </a>
         </h3>
       </li>
     
       <li>
         <h3>
-          <a href="/artifacts/kap-dwa">
-            Kap-Dwa - a two-headed giant
-            <small>07 Apr 2021</small>
+          <a href="/articles/patagonian-giants">
+            Patagonian Giants
+            <small>20 Mar 2021</small>
           </a>
         </h3>
       </li>
