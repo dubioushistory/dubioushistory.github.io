@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "async": "^3.2.4",
+    "colors": "^1.4.0",
+    "jq": "^1.7.2",
+    "node-jq": "^2.3.4",
+    "rimraf": "^3.0.2",
+    "winston": "^2.4.6",
+    "xlsx-cli": "^1.1.3"
+  }
+}

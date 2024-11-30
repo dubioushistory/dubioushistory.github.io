@@ -1,266 +1,170 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
   <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
-  <title>
-    
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>
       Marco Polo's Toponyms &middot; Dubious History
-    
-  </title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/poole.css">
-  <link rel="stylesheet" href="/public/css/syntax.css">
-  <link rel="stylesheet" href="/public/css/hyde.css">
-  <link rel="stylesheet" href="/public/css/seadragon.css">
-  <link rel="stylesheet" href="/public/client.8f15b970.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@recogito/annotorious@2.5.10/dist/annotorious.min.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
-
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/logo.png">
-  <link rel="shortcut icon" href="/public/favicon.ico">
-
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-</head>
-
-
+    </title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/public/css/poole.css">
+    <link rel="stylesheet" href="/public/css/syntax.css">
+    <link rel="stylesheet" href="/public/css/hyde.css">
+    <link rel="stylesheet" href="/public/css/custom.css">
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/logo.png">
+    <link rel="shortcut icon" href="/public/favicon.ico">
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  </head>
   <body>
-
     <div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <a href="/">
-        <h1>
-          Dubious History<sup>1</sup>
-        </h1>
-      </a>
-      <p class="lead">Alternative History under closer look</p>
+      <div class="container sidebar-sticky">
+        <div class="sidebar-about">
+          <a href="/">
+            <h1>
+              Dubious History<sup>1</sup>
+            </h1>
+          </a>
+          <p class="lead"><hr /></p>
+        </div>
+        <nav class="sidebar-nav">
+          <a class="sidebar-nav-item" href="/maps/">Maps</a>
+          <a class="sidebar-nav-item" href="/timelines/">Timelines</a>
+          <a class="sidebar-nav-item" href="/tag">Tags</a>
+        </nav>
+      </div>
     </div>
-
-    <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="/">Topics</a>
-
-      
-
-      
-      
-        
-          
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/artifacts/">Artifacts</a>
-          
-        
-      
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/contact/">Contact</a>
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/tomap/">T꞊OMAP</a>
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </nav>
-  </div>
-</div>
-
-
     <div class="content container">
       <div class="post">
-  <h1 class="post-title">Marco Polo's Toponyms</h1>
-  <span class="post-date">14 Nov 2021</span>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" />
-
-<link rel="stylesheet" href="/public/marco/qgis2web.css" />
-
-<div id="marco-map">
-</div>
-
-<table id="marco-table">
-</table>
-
-<script src="/public/marco/ne_110m_land.js"></script>
-
-<script src="/public/marco/route.js"></script>
-
-<script src="/public/marco/places.js"></script>
-
-<script src="/public/marco/bundle.js"></script>
-
-<p>The map is generated from <a href="https://docs.google.com/spreadsheets/d/1ZJ1bdRJD1GqimbH2l2iLzVX2ZS5y4kJz/edit?usp=sharing&amp;ouid=113343235338157288757&amp;rtpof=true&amp;sd=true">this Google Spreadsheet document.</a> If you have any suggestions, you can add comment to any cell.</p>
-
-<h2 id="major-versions-of-the-manuscripts">Major versions of the manuscripts</h2>
-
-<p>Shortly after the book was written, it was translated into many European languages, some likely even in Marco Polo’s own lifetime, but the original manuscripts are now lost.  However, most of the manuscripts can be categorized into a few distinct groups.</p>
-
-<p>For example, the first English translation, <a href="https://archive.org/details/mostnoblefamoust00polo"><em>“The most noble and famous travels of Marco Polo”</em></a>, first published in 1579 by <a href="https://en.wikipedia.org/wiki/John_Frampton">John Frampton</a>, is based on Castilian version <em>“Cosmographia breve introductoria en el libro de Marco Paulo”</em> by <a href="https://es.wikipedia.org/wiki/Rodrigo_Fern%C3%A1ndez_de_Santaella">Rodrigo de Santaella</a> from 1503, which in turn is a translation of the VA verion of the text.</p>
-
-<ul>
-  <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/F_marcato.html">F text</a>
-    <ul>
-      <li>Early 14th century, Old French</li>
-      <li>Scanned manuscripts: <a href="https://gallica.bnf.fr/ark:/12148/btv1b9059312q/f1.planchecontact">Paris MS fr. 1116</a> (The Bibliothèque nationale de France), <a href="https://digital.bodleian.ox.ac.uk/objects/ae9f6cca-ae5c-4149-8fe4-95e6eca1f73c/">MS. Bodl. 264</a> (Bodleian Library), [or the most famous one <a href="https://gallica.bnf.fr/ark:/12148/btv1b52000858n/f1.planchecontact">BNF Fr2810</a> (The Bibliothèque nationale de France)</li>
-    </ul>
-  </li>
-  <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/VA_marcato.html">VA text</a>
-    <ul>
-      <li>Early 14th century, Venetian</li>
-      <li>E.g. Padova, Biblioteca civica, CM 211, f. 6r-72r</li>
-    </ul>
-  </li>
-  <li>T text
-    <ul>
-      <li>14th century, Tuscan</li>
-      <li><em>“l’Ottimo”</em> by Niccolo degli Ormanni (Biblioteca Nazionale di Firenze)</li>
-    </ul>
-  </li>
-  <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/L_marcato.html">L text</a>
-    <ul>
-      <li>Early 15th century, Latin</li>
-    </ul>
-  </li>
-  <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/L_marcato.html">P text</a>
-    <ul>
-      <li>15th century, Latin</li>
-      <li><em>“Iter Marci Pauli Veneti”</em>. Translation by the Dominican Friar <a href="https://it.wikipedia.org/wiki/Francesco_Pipino">Francesco Pipino</a> of Bologna, carried out on behalf of the Dominican Order.</li>
-      <li>It was so successful that it supplanted the original text for a few centuries; an annotated specimen was even in the possession of Christopher Columbus</li>
-    </ul>
-  </li>
-  <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/V_marcato.html">V text</a>
-    <ul>
-      <li>15th century, Venetian</li>
-      <li>Represented by Hamilton 424 (Staatsbibliothek zu Berlin), Ambros Y 162 p.s (Biblioteca Ambrosiana) and others.</li>
-    </ul>
-  </li>
-  <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/VB_marcato.html">VB text</a>
-    <ul>
-      <li>15th century, Venetian</li>
-      <li>E.g. Sloane 251 (British Library) or Donà dalle Rose 224 (The Museo Correr Library)</li>
-    </ul>
-  </li>
-  <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/Z_marcato.html">Z text</a>
-    <ul>
-      <li>15th century, Latin</li>
-      <li>Conserved only by one manuscript, called the Toledo manuscript.</li>
-    </ul>
-  </li>
-  <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/R_marcato.html">R text</a>
-    <ul>
-      <li>1559, Italian</li>
-      <li><em>“Delle navigationi et viaggi”</em>. Printed edition by <a href="https://en.wikipedia.org/wiki/Giovanni_Battista_Ramusio">Giovanni Battista Ramusio</a>.</li>
-      <li>Could be considered a first “critical edition” of the text.</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="critical-editions">Critical editions</h2>
-
-<p>Beginning in the 19th century, historians, orientalists and sinologists started to study the text more thoroughly, comparing it to just recently accessible Chinese literature, and first attempts at identifying the toponyms and other names were made.</p>
-
-<ul>
-  <li><a href="https://play.google.com/books/reader?id=ojQ2Sdm-8dYC&amp;hl=en">Marsden, W. <em>“The Travels of Marco Polo, the Venetian”</em>, 1818</a></li>
-  <li><a href="https://archive.org/details/travelsofmarcopo00polo/page/n7/mode/2up?ref=ol&amp;view=theater">Murray, H. <em>“The Travels of Marco Polo”</em>, 1844</a></li>
-  <li><a href="https://archive.org/details/LeLivreDeMarcoPoloPauthierVol1/">Pauthier, G. <em>“Le livre de Marco Polo”</em>, 1865</a>, <a href="https://archive.org/details/LeLivreDeMarcoPoloPauthierVol2">Volume II</a> (French)</li>
-  <li><a href="https://archive.org/stream/bookofsermarcopo001polo#page/n7/mode/2up">Yule, H. <em>“The Book of Ser Marco Polo, the Venetian”</em>, 1871</a>, <a href="https://archive.org/stream/bookofsermarcopo002polo#page/n9/mode/2up">Volume II</a> (1903 3rd Edition by H. Cordier)</li>
-  <li><a href="http://dsr.nii.ac.jp/toyobunko/III-2-f-c-31/">Cordier, H. <em>“Ser Marco Polo: Notes and Addenda to Sir Henry Yule’s Edition”</em>, 1920</a></li>
-  <li>Benedetto, L. F. <em>“Marco Polo: Il Milione”</em>, 1928. <a href="https://archive.org/details/in.ernet.dli.2015.149614">English translation from 1931</a></li>
-  <li><a href="http://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/">Moule, A.C. &amp; Pelliot, P. <em>“Marco Polo: The Description of the World”</em>, 1938</a></li>
-  <li><a href="http://dsr.nii.ac.jp/toyobunko/III-2-F-c-104/">Pelliot, P. <em>“Notes on Marco Polo”</em>, 1959-1973</a></li>
-  <li>Cardona G. R. <em>“Milione. Versione toscana del Trecento</em>”, 1975 (Italian)</li>
-</ul>
-
-<h2 id="recent-studies">Recent studies</h2>
-
-<ul>
-  <li><a href="https://www.jstor.org/stable/2718743">Cleaves, F. W. <em>A Chinese Source Bearing on Marco Polo’s Departure From China and a Persian Source on His Arrival in Persia</em>, 1976</a> (jstor.org)</li>
-  <li>Wood, F. <em>“Did Marco Polo Go to China?”</em>, 1995</li>
-  <li><a href="https://archive.org/details/marcopoloinchina.avenetianintherealmofkhubilaikhanbystephenhaw/mode/2up">Haw, S. G. <em>“Marco Polo In China: A Venetian In The Realm Of Khubilai Khan”</em>, 2006</a></li>
-  <li>Vogel, H-U. <em>“Marco Polo Was in China: New Evidence from Currencies, Salts and Revenues”</em>, 2013</li>
-  <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/main/aboutproject.html">Burgio / Buzzoni / Ghersetti, <em>“Dei Viaggi di Messer Marco Polo, Edizione critica digitale</em>”, 2013</a> (Italian, Latin, French)</li>
-  <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3018110">Sparavigna, A. C. <em>“From Sheberghan to Kashgar in the Travels of Marco Polo”</em>, 2017</a></li>
-  <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3016508">Sparavigna, A. C. <em>“The Road to Xanadu in the Travels of Marco Polo”</em>, 2017</a></li>
-  <li><a href="https://zenodo.org/record/3759380">Sparavigna, A. C. <em>“From Kashgar to Xanadu in the Travels of Marco Polo”</em>, 2020</a></li>
-  <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3674354">Sparavigna, A. C. <em>“Marco Polo in Persia”</em>, 2020</a></li>
-  <li><a href="https://www.jstor.org/stable/10.13173/zeitdeutmorggese.171.2.0479">Haw, S. G. <em>“The Orthography of Marco Polo’s Toponyms”</em>, 2021</a></li>
-</ul>
-
-</div>
-
-
-
-
-  <small><em><span class="post-date">Tags: <a href="/tag/maps/" rel="tag">maps</a>, <a href="/tag/asia/" rel="tag">asia</a>, <a href="/tag/new-world/" rel="tag">new-world</a></span></em></small>
-
-
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    
-      <li>
-        <h3>
+        <h1 class="post-title">Marco Polo's Toponyms</h1>
+        <span class="post-date">14 Nov 2022</span>
+        <p>The story of Marco Polo influenced the world of cartography for at lest few centuries.  If you look at East Asia on pretty much any late medieval map, most of the placemarks come from his book.</p>
+        <p>Beginning in the 19th century, historians, orientalists and sinologists started to study the text more thoroughly, comparing it to just recently accessible Chinese and Mongolian literature, and first attempts at identifying the toponyms and other names were made.</p>
+        <p>Some of them are easily identified, like the name Juju for today’s Zhuozhou or Charchan for today’s Qarqan County, but others are still controversial and mysterious to this day.</p>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" />
+        <link rel="stylesheet" href="/public/marco/qgis2web.css" />
+        <div id="marco-map">
+        </div>
+        <table id="marco-table">
+        </table>
+        <script src="/public/marco/ne_110m_land.js"></script>
+        <script src="/public/marco/route.js"></script>
+        <script src="/public/marco/places.js"></script>
+        <script src="/public/marco/bundle.js"></script>
+        <p>The map is generated from <a href="https://docs.google.com/spreadsheets/d/1ZJ1bdRJD1GqimbH2l2iLzVX2ZS5y4kJz/edit?usp=sharing&amp;ouid=113343235338157288757&amp;rtpof=true&amp;sd=true">this Google Spreadsheet document.</a> If you have any suggestions, you can add comment to any cell.  The rows which are highlighted red are not included in the map due to their uncertainty.</p>
+        <h2 id="manuscripts">Manuscripts</h2>
+        <p>All the original mansuscripts which could be considered authentic are now lost. But shortly after the book was written, it was translated into many European languages, some likely even in Marco Polo’s own lifetime.  Nowadays, most of the extant manuscripts can be categorized into several groups.</p>
+        <p>For example, the first English translation, <a href="https://archive.org/details/mostnoblefamoust00polo"><em>“The most noble and famous travels of Marco Polo”</em></a>, first published in 1579 by <a href="https://en.wikipedia.org/wiki/John_Frampton">John Frampton</a>, is based on Castilian version <em>“Cosmographia breve introductoria en el libro de Marco Paulo”</em> by <a href="https://es.wikipedia.org/wiki/Rodrigo_Fern%C3%A1ndez_de_Santaella">Rodrigo de Santaella</a> from 1503, which in turn is a translation of the VA verion of the text.</p>
+        <ul>
+          <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/F_marcato.html">F text</a>
+            <ul>
+              <li>Early 14th century, Old French</li>
+              <li>Scanned manuscripts: <a href="https://gallica.bnf.fr/ark:/12148/btv1b9059312q/f1.planchecontact">Paris MS fr. 1116</a> (The Bibliothèque nationale de France), <a href="https://digital.bodleian.ox.ac.uk/objects/ae9f6cca-ae5c-4149-8fe4-95e6eca1f73c/">MS. Bodl. 264</a> (Bodleian Library), [or the most famous one <a href="https://gallica.bnf.fr/ark:/12148/btv1b52000858n/f1.planchecontact">BNF Fr2810</a> (The Bibliothèque nationale de France)</li>
+            </ul>
+          </li>
+          <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/VA_marcato.html">VA text</a>
+            <ul>
+              <li>Early 14th century, Venetian</li>
+              <li>E.g. Padova, Biblioteca civica, CM 211, f. 6r-72r</li>
+            </ul>
+          </li>
+          <li>T text
+            <ul>
+              <li>14th century, Tuscan</li>
+              <li><em>“l’Ottimo”</em> by Niccolo degli Ormanni (Biblioteca Nazionale di Firenze)</li>
+            </ul>
+          </li>
+          <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/L_marcato.html">L text</a>
+            <ul>
+              <li>Early 15th century, Latin</li>
+            </ul>
+          </li>
+          <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/L_marcato.html">P text</a>
+            <ul>
+              <li>15th century, Latin</li>
+              <li><em>“Iter Marci Pauli Veneti”</em>. Translation by the Dominican Friar <a href="https://it.wikipedia.org/wiki/Francesco_Pipino">Francesco Pipino</a> of Bologna, carried out on behalf of the Dominican Order.</li>
+              <li>It was so successful that it supplanted the original text for a few centuries; an annotated specimen was even in the possession of Christopher Columbus</li>
+            </ul>
+          </li>
+          <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/V_marcato.html">V text</a>
+            <ul>
+              <li>15th century, Venetian</li>
+              <li>Represented by Hamilton 424 (Staatsbibliothek zu Berlin), Ambros Y 162 p.s (Biblioteca Ambrosiana) and others.</li>
+            </ul>
+          </li>
+          <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/VB_marcato.html">VB text</a>
+            <ul>
+              <li>15th century, Venetian</li>
+              <li>E.g. Sloane 251 (British Library) or Donà dalle Rose 224 (The Museo Correr Library)</li>
+            </ul>
+          </li>
+          <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/Z_marcato.html">Z text</a>
+            <ul>
+              <li>15th century, Latin</li>
+              <li>Conserved only by one manuscript, called the Toledo manuscript.</li>
+            </ul>
+          </li>
+          <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/testi_completi/R_marcato.html">R text</a>
+            <ul>
+              <li>1559, Italian</li>
+              <li><em>“Delle navigationi et viaggi”</em>. Printed edition by <a href="https://en.wikipedia.org/wiki/Giovanni_Battista_Ramusio">Giovanni Battista Ramusio</a>.</li>
+              <li>Could be considered a first “critical edition” of the text.</li>
+            </ul>
+          </li>
+        </ul>
+        <h2 id="critical-editions">Critical editions</h2>
+        <p>Beginning in the 19th century, historians, orientalists and sinologists started to study the text more thoroughly, comparing it to just recently accessible Chinese literature, and first attempts at identifying the toponyms and other names were made.</p>
+        <ul>
+          <li><a href="https://play.google.com/books/reader?id=ojQ2Sdm-8dYC&amp;hl=en">Marsden, W. <em>“The Travels of Marco Polo, the Venetian”</em>, 1818</a></li>
+          <li><a href="https://archive.org/details/travelsofmarcopo00polo/page/n7/mode/2up?ref=ol&amp;view=theater">Murray, H. <em>“The Travels of Marco Polo”</em>, 1844</a></li>
+          <li><a href="https://archive.org/details/LeLivreDeMarcoPoloPauthierVol1/">Pauthier, G. <em>“Le livre de Marco Polo”</em>, 1865</a>, <a href="https://archive.org/details/LeLivreDeMarcoPoloPauthierVol2">Volume II</a> (French)</li>
+          <li><a href="https://archive.org/stream/bookofsermarcopo001polo#page/n7/mode/2up">Yule, H. <em>“The Book of Ser Marco Polo, the Venetian”</em>, 1871</a>, <a href="https://archive.org/stream/bookofsermarcopo002polo#page/n9/mode/2up">Volume II</a> (1903 3rd Edition by H. Cordier)</li>
+          <li><a href="http://dsr.nii.ac.jp/toyobunko/III-2-f-c-31/">Cordier, H. <em>“Ser Marco Polo: Notes and Addenda to Sir Henry Yule’s Edition”</em>, 1920</a></li>
+          <li>Benedetto, L. F. <em>“Marco Polo: Il Milione”</em>, 1928. <a href="https://archive.org/details/in.ernet.dli.2015.149614">English translation from 1931</a></li>
+          <li><a href="http://dsr.nii.ac.jp/toyobunko/III-2-F-c-39/">Moule, A.C. &amp; Pelliot, P. <em>“Marco Polo: The Description of the World”</em>, 1938</a></li>
+          <li><a href="http://dsr.nii.ac.jp/toyobunko/III-2-F-c-104/">Pelliot, P. <em>“Notes on Marco Polo”</em>, 1959-1973</a></li>
+          <li>Cardona G. R. <em>“Milione. Versione toscana del Trecento</em>”, 1975 (Italian)</li>
+        </ul>
+        <h2 id="recent-studies">Recent studies</h2>
+        <ul>
+          <li><a href="https://www.jstor.org/stable/2718743">Cleaves, F. W. <em>A Chinese Source Bearing on Marco Polo’s Departure From China and a Persian Source on His Arrival in Persia</em>, 1976</a> (jstor.org)</li>
+          <li>Wood, F. <em>“Did Marco Polo Go to China?”</em>, 1995</li>
+          <li><a href="https://archive.org/details/marcopoloinchina.avenetianintherealmofkhubilaikhanbystephenhaw/mode/2up">Haw, S. G. <em>“Marco Polo In China: A Venetian In The Realm Of Khubilai Khan”</em>, 2006</a></li>
+          <li>Vogel, H-U. <em>“Marco Polo Was in China: New Evidence from Currencies, Salts and Revenues”</em>, 2013</li>
+          <li><a href="http://virgo.unive.it/ecf-workflow/books/Ramusio/main/aboutproject.html">Burgio / Buzzoni / Ghersetti, <em>“Dei Viaggi di Messer Marco Polo, Edizione critica digitale</em>”, 2013</a> (Italian, Latin, French)</li>
+          <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3018110">Sparavigna, A. C. <em>“From Sheberghan to Kashgar in the Travels of Marco Polo”</em>, 2017</a></li>
+          <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3016508">Sparavigna, A. C. <em>“The Road to Xanadu in the Travels of Marco Polo”</em>, 2017</a></li>
+          <li><a href="https://zenodo.org/record/3759380">Sparavigna, A. C. <em>“From Kashgar to Xanadu in the Travels of Marco Polo”</em>, 2020</a></li>
+          <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3674354">Sparavigna, A. C. <em>“Marco Polo in Persia”</em>, 2020</a></li>
+          <li><a href="https://www.jstor.org/stable/10.13173/zeitdeutmorggese.171.2.0479">Haw, S. G. <em>“The Orthography of Marco Polo’s Toponyms”</em>, 2021</a></li>
+        </ul>
+      </div>
+      <small><em><span class="post-date">Tags: <a href="/tag/maps/" rel="tag">maps</a>, <a href="/tag/asia/" rel="tag">asia</a></span></em></small>
+      <h2>See also:</h2>
+      <div class="posts">
+        <h3 class="post-title">
           <a href="/articles/rise-and-fall-of-tartaria">
-            Rise and Fall of Tartaria
-            <small>01 Jul 2021</small>
+            » Rise and Fall of Tartaria
+            <span class="post-date">[01 Jul 2022]</span>
           </a>
         </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/artifacts/kap-dwa">
-            Kap-Dwa - a two-headed giant
-            <small>07 Apr 2021</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
+        <h3 class="post-title">
           <a href="/articles/patagonian-giants">
-            Patagonian Giants
-            <small>20 Mar 2021</small>
+            » Patagonian Giants
+            <span class="post-date">[20 Mar 2021]</span>
           </a>
         </h3>
-      </li>
-    
-  </ul>
-</div>
-
-
+        <h3 class="post-title">
+          <a href="/tomap/piri-reis-map">
+            » Piri Reis Map (1513)
+            <span class="post-date">[01 Jan 1513]</span>
+          </a>
+        </h3>
+      </div>
     </div>
-
   </body>
 </html>

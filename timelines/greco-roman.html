@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>
+      Ancient Greco-Roman Literature &middot; Dubious History
+    </title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/public/css/poole.css">
+    <link rel="stylesheet" href="/public/css/syntax.css">
+    <link rel="stylesheet" href="/public/css/hyde.css">
+    <link rel="stylesheet" href="/public/css/custom.css">
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/logo.png">
+    <link rel="shortcut icon" href="/public/favicon.ico">
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  </head>
+  <body>
+    <link rel="stylesheet" href="/public/css/timeline.css">
+    <link rel="stylesheet" href="/public/css/seadragon.css">
+    <script src="/public/timeline.js"></script>
+    <style>
+      .topbar {
+        height: 6vh;
+      }
+      #timeline-embed {
+        position: fixed;
+        top: 6vh;
+        height: 94vh;
+      }
+    </style>
+    <div class="topbar">
+      <a href="/">
+        <img src="/public/logo.png" />
+      </a>
+      <div>
+        <a href="/timelines"> </a>
+      </div>
+    </div>
+    <style>
+      .tl-custom-class-period {
+          background-color: #eefcf5 !important;
+      }
+      .tl-custom-class-history {
+          background-color: #e5e2d7 !important;
+      }
+      .tl-custom-class-philosophy {
+          background-color: #dbeaea !important;
+      }
+      .tl-custom-class-poetry {
+          background-color: #f1e7ec !important;
+      }
+      .tl-custom-class-drama {
+          background-color: #e6efe8 !important;
+      }
+      .tl-custom-class-roman {
+          border-style: dashed !important;
+          border-color: #000 !important;
+      }
+      .tl-custom-class-extinct {
+          background: repeating-linear-gradient(
+              -55deg,
+              #00000000,
+              #00000011 10px,
+              #00000000 10px,
+              #00000011 20px
+          );
+      }
+      .tl-custom-class-done {
+          border-style: inset !important;
+          border-width: 3px !important;
+          border-color: #0b0 !important;
+      }
+    </style>
+    <div id="timeline-embed" data-source="/annotations/histories.json" />
+      <script>
+        new TL.Timeline('timeline-embed', document.getElementById("timeline-embed").getAttribute("data-source"), {
+          debug: true,
+          dragging: false,
+          layout: "portrait",
+          initial_zoom: 1,
+          zoom_sequence: [0.5, 1, 2, 3, 5, 13, 21, 34],
+          timenav_height_percentage: 70,
+          default_bg_color: "#eee",
+          hash_bookmark: true
+        });
+      </script>
+    </body>
+  </html>
