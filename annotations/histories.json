@@ -1,1 +1,1100 @@
-/home/rsiska/Documents/History/timeline/TimelineJS3/src/template/histories.json
+{
+    "title": {
+        "background": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Symposiumnorthwall.jpg"
+        },
+        "text": {
+            "headline": "Timeline of Ancient Greco-Roman Literature",
+            "text": "This resource aims to make the Ancient Greek (and Latin) literature more accessible to everybody. Explore the freely-available English translations, along with links to Wikipedia articles and some historical context here and there."
+        }
+    },
+    "events": [
+        {
+            "start_date": {
+                "year": "-1750"
+            },
+            "end_date": {
+                "year": "-1050"
+            },
+            "text": {
+                "headline": "Mycenaean Greece"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Mycenaean_Greece"
+            },
+            "group": "Period",
+            "class": [ "period" ]
+        },
+        {
+            "start_date": {
+                "year": "-1050"
+            },
+            "end_date": {
+                "year": "-800"
+            },
+            "text": {
+                "headline": "Greek 'Dark Ages'"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Greek_Dark_Ages"
+            },
+            "group": "Period",
+            "class": [ "period" ]
+        },
+        {
+            "start_date": {
+                "year": "-800"
+            },
+            "end_date": {
+                "year": "-480"
+            },
+            "display_date": "c.800 BC - 480 BC",
+            "text": {
+                "headline": "Archaic Greece"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Archaic_Greece"
+            },
+            "group": "Period",
+            "class": [ "period" ]
+        },
+        {
+            "start_date": {
+                "year": "-480"
+            },
+            "end_date": {
+                "year": "-323"
+            },
+            "display_date": "The 5th and 4th centuries BC",
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Classical_Greece"
+            },
+            "text": {
+                "headline": "Classical Greece"
+            },
+            "group": "Period",
+            "class": [ "period" ]
+        },
+        {
+            "start_date": {
+                "year": "-323"
+            },
+            "end_date": {
+                "year": "-146"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Hellenistic_Greece"
+            },
+            "text": {
+                "headline": "Hellenistic Greece"
+            },
+            "group": "Period",
+            "class": [ "period" ]
+        },
+        {
+            "start_date": {
+                "year": "-146"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Achaean_War"
+            },
+            "text": {
+                "headline": "Achaean War"
+            },
+            "group": "Events"
+        },
+        {
+            "start_date": {
+                "year": "-146"
+            },
+            "end_date": {
+                "year": "324"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Roman_Greece"
+            },
+            "text": {
+                "headline": "Roman Era"
+            },
+            "group": "Period",
+            "class": [ "period" ]
+        },
+        {
+            "start_date": {
+                "year": "-800"
+            },
+            "end_date": {
+                "year": "-700"
+            },
+            "display_date": "c. 8th century BC",
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Homer"
+            },
+            "text": {
+                "headline": "Homer",
+                "text": "Illiad: https://standardebooks.org/ebooks/homer/the-iliad/william-cullen-bryant, https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0134<br/>Odyssey: https://standardebooks.org/ebooks/homer/the-odyssey/william-cullen-bryant, https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0136<br/>Find more at: https://www.gutenberg.org/ebooks/16338, https://www.perseus.tufts.edu/hopper/searchresults?q=Homer"
+            },
+            "group": "People",
+            "class": [ "poetry" ]
+        },
+        {
+            "start_date": {
+                "year": "-776"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Ancient_Olympic_Games"
+            },
+            "text": {
+                "headline": "First Olympic Games"
+            },
+            "group": "Events"
+        },
+        {
+            "start_date": {
+                "year": "-550"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Athenian_democracy"
+            },
+            "text": {
+                "headline": "Athenian democracy"
+            },
+            "group": "Events"
+        },
+        {
+            "start_date": {
+                "year": "-484"
+            },
+            "end_date": {
+                "year": "-425"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Herodotus"
+            },
+            "text": {
+                "headline": "Herodotus",
+                "text": "Histories: https://standardebooks.org/ebooks/herodotus/histories/g-c-macaulay, https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0126, https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Herodotus/home.html"
+            },
+            "group": "People",
+            "class": [ "history" ]
+        },
+        {
+            "start_date": {
+                "year": "-600"
+            },
+            "end_date": {
+                "year": "-501"
+            },
+            "display_date": "fl. 6th century BC",
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Thespis"
+            },
+            "text": {
+                "headline": "Thespis",
+                "text": "Known as the first playwright and the founder of tragedy, though none of his original works have survived. His legacy lives on, however. The word thespian is used as a synonym for actors to this day."
+            },
+            "group": "People",
+            "class": [ "extinct", "drama" ]
+        },
+        {
+            "start_date": {
+                "year": "-550"
+            },
+            "end_date": {
+                "year": "-476"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Hecataeus_of_Miletus"
+            },
+            "text": {
+                "headline": "Hecataeus of Miletus",
+                "text": ""
+            },
+            "group": "People",
+            "class": [ "history", "extinct" ]
+        },
+        {
+            "start_date": {
+                "year": "-460"
+            },
+            "end_date": {
+                "year": "-400"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Thucydides"
+            },
+            "text": {
+                "headline": "Thucydides",
+                "text": "History of the Peloponnesian War: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0200, https://standardebooks.org/ebooks/thucydides/history-of-the-peloponnesian-war/richard-crawley"
+            },
+            "group": "People",
+            "class": [ "history" ]
+        },
+        {
+            "start_date": {
+                "year": "-570"
+            },
+            "end_date": {
+                "year": "-495"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Pythagoras"
+            },
+            "text": {
+                "headline": "Pythagoras",
+                "text": ""
+            },
+            "group": "People",
+            "class": [ "philosophy", "extinct" ]
+        },
+        {
+            "start_date": {
+                "year": "-334"
+            },
+            "end_date": {
+                "year": "-262"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Zeno_of_Citium"
+            },
+            "text": {
+                "headline": "Zeno of Citium",
+                "text": "Although none of his works survived, except in fragmentary quotes from other authors, he is remembered as the founder of the Stoic school of thought."
+            },
+            "group": "People",
+            "class": [ "philosophy", "extinct" ]
+        },
+        {
+            "start_date": {
+                "year": "-525"
+            },
+            "end_date": {
+                "year": "-455"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Aeschylus"
+            },
+            "text": {
+                "headline": "Aeschylus",
+                "text": "Agamemnon: https://standardebooks.org/ebooks/aeschylus/agamemnon/gilbert-murray, https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0004<br/>The Eumenides: https://standardebooks.org/ebooks/aeschylus/the-eumenides/gilbert-murray, https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0006<br/>The Libation Bearers: https://standardebooks.org/ebooks/aeschylus/the-libation-bearers/gilbert-murray, https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0008<br/>Find more at: https://www.perseus.tufts.edu/hopper/searchresults?q=Aeschylus, https://www.gutenberg.org/ebooks/results/?author=Aeschylus&lang=en"
+            },
+            "group": "People",
+            "class": [ "drama" ]
+        },
+        {
+            "start_date": {
+                "year": "-431"
+            },
+            "end_date": {
+                "year": "-404"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Peloponnesian_War"
+            },
+            "text": {
+                "headline": "Peloponnesian War",
+                "text": ""
+            },
+            "group": "Events"
+        },
+        {
+            "start_date": {
+                "year": "-1194"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Trojan_War"
+            },
+            "text": {
+                "headline": "Trojan War (myth.)",
+                "text": ""
+            },
+            "group": "Events"
+        },
+        {
+            "start_date": {
+                "year": "-1200"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Late_Bronze_Age_Collapse"
+            },
+            "text": {
+                "headline": "Late Bronze Age collapse",
+                "text": ""
+            },
+            "group": "Events"
+        },
+        {
+            "start_date": {
+                "year": "-1425"
+            },
+            "end_date": {
+                "year": "-1050"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Linear_B"
+            },
+            "text": {
+                "headline": "Linear B",
+                "text": "The earliest known Greek writings are Mycenaean and written in the Linear B syllabary on clay tablets. These documents contain records largely concerned with trade (lists, inventories, receipts, etc.); no real literature has been discovered."
+            },
+            "group": "Events"
+        },
+        {
+            "start_date": {
+                "year": "-1050"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Phoenician_alphabet"
+            },
+            "text": {
+                "headline": "Phoenician alphabet",
+                "text": "Emergence of Phoenician alphabet and start of its spread around the Mediterranean."
+            },
+            "group": "Events"
+        },
+        {
+            "start_date": {
+                "year": "-800"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Greek_alphabet"
+            },
+            "text": {
+                "headline": "Greek alphabet",
+                "text": "Greek alphabet is now distinct enough from Phoenician to be considered a writing system on its own."
+            },
+            "group": "Events"
+        },
+        {
+            "start_date": {
+                "year": "-264"
+            },
+            "end_date": {
+                "year": "-146"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Polybius"
+            },
+            "text": {
+                "headline": "Polybius",
+                "text": "The Histories: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0234"
+            },
+            "group": "People",
+            "class": [ "history" ]
+        },
+        {
+            "start_date": {
+                "year": "-100"
+            },
+            "end_date": {
+                "year": "0"
+            },
+            "display_date": "fl. 1st century BC",
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Diodorus_Siculus"
+            },
+            "text": {
+                "headline": "Diodorus Siculus",
+                "text": "The Library of History: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0239, https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/home.html"
+            },
+            "group": "People",
+            "class": [ "history" ]
+        },
+        {
+            "start_date": {
+                "year": "-610"
+            },
+            "end_date": {
+                "year": "-546"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Anaximander"
+            },
+            "text": {
+                "headline": "Anaximander",
+                "text": ""
+            },
+            "group": "People",
+            "class": [ "philosophy", "extinct" ]
+        },
+        {
+            "start_date": {
+                "year": "-480"
+            },
+            "end_date": {
+                "year": "-406"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Euripides"
+            },
+            "text": {
+                "headline": "Euripides",
+                "text": "Medea: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0114, https://www.gutenberg.org/ebooks/35451<br/>The Bacchae: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0092, https://www.gutenberg.org/ebooks/8418<br/>Find more at: https://www.gutenberg.org/ebooks/results/?author=Euripides&lang=en, https://www.perseus.tufts.edu/hopper/searchresults?q=Euripides"
+            },
+            "group": "People",
+            "class": [ "drama" ]
+        },
+        {
+            "start_date": {
+                "year": "-497"
+            },
+            "end_date": {
+                "year": "-406"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Sophocles"
+            },
+            "text": {
+                "headline": "Sophocles",
+                "text": "Oedipus the King: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0192, https://www.gutenberg.org/ebooks/27673<br/>Antigone: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0186, https://www.gutenberg.org/ebooks/31<br/>Electra: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0188, <br/>Find more at: https://www.perseus.tufts.edu/hopper/searchresults?q=Sophocles, https://www.gutenberg.org/ebooks/results/?author=Sophocles&lang=en"
+            },
+            "group": "People",
+            "class": [ "drama" ]
+        },
+        {
+            "start_date": {
+                "year": "-620"
+            },
+            "end_date": {
+                "year": "-564"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Aesop"
+            },
+            "text": {
+                "headline": "Aesop",
+                "text": "Translation by V. S. Vernon Jones (1912): https://standardebooks.org/ebooks/aesop/fables/v-s-vernon-jones<br/>Translation by Laura Gibbs (2002): http://www.mythfolklore.net/aesopica/oxford/index.htm"
+            },
+            "group": "People",
+            "class" : [ "poetry" ]
+        },
+        {
+            "start_date": {
+                "year": "-384"
+            },
+            "end_date": {
+                "year": "-322"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Aristotle"
+            },
+            "text": {
+                "headline": "Aristotle",
+                "text": "Metaphysics: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0052<br/>Politics: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0058, https://www.gutenberg.org/ebooks/6762<br/>Poetics: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0056, https://www.gutenberg.org/ebooks/20685<br/>Nicomachean Ethics: https://standardebooks.org/ebooks/aristotle/nicomachean-ethics/f-h-peters, https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0054<br/>Find more at: https://www.perseus.tufts.edu/hopper/searchresults?q=Aristotle, https://www.gutenberg.org/ebooks/results/?author=Aristotle&lang=en"
+            },
+            "group": "People",
+            "class": [ "philosophy" ]
+        },
+        {
+            "start_date": {
+                "year": "-400"
+            },
+            "end_date": {
+                "year": "-301"
+            },
+            "display_date": "fl. 3rd century BC",
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Apollonius_of_Rhodes"
+            },
+            "text": {
+                "headline": "Apollonius",
+                "text": "Argonautica: https://www.gutenberg.org/ebooks/830"
+            },
+            "group": "People",
+            "class": [ "poetry" ]
+        },
+        {
+            "start_date": {
+                "year": "-518"
+            },
+            "end_date": {
+                "year": "-438"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Pindar"
+            },
+            "text": {
+                "headline": "Pindar",
+                "text": "Victory Odes: https://standardebooks.org/ebooks/pindar/victory-odes/arthur-s-way, https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0162, "
+            },
+            "group": "People",
+            "class": [ "poetry" ]
+        },
+        {
+            "start_date": {
+                "year": "-430"
+            },
+            "end_date": {
+                "year": "-355"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Xenophon"
+            },
+            "text": {
+                "headline": "Xenophon",
+                "text": "Hellenica: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0206, https://www.gutenberg.org/ebooks/1174<br/>Anabasis: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0202, https://www.gutenberg.org/ebooks/1170<br/>Find more at: https://www.perseus.tufts.edu/hopper/searchresults?q=Xenophon, https://www.gutenberg.org/ebooks/results/?author=Xenophon&lang=en"
+            },
+            "group": "People",
+            "class": [ "history" ]
+        },
+        {
+            "start_date": {
+                "year": "46"
+            },
+            "end_date": {
+                "year": "119"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Plutarch"
+            },
+            "text": {
+                "headline": "Plutarch",
+                "text": "Parallel Lives: https://www.gutenberg.org/ebooks/674, https://www.globalgreyebooks.com/plutarchs-lives-ebook.html<br/>Find more at: https://www.perseus.tufts.edu/hopper/searchresults?q=Plutarch, https://www.gutenberg.org/ebooks/author/342"
+            },
+            "group": "People",
+            "class": [ "history" ]
+        },
+        {
+            "start_date": {
+                "year": "-64"
+            },
+            "end_date": {
+                "year": "24"
+            },
+            "display_date": "c.64 BC - 24",
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Strabo"
+            },
+            "text": {
+                "headline": "Strabo",
+                "text": "Geography: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0239, https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/home.html"
+            },
+            "group": "People",
+            "class": [ "history" ]
+        },
+        {
+            "start_date": {
+                "year": "-750"
+            },
+            "end_date": {
+                "year": "-650"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Hesiod"
+            },
+            "text": {
+                "headline": "Hesiod",
+                "text": "Theogony: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0130<br/>Work and Days: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0132<br/>Shield of Heracles: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0128"
+            },
+            "group": "People",
+            "class": [ "poetry" ]
+        },
+        {
+            "start_date": {
+                "year": "-630"
+            },
+            "end_date": {
+                "year": "-570"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Sappho"
+            },
+            "text": {
+                "headline": "Sappho",
+                "text": "Translation by Henry de Vere Stacpoole (1920): https://www.gutenberg.org/ebooks/42543/<br/>Translation by Edwin Marion Cox (1925): https://www.globalgreyebooks.com/poems-of-sappho-ebook.html"
+            },
+            "group": "People",
+            "class": [ "poetry" ]
+        },
+        {
+            "start_date": {
+                "year": "-499"
+            },
+            "end_date": {
+                "year": "-450"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Greco-Persian_Wars"
+            },
+            "text": {
+                "headline": "Greco-Persian Wars",
+                "text": ""
+            },
+            "group": "Events"
+        },
+        {
+            "start_date": {
+                "year": "-284"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Library_of_Alexandria"
+            },
+            "text": {
+                "headline": "Library of Alexandria",
+                "text": "Founding of one of the largest and most significant libraries of the ancient world which ultimately fell into decline around 50 BC."
+            },
+            "group": "Events"
+        },
+        {
+            "start_date": {
+                "year": "-336"
+            },
+            "end_date": {
+                "year": "-323"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Wars_of_Alexander_the_Great"
+            },
+            "text": {
+                "headline": "Wars of Alexander the Great"
+            },
+            "group": "Events"
+        },
+        {
+            "start_date": {
+                "year": "-630"
+            },
+            "end_date": {
+                "year": "-560"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Solon"
+            },
+            "text": {
+                "headline": "Solon",
+                "text": ""
+            },
+            "group": "People",
+            "class": [ "philosophy", "extinct" ]
+        },
+        {
+            "start_date": {
+                "year": "-427"
+            },
+            "end_date": {
+                "year": "-348"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Plato"
+            },
+            "text": {
+                "headline": "Plato",
+                "text": "The Republic: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0168, https://www.gutenberg.org/ebooks/1497<br/>Dialogues: https://standardebooks.org/ebooks/plato/dialogues/benjamin-jowett<br/>Letters: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0164<br/>Find more at: https://www.perseus.tufts.edu/hopper/searchresults?q=Plato, https://www.gutenberg.org/ebooks/results/?author=Plato&lang=en"
+            },
+            "group": "People",
+            "class": [ "philosophy" ]
+        },
+        {
+            "start_date": {
+                "year": "50"
+            },
+            "end_date": {
+                "year": "135"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Epictetus"
+            },
+            "text": {
+                "headline": "Epictetus",
+                "text": "Discourses: https://standardebooks.org/ebooks/epictetus/discourses/george-long, https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0236%3atext%3ddisc<br/>Enchiridion: https://standardebooks.org/ebooks/epictetus/short-works/george-long, https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0236%3atext%3denc"
+            },
+            "group": "People",
+            "class": [ "philosophy" ]
+        },
+        {
+            "start_date": {
+                "year": "-470"
+            },
+            "end_date": {
+                "year": "-399"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Socrates"
+            },
+            "text": {
+                "headline": "Socrates",
+                "text": ""
+            },
+            "group": "People",
+            "class": [ "philosophy", "extinct" ]
+        },
+        {
+            "start_date": {
+                "year": "86"
+            },
+            "end_date": {
+                "year": "160"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Arrian"
+            },
+            "text": {
+                "headline": "Arrian",
+                "text": "The Anabasis of Alexander: https://www.gutenberg.org/ebooks/46976, https://archive.org/details/the-anabasis-of-alexander/mode/2up<br/>Indica: https://archive.org/details/in.ernet.dli.2015.283258"
+            },
+            "group": "People",
+            "class": [ "history" ]
+        },
+        {
+            "start_date": {
+                "year": "100"
+            },
+            "end_date": {
+                "year": "170"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Ptolemy"
+            },
+            "text": {
+                "headline": "Ptolemy",
+                "text": "Geography: https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/home.html (partial)<br/>Almagest: https://classicalliberalarts.com/resources/PTOLEMY_ALMAGEST_ENGLISH.pdf (pdf)<br/>Tetrabiblos: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/home.html, https://www.gutenberg.org/ebooks/70850"
+            },
+            "group": "People",
+            "class": [ "roman", "history" ]
+        },
+        {
+            "start_date": {
+                "year": "-371"
+            },
+            "end_date": {
+                "year": "-287"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Theophrastus"
+            },
+            "text": {
+                "headline": "Theophrastus",
+                "text": "On Characters: https://www.gutenberg.org/ebooks/58242<br/>On Weather Signs: https://archive.org/details/theophrastusofer00theo/mode/2up<br/>On Stones: http://farlang.com/books/theophrastus-on-stones-translation-into-english<br/>"
+            },
+            "group": "People",
+            "class": [ "philosophy" ]
+        },
+        {
+            "start_date": {
+                "year": "-680"
+            },
+            "end_date": {
+                "year": "-645"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Archilochus"
+            },
+            "text": {
+                "headline": "Archilochus",
+                "text": ""
+            },
+            "group": "People",
+            "class": [ "poetry", "extinct" ]
+        },
+        {
+            "start_date": {
+                "year": "-341"
+            },
+            "end_date": {
+                "year": "-2780"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Epicurus"
+            },
+            "text": {
+                "headline": "Epicurus",
+                "text": "Founder of the influential school of philosophy known as Epicureanism now known primarily through the writings of later authors like <a href='#event-philodemus' target='_self'>Philodemus</a> or <a href='#event-lucretius' target='_self'>Lucretius</a>."
+            },
+            "group": "People",
+            "class": [ "philosophy", "extinct" ]
+        },
+        {
+            "start_date": {
+                "year": "-110"
+            },
+            "end_date": {
+                "year": "-40"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Philodemus"
+            },
+            "text": {
+                "headline": "Philodemus",
+                "text": "On Methods of Inference: https://archive.org/details/philodemusonmeth00phil/page/n5/mode/2up<br/>On Death: https://archive.org/details/philodemusondeat0000phil"
+            },
+            "group": "People",
+            "class": [ "philosophy" ]
+        },
+        {
+            "start_date": {
+                "year": "-446"
+            },
+            "end_date": {
+                "year": "-386"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Aristophanes"
+            },
+            "text": {
+                "headline": "Aristophanes",
+                "text": "Lysistrata: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0242, https://www.gutenberg.org/ebooks/7700<br/>The Birds: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0026, https://www.gutenberg.org/ebooks/3013<br/>The Frogs: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0032, https://www.gutenberg.org/ebooks/7998<br/>Find more at: https://www.perseus.tufts.edu/hopper/searchresults?q=Aristophanes, https://www.gutenberg.org/ebooks/results/?author=Aristophanes&lang=en"
+            },
+            "group": "People",
+            "class": [ "drama" ]
+        },
+        {
+            "start_date": {
+                "year": "200"
+            },
+            "end_date": {
+                "year": "300"
+            },
+            "display_date": "fl. 3rd century",
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Diogenes_Laertius"
+            },
+            "text": {
+                "headline": "Diogenes Laertius",
+                "text": "The Lives and Opinions of Eminent Philosophers: https://www.gutenberg.org/ebooks/57342, http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0258"
+            },
+            "group": "People",
+            "class": [ "history" ]
+        },
+        {
+            "start_date": {
+                "year": "-59"
+            },
+            "end_date": {
+                "year": "17"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Livy"
+            },
+            "text": {
+                "headline": "Livy",
+                "text": "The History of Rome: https://www.gutenberg.org/ebooks/author/3707"
+            },
+            "group": "People",
+            "class": [ "history", "roman" ]
+        },
+        {
+            "start_date": {
+                "year": "121"
+            },
+            "end_date": {
+                "year": "180"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Marcus_Aurelius"
+            },
+            "text": {
+                "headline": "Marcus Aurelius",
+                "text": "Meditations: https://standardebooks.org/ebooks/marcus-aurelius/meditations/george-long, https://archive.org/details/meditationsofmar00marc/mode/2up"
+            },
+            "group": "People",
+            "class": [ "philosophy", "roman" ]
+        },
+        {
+            "start_date": {
+                "year": "23"
+            },
+            "end_date": {
+                "year": "79"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Pliny_the_Elder"
+            },
+            "text": {
+                "headline": "Pliny the Elder",
+                "text": "Natural History: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.02.0137, https://www.gutenberg.org/ebooks/author/50041, https://archive.org/details/plinysnaturalhis00plinrich/mode/2up"
+            },
+            "group": "People",
+            "class": [ "history", "roman" ]
+        },
+        {
+            "start_date": {
+                "year": "-412"
+            },
+            "end_date": {
+                "year": "-323"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Diogenes"
+            },
+            "text": {
+                "headline": "Diogenes"
+            },
+            "group": "People",
+            "class": [ "philosophy", "extinct" ]
+        },
+        {
+            "start_date": {
+                "year": "-250"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Septuagint"
+            },
+            "text": {
+                "headline": "Septuagint",
+                "text": "A highly-influential first Greek translation of the Hebrew Bible emerged."
+            },
+            "group": "Events"
+        },
+        {
+            "start_date": {
+                "year": "-70"
+            },
+            "end_date": {
+                "year": "-19"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Virgil"
+            },
+            "text": {
+                "headline": "Virgil",
+                "text": "Aeneid: https://standardebooks.org/ebooks/virgil/the-aeneid/john-dryden, https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.02.0054, https://archive.org/details/virgilsneidbooks00virg/mode/2up<br/>The Eclogues: https://standardebooks.org/ebooks/virgil/the-eclogues/john-dryden, https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.02.0057, https://archive.org/details/ecloguesofvergil00virgrich/mode/2up<br/>The Georgics: https://standardebooks.org/ebooks/virgil/the-georgics/john-dryden, https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.02.0058, https://archive.org/details/georgicsofvirgil00virgrich"
+            },
+            "group": "People",
+            "class": [ "poetry", "roman" ]
+        },
+        {
+            "start_date": {
+                "year": "-43"
+            },
+            "end_date": {
+                "year": "18"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Ovid"
+            },
+            "text": {
+                "headline": "Ovid",
+                "text": "Metamorphoses: https://www.gutenberg.org/ebooks/21765/, https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.02.0028, https://archive.org/details/innes-ovid-metamorphoses<br/>Find more at: https://www.gutenberg.org/ebooks/results/?author=Ovid&lang=en, https://www.perseus.tufts.edu/hopper/searchresults?q=Ovid"
+            },
+            "group": "People",
+            "class": [ "poetry", "roman" ]
+        },
+        {
+            "start_date": {
+                "year": "-99"
+            },
+            "end_date": {
+                "year": "-55"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Lucretius"
+            },
+            "text": {
+                "headline": "Lucretius",
+                "text": "De rerum natura: https://www.gutenberg.org/ebooks/785, https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.02.0131, https://archive.org/details/dererumnaturalat01lucr"
+            },
+            "group": "People",
+            "class": [ "poetry", "roman" ]
+        },
+        {
+            "start_date": {
+                "year": "-100"
+            },
+            "end_date": {
+                "year": "-44"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Julius_Caesar"
+            },
+            "text": {
+                "headline": "Julius Caesar",
+                "text": "Commentaries on the Gallic War: https://standardebooks.org/ebooks/julius-caesar/commentaries-on-the-gallic-war/w-a-mcdevitte_w-s-bohn, https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.02.0001, https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Gallic_War/home.html<br/>Commentaries on the Civil War: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.02.0076, https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Civil_Wars/home.html"
+            },
+            "group": "People",
+            "class": [ "history", "roman" ]
+        },
+        {
+            "start_date": {
+                "year": "-106"
+            },
+            "end_date": {
+                "year": "-43"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Cicero"
+            },
+            "text": {
+                "headline": "Cicero",
+                "text": "Tusculan disputations: https://standardebooks.org/ebooks/cicero/tusculan-disputations/c-d-yonge<br/>De Natura Deorum: https://oll.libertyfund.org/titles/cicero-on-the-nature-of-the-gods<br/>Find more at: https://www.gutenberg.org/ebooks/results/?author=Cicero&lang=en, https://www.perseus.tufts.edu/hopper/searchresults?q=Cicero"
+            },
+            "group": "People",
+            "class": [ "roman", "philosophy" ]
+        },
+        {
+            "start_date": {
+                "year": "-4"
+            },
+            "end_date": {
+                "year": "65"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Seneca_the_Younger"
+            },
+            "text": {
+                "headline": "Seneca",
+                "text": "Dialogues: https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart<br/>Find more at: https://www.perseus.tufts.edu/hopper/searchresults?q=Seneca, https://www.gutenberg.org/ebooks/author/1308"
+            },
+            "group": "People",
+            "class": [ "roman", "philosophy" ]
+        },
+        {
+            "start_date": {
+                "year": "-65"
+            },
+            "end_date": {
+                "year": "-27"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Horace"
+            },
+            "text": {
+                "headline": "Horace",
+                "text": "The Art of Poetry: https://www.gutenberg.org/ebooks/9175, https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0065<br/>The Works of Horace: https://www.gutenberg.org/ebooks/14020, https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0063<br/>Find more at: https://www.perseus.tufts.edu/hopper/searchresults?q=Horatius+Flaccus"
+
+            },
+            "group": "People",
+            "class": [ "roman", "poetry" ]
+        },
+        {
+            "start_date": {
+                "year": "-753"
+            },
+            "display_date": "753 BC according to the mythology",
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Founding_of_Rome"
+            },
+            "text": {
+                "headline": "Founding of Rome (myth.)"
+            },
+            "group": "Events"
+        },
+        {
+            "start_date": {
+                "year": "-650"
+            },
+            "display_date": "7th century BC",
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/History_of_the_Latin_script"
+            },
+            "text": {
+                "headline": "Latin script"
+            },
+            "group": "Events"
+        },
+        {
+            "start_date": {
+                "year": "-264"
+            },
+            "end_date": {
+                "year": "-146"
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Punic_wars"
+            },
+            "text": {
+                "headline": "Punic wars"
+            },
+            "group": "Events"
+        }
+    ]
+}
